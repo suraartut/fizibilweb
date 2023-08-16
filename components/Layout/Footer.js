@@ -78,10 +78,7 @@ const Footer = () => {
             {headerData?.map((item) => {
               return (
                 <li key={item.id} className="w-full my-4 justify-start flex">
-                  <Link
-                    href={item.link}
-                    className="uppercase text-sm hover:underline underline-offset-4"
-                  >
+                  <Link href={item.link} className="links uppercase text-sm">
                     {item.title}
                   </Link>
                 </li>
@@ -94,10 +91,7 @@ const Footer = () => {
             {footerData?.map((item) => {
               return (
                 <li key={item.id} className="w-full my-4 justify-start flex">
-                  <Link
-                    href={item.link}
-                    className="uppercase text-sm hover:underline underline-offset-4"
-                  >
+                  <Link href={item.link} className="links uppercase text-sm">
                     {item.title}
                   </Link>
                 </li>

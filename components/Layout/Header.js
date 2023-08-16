@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
-import { headerData } from "@/collections/headerData";
+import { childMenu, headerData, subChildMenu } from "@/collections/headerData";
 import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="bg-transparent hover:bg-white w-full z-50 lg:block hidden">
+    <header className="bg-transparent hover:bg-white w-full z-50 lg:block hidden h-24">
       <div className="px-10 flex h-full items-center justify-between text-center">
         <div>
           <Image
@@ -21,11 +21,11 @@ const Header = () => {
               return (
                 <li
                   key={item.id}
-                  className="w-full hover:bg-[#f8f9fa] hover:border-b-2 hover:border-blue-500 transition-all duration-300 ease-in-out"
+                  className="catMenu w-full hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out"
                 >
                   <Link
                     href={item.link}
-                    className="text-xs font-extrabold py-10 pl-6 pr-4 uppercase tracking-widest flex justify-center text-center items-center w-full"
+                    className="text-xs font-extrabold py-10 px-5 uppercase tracking-widest flex justify-center text-center items-center w-full"
                   >
                     {item.title}
                     <Image
@@ -36,6 +36,46 @@ const Header = () => {
                       className="ml-1 text-xs font-extrabold uppercase tracking-widest"
                     />
                   </Link>
+
+                  <ul className="dropdown">
+                    {childMenu?.map((itemChild, index) => {
+                      if (item.title == itemChild.catName) {
+                        return (
+                          <li
+                            key={index}
+                            className="dropdown-menu hover:text-gray-500 flex"
+                          >
+                            <Link href={itemChild.url} className="">
+                              {itemChild.title}
+                            </Link>
+                            {/* <Image
+                              className="right-arrow"
+                              src="/assets/icons/right-arrow.svg"
+                              alt="right-arrow"
+                              height={20}
+                              width={20}
+                            /> */}
+                            <ul className="subMenu">
+                              {subChildMenu?.map((itemSubMenu, index) => {
+                                if (itemChild.title == itemSubMenu.catName) {
+                                  return (
+                                    <li
+                                      key={index}
+                                      className="text-black hover:text-gray-500"
+                                    >
+                                      <Link href={itemSubMenu.url}>
+                                        {itemSubMenu.title}
+                                      </Link>
+                                    </li>
+                                  );
+                                }
+                              })}
+                            </ul>
+                          </li>
+                        );
+                      }
+                    })}
+                  </ul>
                 </li>
               );
             })}

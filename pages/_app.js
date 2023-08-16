@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Header />
       <Component {...pageProps} />
-      <ToastContainer rtl={Lang == "ar" ? true : false} />
+      <ToastContainer />
       <Footer />
     </>
   );

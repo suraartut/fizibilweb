@@ -3,6 +3,76 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
+}
+
+/* Header Categories Border */
+.catMenu:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #248de4;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.catMenu:hover:after {
+  transform: scaleX(1);
+}
+.catMenu:after {
+  transform-origin: 0% 50%;
+}
+
+/* Header Dropdown */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 98px;
+  text-align: start;
+  background-color: #f8f9fa;
+}
+
+.dropdown li a {
+  padding: 20px 60px;
+  border-bottom: 1px solid #c1c3c4;
+  width: 100%;
+  display: block;
+}
+
+.catMenu:hover .dropdown {
+  display: block;
+}
+
+.subMenu {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 235px;
+  text-align: start;
+  background-color: #f8f9fa;
+  width: 250px;
+}
+
+.dropdown-menu:hover .subMenu {
+  display: block;
+}
+
+/* Footer */
+.links:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #248de4;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.links:hover:after {
+  transform: scaleX(1);
+}
+.links:after {
+  transform-origin: 0% 50%;
 }
