@@ -29,6 +29,10 @@ body {
 }
 
 /* Header Dropdown */
+.catMenu:hover .dropdown {
+  display: block;
+}
+
 .dropdown {
   display: none;
   position: absolute;
@@ -44,7 +48,7 @@ body {
   display: block;
 }
 
-.catMenu:hover .dropdown {
+.dropdown-menu:hover .subMenu {
   display: block;
 }
 
@@ -56,10 +60,6 @@ body {
   text-align: start;
   background-color: #f8f9fa;
   width: 250px;
-}
-
-.dropdown-menu:hover .subMenu {
-  display: block;
 }
 
 /* Footer */

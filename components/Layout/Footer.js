@@ -19,12 +19,12 @@ const Footer = () => {
           postData2
         )
         .then(function (response) {
-          toast("E-Bültene kayıt başarılı!");
+          console.log("E-Bültene kayıt başarılı!");
         })
         .catch(function (error) {});
     } catch (error) {
       console.log(error);
-      toast("E-Bültene kayıt olunamadı!");
+      console.log("E-Bültene kayıt olunamadı!");
     }
   }
   return (
