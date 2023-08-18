@@ -1,23 +1,47 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import { childMenu, headerData, subChildMenu } from "@/collections/headerData";
 import Image from "next/image";
+import MobileHeader from "./MobileHeader";
 
 const Header = () => {
+  const router = useRouter();
+  useEffect(() => {
+    setshowMenu(false);
+  }, [router]);
+
   const [showMenu, setshowMenu] = useState(false);
+
   const handleClick = () => {
     setshowMenu((prev) => !prev);
   };
 
-  const [category, setCategory] = useState(false);
-  const handleClick2 = () => {
-    setCategory((prev) => !prev);
-  };
-
   return (
-    <header className="w-full h-auto z-[100] relative">
+    <header className="w-full h-auto z-[100] relative ">
       <div className="bg-transparent hover:bg-white transition-all duration-300 ease-in-out w-full h-24">
-        <div className="px-10 flex h-full items-center justify-between text-center">
+        <div className="lg:px-12 px-5 flex h-full items-center justify-between text-center">
+          <div className="flex lg:hidden relative">
+            <div className="flex">
+              {!showMenu ? (
+                <div className="space-y-1.5" onClick={handleClick}>
+                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
+                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
+                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
+                </div>
+              ) : (
+                <Image
+                  src="/assets/icons/close.svg"
+                  alt="close"
+                  width={10}
+                  height={10}
+                  className="w-8 h-8 text-gray-600 animate-pulse"
+                  onClick={handleClick}
+                />
+              )}
+            </div>
+          </div>
+
           <div>
             <Image
               src="/assets/Images/fizibil-logo.png"
@@ -98,11 +122,11 @@ const Header = () => {
 
           <div>
             <ul className="w-full flex gap-5">
-              <li className="flex text-xs font-extrabold uppercase tracking-widest">
+              <li className="text-xs font-extrabold uppercase tracking-widest lg:flex hidden">
                 <Image
                   src="/assets/icons/account.svg"
-                  height={18}
-                  width={18}
+                  height={20}
+                  width={20}
                   alt="account"
                   className="mr-1"
                 />{" "}
@@ -110,21 +134,21 @@ const Header = () => {
               <li className="flex text-xs font-extrabold uppercase tracking-widest">
                 <Image
                   src="/assets/icons/shopping-cart.svg"
-                  height={18}
-                  width={18}
+                  height={20}
+                  width={20}
                   alt="shop-cart"
                   className="mr-1"
                 />
               </li>
 
-              <li className="flex text-xs font-extrabold uppercase tracking-widest">
-                TR
+              <li className="lg:flex hidden text-xs font-extrabold uppercase tracking-widest items-center">
+                <span className="text-sm">Tr</span>
                 <Image
                   src="/assets/icons/dropdown.svg"
-                  height={18}
-                  width={18}
+                  height={20}
+                  width={20}
                   alt="language"
-                  className="ml-1"
+                  className=""
                 />
               </li>
             </ul>
@@ -132,89 +156,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex lg:hidden relative">
-        <div className="flex">
-          {!showMenu ? (
-            <div className="space-y-1.5 mt-10 mr-10" onClick={handleClick}>
-              <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
-              <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
-              <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
-            </div>
-          ) : (
-            <Image
-              src="/assets/icons/close.svg"
-              alt="close"
-              width={10}
-              height={10}
-              className="w-10 h-8 text-gray-600 animate-pulse mt-4 ml-4"
-              onClick={handleClick}
-            />
-          )}
-        </div>
-      </div>
-      <div className="hamburger-menu lg:hidden block relative bg-gray-100">
-        {showMenu && (
-          <ul className="px-10 py-6">
-            {headerData?.map((itemHamburger, index) => {
-              return (
-                <li
-                  key={index}
-                  className="uppercase py-3 border-b border-gray-400 w-full flex justify-between"
-                >
-                  <Link href={itemHamburger.link} className="">
-                    {itemHamburger.title}
-                  </Link>
-                  <Image
-                    src="/assets/icons/down.svg"
-                    width={15}
-                    height={15}
-                    alt="down"
-                    className="text-end"
-                    onClick={() => {
-                      setCategory(!category);
-                      console.log(category);
-                    }}
-                  />
-                  {category && (
-                    <ul className="">
-                      {childMenu?.map((itemChildHamburger, index) => {
-                        if (itemHamburger.title == itemChildHamburger.catName) {
-                          return (
-                            <li
-                              key={index}
-                              className="uppercase py-3 w-full block"
-                            >
-                              <Link href={itemChildHamburger.url}>
-                                {itemChildHamburger.title}
-                              </Link>
-                              <ul>
-                                {subChildMenu?.map(
-                                  (itemSubchildHamburger, index) => {
-                                    if (
-                                      itemChildHamburger.title ==
-                                      itemSubchildHamburger.catName
-                                    ) {
-                                      <li key={index}>
-                                        <Link href={itemSubchildHamburger.url}>
-                                          {itemSubchildHamburger.title}
-                                        </Link>
-                                      </li>;
-                                    }
-                                  }
-                                )}
-                              </ul>
-                            </li>
-                          );
-                        }
-                      })}
-                    </ul>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        )}
-      </div>
+      <MobileHeader showMenu={showMenu} />
     </header>
   );
 };
