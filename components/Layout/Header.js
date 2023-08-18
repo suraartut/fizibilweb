@@ -4,6 +4,7 @@ import Link from "next/link";
 import { childMenu, headerData, subChildMenu } from "@/collections/headerData";
 import Image from "next/image";
 import MobileHeader from "./MobileHeader";
+import styles from "./layout.module.css";
 
 const Header = () => {
   const router = useRouter();
@@ -18,16 +19,16 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full h-auto z-[100] relative ">
-      <div className="bg-transparent hover:bg-white transition-all duration-300 ease-in-out w-full h-24">
-        <div className="lg:px-12 px-5 flex h-full items-center justify-between text-center">
+    <header className={styles.wrapper}>
+      <div className={styles.wrapper_container}>
+        <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
             <div className="flex">
               {!showMenu ? (
                 <div className="space-y-1.5" onClick={handleClick}>
-                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
-                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
-                  <span className="block w-8 h-[3px] bg-gray-700 animate-pulse"></span>
+                  <span className={styles.hamburger}></span>
+                  <span className={styles.hamburger}></span>
+                  <span className={styles.hamburger}></span>
                 </div>
               ) : (
                 <Image
@@ -60,10 +61,7 @@ const Header = () => {
                     key={item.id}
                     className="catMenu w-full hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out"
                   >
-                    <Link
-                      href={item.link}
-                      className="text-xs font-extrabold py-10 px-5 uppercase tracking-widest flex justify-center text-center items-center w-full"
-                    >
+                    <Link href={item.link} className={styles.category_menu}>
                       {item.title}
                       <Image
                         src="/assets/icons/dropdown.svg"
@@ -82,16 +80,9 @@ const Header = () => {
                               key={index}
                               className="dropdown-menu hover:text-gray-500 flex"
                             >
-                              <Link href={itemChild.url} className="">
+                              <Link href={itemChild.url}>
                                 {itemChild.title}
                               </Link>
-                              {/* <Image
-                            className="right-arrow"
-                            src="/assets/icons/right-arrow.svg"
-                            alt="right-arrow"
-                            height={20}
-                            width={20}
-                          /> */}
                               <ul className="subMenu">
                                 {subChildMenu?.map((itemSubMenu, index) => {
                                   if (itemChild.title == itemSubMenu.catName) {
@@ -122,26 +113,26 @@ const Header = () => {
 
           <div>
             <ul className="w-full flex gap-5">
-              <li className="text-xs font-extrabold uppercase tracking-widest lg:flex hidden">
+              <li className={styles.account}>
                 <Image
                   src="/assets/icons/account.svg"
                   height={20}
                   width={20}
                   alt="account"
                   className="mr-1"
-                />{" "}
+                />
               </li>
-              <li className="flex text-xs font-extrabold uppercase tracking-widest">
+              <li className={styles.shopping_cart}>
                 <Image
                   src="/assets/icons/shopping-cart.svg"
                   height={20}
                   width={20}
-                  alt="shop-cart"
+                  alt="shopping-cart"
                   className="mr-1"
                 />
               </li>
 
-              <li className="lg:flex hidden text-xs font-extrabold uppercase tracking-widest items-center">
+              <li className={styles.language}>
                 <span className="text-sm">Tr</span>
                 <Image
                   src="/assets/icons/dropdown.svg"

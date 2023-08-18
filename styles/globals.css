@@ -20,12 +20,10 @@ body {
   border-bottom: solid 3px #248de4;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
 }
 .catMenu:hover:after {
   transform: scaleX(1);
-}
-.catMenu:after {
-  transform-origin: 0% 50%;
 }
 
 /* Header Dropdown */

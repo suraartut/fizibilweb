@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { childMenu, headerData, subChildMenu } from "@/collections/headerData";
 import Image from "next/image";
+import styles from "./layout.module.css";
 
 const MobileHeader = ({ showMenu }) => {
   const [CatId, setCatId] = useState();
@@ -16,7 +17,7 @@ const MobileHeader = ({ showMenu }) => {
   };
 
   return (
-    <nav className="w-full h-auto z-[100] relative lg:hidden block">
+    <nav className={styles.mobile_nav}>
       <div className="hamburger-menu relative bg-gray-100">
         {showMenu && (
           <>
@@ -45,7 +46,7 @@ const MobileHeader = ({ showMenu }) => {
                       />
                     </div>
 
-                    <ul className="">
+                    <ul>
                       {childMenu?.map((itemChildHamburger) => {
                         if (
                           CatId == itemHamburger.id &&
@@ -54,7 +55,7 @@ const MobileHeader = ({ showMenu }) => {
                           return (
                             <li
                               key={itemChildHamburger.id}
-                              className="w-full block text-gray-600 pl-6 py-2"
+                              className={styles.child_hamburger}
                             >
                               <div className="flex justify-between">
                                 <Link href={itemChildHamburger.url}>
@@ -88,7 +89,7 @@ const MobileHeader = ({ showMenu }) => {
                                     return (
                                       <li
                                         key={itemSubchildHamburger.id}
-                                        className="w-full block text-gray-400 pl-6 py-2"
+                                        className={styles.sub_menu}
                                       >
                                         <Link href={itemSubchildHamburger.url}>
                                           {itemSubchildHamburger.title}
@@ -108,24 +109,22 @@ const MobileHeader = ({ showMenu }) => {
               })}
             </ul>
             <div className="w-full gap-5 px-6 py-6">
-              <div className="flex text-xs font-extrabold uppercase tracking-widest items-center pb-4">
+              <div className={styles.mobile_account}>
                 <Image
                   src="/assets/icons/account.svg"
                   height={25}
                   width={25}
                   alt="account"
-                  className=""
                 />
                 <span className="pl-1 capitalize text-lg">Giriş</span>
               </div>
-              <div className="flex text-xs font-extrabold uppercase tracking-widest items-center">
+              <div className={styles.mobile_language}>
                 <span className="text-lg">Tr</span>
                 <Image
                   src="/assets/icons/dropdown.svg"
                   height={25}
                   width={25}
                   alt="language"
-                  className=""
                 />
               </div>
             </div>

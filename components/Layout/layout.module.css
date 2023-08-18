@@ -1,0 +1,51 @@
+.wrapper {
+  @apply w-full h-auto z-[100] relative;
+}
+
+.wrapper_container {
+  @apply bg-transparent hover:bg-white transition-all duration-300 ease-in-out w-full h-24;
+}
+
+.hamburger {
+  @apply block w-8 h-[3px] bg-gray-700 animate-pulse;
+}
+
+.header_main {
+  @apply lg:px-12 px-5 flex h-full items-center justify-between text-center;
+}
+
+.category_menu {
+  @apply text-xs font-extrabold py-10 px-5 uppercase tracking-widest flex justify-center text-center items-center w-full;
+}
+
+.account {
+  @apply text-xs font-extrabold uppercase tracking-widest lg:flex hidden;
+}
+
+.shopping_cart {
+  @apply flex text-xs font-extrabold uppercase tracking-widest;
+}
+
+.language {
+  @apply lg:flex hidden text-xs font-extrabold uppercase tracking-widest items-center;
+}
+
+.mobile_nav {
+  @apply w-full h-auto z-[100] relative lg:hidden block;
+}
+
+.child_hamburger {
+  @apply w-full block text-gray-600 pl-6 py-2;
+}
+
+.sub_menu {
+  @apply w-full block text-gray-400 pl-6 py-2;
+}
+
+.mobile_account {
+  @apply flex text-xs font-extrabold uppercase tracking-widest items-center pb-4;
+}
+
+.mobile_language {
+  @apply flex text-xs font-extrabold uppercase tracking-widest items-center;
+}
