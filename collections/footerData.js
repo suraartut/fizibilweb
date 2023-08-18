@@ -11,7 +11,7 @@ export const footerData = [
   },
   {
     id: 3,
-    title: "SSS",
+    title: "SIKÇA SORULAN SORULAR",
     link: "/",
   },
   {

@@ -44,17 +44,19 @@ const Header = () => {
           </div>
 
           <div>
-            <Image
-              src="/assets/Images/fizibil-logo.png"
-              width={150}
-              height={100}
-              alt="Şirket Logosu"
-            />
+            <Link href="/">
+              <Image
+                src="/assets/Images/fizibil-logo.png"
+                width={150}
+                height={100}
+                alt="Şirket Logosu"
+              />
+            </Link>
           </div>
 
           {/* Category Menu Start*/}
           <div className="lg:block hidden">
-            <ul className="menu w-full flex gap-10">
+            <ul className="menu w-full flex gap-3">
               {headerData?.map((item) => {
                 return (
                   <li
@@ -114,22 +116,26 @@ const Header = () => {
           <div>
             <ul className="w-full flex gap-5">
               <li className={styles.account}>
-                <Image
-                  src="/assets/icons/account.svg"
-                  height={20}
-                  width={20}
-                  alt="account"
-                  className="mr-1"
-                />
+                <Link href="/">
+                  <Image
+                    src="/assets/icons/account.svg"
+                    height={20}
+                    width={20}
+                    alt="account"
+                    className="mr-1"
+                  />
+                </Link>
               </li>
               <li className={styles.shopping_cart}>
-                <Image
-                  src="/assets/icons/shopping-cart.svg"
-                  height={20}
-                  width={20}
-                  alt="shopping-cart"
-                  className="mr-1"
-                />
+                <Link href="/">
+                  <Image
+                    src="/assets/icons/shopping-cart.svg"
+                    height={20}
+                    width={20}
+                    alt="shopping-cart"
+                    className="mr-1"
+                  />
+                </Link>
               </li>
 
               <li className={styles.language}>

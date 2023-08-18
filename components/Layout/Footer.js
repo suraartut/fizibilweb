@@ -128,8 +128,52 @@ const Footer = () => {
               </button>
             </form>
           </div>
+          <div className="social-media flex gap-5">
+            <div>
+              <Link href="/">
+                <Image
+                  src="/assets/icons/facebook.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
+            <div>
+              <Link href="/">
+                <Image
+                  src="/assets/icons/twitter-x.png"
+                  alt="twitter"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
+            <div>
+              <Link href="/">
+                <Image
+                  src="/assets/icons/linkedin.svg"
+                  alt="linkedIn"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
+            <div>
+              <Link href="/">
+                <Image
+                  src="/assets/icons/youtube-red.png"
+                  alt="youtube"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* CopyRight */}
       <div className="border-t border-gray-200">
         <div className="lg:mx-36 mx-12 py-4 items-center text-center">
           Fizibil © {new Date().getFullYear()} - Tüm Hakları Saklıdır.

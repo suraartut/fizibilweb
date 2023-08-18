@@ -2,7 +2,6 @@ import Footer from "@/components/Layout/Footer";
 import Header from "@/components/Layout/Header";
 import MobileHeader from "@/components/Layout/MobileHeader";
 import "@/styles/globals.css";
-import "react-toastify/dist/ReactToastify.css";
 
 export default function App({ Component, pageProps }) {
   return (
