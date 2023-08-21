@@ -3,31 +3,37 @@ export const headerData = [
     id: 1,
     title: "Kurumsal",
     link: "/",
+    catChild: 0,
   },
   {
     id: 2,
     title: "Ürünler",
     link: "/",
+    catChild: 3,
   },
   {
     id: 3,
     title: "ENDÜSTRİ",
     link: "/",
+    catChild: 4,
   },
   {
     id: 4,
     title: "Çözümler",
     link: "/",
+    catChild: 4,
   },
   {
     id: 5,
     title: "Haberler",
     link: "/",
+    catChild: 2,
   },
   {
     id: 6,
     title: "Download",
     link: "/",
+    catChild: 2,
   },
 ];
 

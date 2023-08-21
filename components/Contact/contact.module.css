@@ -1,0 +1,35 @@
+.contact {
+  @apply w-full lg:container mx-auto lg:pt-32 pt-28 lg:px-0 px-5;
+}
+
+.title {
+  @apply text-center lg:mb-8 mb-3 lg:text-3xl text-2xl text-gray-600;
+}
+
+.form_cart {
+  @apply w-full grid lg:grid-cols-2 text-white;
+}
+
+.title_h2 {
+  @apply lg:text-3xl text-xl font-semibold my-2;
+}
+
+.first_cart {
+  @apply bg-[#2e8fce] lg:p-16 p-5;
+}
+
+.title_h3 {
+  @apply lg:text-sm text-sm font-semibold;
+}
+
+.inputs {
+  @apply h-12 border-b border-gray-200 bg-transparent lg:w-2/3 w-full lg:ml-8 focus:outline-none;
+}
+
+.form_button {
+  @apply mt-10 font-extrabold bg-white hover:bg-gray-100 px-8 py-4 text-xs text-[#2e8fce] tracking-widest;
+}
+
+.about_button {
+  @apply font-extrabold bg-white hover:bg-gray-100 px-8 py-4 text-xs text-[#212529] tracking-widest;
+}

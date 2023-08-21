@@ -28,8 +28,8 @@ const Footer = () => {
     }
   }
   return (
-    <div className="bg-[#f8f9fa]">
-      <div className="lg:mx-40 mx-12 py-14 grid lg:grid-cols-4">
+    <div className="bg-[#f8f9fa] relative">
+      <div className="lg:mx-40 mx-8 py-14 grid lg:grid-cols-4">
         <div className="col-span-1">
           <Image
             src="/assets/Images/fizibil-logo.png"

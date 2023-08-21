@@ -65,13 +65,15 @@ const Header = () => {
                   >
                     <Link href={item.link} className={styles.category_menu}>
                       {item.title}
-                      <Image
-                        src="/assets/icons/dropdown.svg"
-                        height={18}
-                        width={18}
-                        alt="dropdown"
-                        className="ml-1 text-xs font-extrabold uppercase tracking-widest"
-                      />
+                      {item.catChild > 0 && (
+                        <Image
+                          src="/assets/icons/dropdown.svg"
+                          height={18}
+                          width={18}
+                          alt="dropdown"
+                          className="ml-1 text-xs font-extrabold uppercase tracking-widest"
+                        />
+                      )}
                     </Link>
 
                     <ul className="dropdown">

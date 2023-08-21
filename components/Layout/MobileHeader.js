@@ -18,7 +18,7 @@ const MobileHeader = ({ showMenu }) => {
 
   return (
     <nav className={styles.mobile_nav}>
-      <div className="hamburger-menu relative bg-gray-100">
+      <div className="hamburger-menu absolute w-full bg-white shadow-xl">
         {showMenu && (
           <>
             <ul className="px-6 py-6">
@@ -32,18 +32,20 @@ const MobileHeader = ({ showMenu }) => {
                       <Link href={itemHamburger.link} className="uppercase">
                         {itemHamburger.title}
                       </Link>
-                      <Image
-                        src={
-                          CatId == itemHamburger.id
-                            ? "/assets/icons/up.svg"
-                            : "/assets/icons/down.svg"
-                        }
-                        width={25}
-                        height={25}
-                        alt="down"
-                        className="text-end"
-                        onClick={() => handleClick2(itemHamburger.id)}
-                      />
+                      {itemHamburger.catChild > 0 && (
+                        <Image
+                          src={
+                            CatId == itemHamburger.id
+                              ? "/assets/icons/up.svg"
+                              : "/assets/icons/down.svg"
+                          }
+                          width={25}
+                          height={25}
+                          alt="down"
+                          className="text-end"
+                          onClick={() => handleClick2(itemHamburger.id)}
+                        />
+                      )}
                     </div>
 
                     <ul>

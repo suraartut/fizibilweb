@@ -1,13 +1,13 @@
 export const footerData = [
-  {
-    id: 1,
-    title: "HAKKIMIZDA",
-    link: "/",
-  },
+  // {
+  //   id: 1,
+  //   title: "HAKKIMIZDA",
+  //   link: "/",
+  // },
   {
     id: 2,
     title: "İLETİŞİM",
-    link: "/",
+    link: "/contact",
   },
   {
     id: 3,
