@@ -16,7 +16,7 @@ export const footerData = [
   },
   {
     id: 4,
-    title: "GİZLİLİK SÖZLEŞMESİ",
+    title: "GİZLİLİK POLİTİKASI",
     link: "/",
   },
   {

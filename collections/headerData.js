@@ -2,7 +2,7 @@ export const headerData = [
   {
     id: 1,
     title: "Kurumsal",
-    link: "/",
+    link: "/kurumsal",
     catChild: 0,
   },
   {

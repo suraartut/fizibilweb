@@ -3,7 +3,7 @@
 }
 
 .title {
-  @apply text-center lg:mb-8 mb-3 lg:text-3xl text-2xl text-gray-600;
+  @apply text-center lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] lg:pb-6 pb-3;
 }
 
 .form_cart {
