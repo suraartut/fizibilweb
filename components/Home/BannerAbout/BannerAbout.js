@@ -5,10 +5,10 @@ const BannerAbout = () => {
   return (
     <div className="container mx-auto lg:my-16 my-10">
       <div className="text-center">
-        <h3 className="lg:text-base text-sm font-semibold">
+        <h3 className="lg:text-base text-sm font-semibold lg:px-0 px-4">
           AKADEMİK BİLGİ VE TECRÜBE İLE REEL SEKTÖRDE
         </h3>
-        <h2 className="lg:text-3xl text-xl font-semibold my-2">
+        <h2 className="lg:text-3xl text-xl font-semibold my-2 lg:px-0 px-5">
           Fizibil Mühendislik & Yazılım
         </h2>
         <p className="lg:w-1/2 w-2/3 mx-auto py-3 ">

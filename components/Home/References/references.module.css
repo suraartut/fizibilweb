@@ -3,5 +3,5 @@
 }
 
 .paragraph {
-  @apply w-full text-center text-lg;
+  @apply w-full text-center text-lg lg:px-0 px-5;
 }
