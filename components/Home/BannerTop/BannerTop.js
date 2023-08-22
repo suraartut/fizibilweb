@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -24,14 +25,22 @@ const BannerTop = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          Slide 1
-          <br />
-          mobil hamburgeri düzelt
+          <Image
+            src="/assets/Images/slider-1.jpg"
+            width={1920}
+            height={1080}
+            alt="Slider"
+          />
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/slider-2.jpg"
+            width={5472}
+            height={3648}
+            alt="Slider"
+          />
+        </SwiperSlide>
+        <SwiperSlide>mobil hamburgeri düzelt</SwiperSlide>
       </Swiper>
     </div>
   );
