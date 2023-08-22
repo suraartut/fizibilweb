@@ -1,36 +1,42 @@
 export const headerData = [
   {
     id: 1,
+    title: "Anasayfa",
+    link: "/",
+    catChild: 0,
+  },
+  {
+    id: 2,
     title: "Kurumsal",
     link: "/kurumsal",
     catChild: 0,
   },
   {
-    id: 2,
+    id: 3,
     title: "Ürünler",
     link: "/",
     catChild: 3,
   },
   {
-    id: 3,
+    id: 4,
     title: "ENDÜSTRİ",
     link: "/",
     catChild: 4,
   },
   {
-    id: 4,
+    id: 5,
     title: "Çözümler",
     link: "/",
     catChild: 4,
   },
   {
-    id: 5,
+    id: 6,
     title: "Haberler",
     link: "/",
     catChild: 2,
   },
   {
-    id: 6,
+    id: 7,
     title: "Download",
     link: "/",
     catChild: 2,

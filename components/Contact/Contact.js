@@ -50,7 +50,7 @@ const ContactComponent = () => {
             No:933/Z019 Nilüfer/Bursa
           </div>
           <div className="mt-10 lg:mb-0 mb-3">
-            <Link href="/" className={styles.about_button}>
+            <Link href="/kurumsal" className={styles.about_button}>
               HAKKIMIZDA
             </Link>
           </div>

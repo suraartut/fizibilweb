@@ -1,0 +1,7 @@
+.title {
+  @apply uppercase font-semibold text-2xl w-full text-center py-4;
+}
+
+.paragraph {
+  @apply w-full text-center text-lg;
+}

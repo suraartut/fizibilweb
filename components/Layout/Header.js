@@ -56,7 +56,7 @@ const Header = () => {
 
           {/* Category Menu Start*/}
           <div className="lg:block hidden">
-            <ul className="menu w-full flex gap-3">
+            <ul className="menu w-full flex">
               {headerData?.map((item) => {
                 return (
                   <li
@@ -76,24 +76,24 @@ const Header = () => {
                       )}
                     </Link>
 
-                    <ul className="dropdown">
+                    <ul className="dropdown lg:shadow-lg">
                       {childMenu?.map((itemChild, index) => {
                         if (item.title == itemChild.catName) {
                           return (
                             <li
                               key={index}
-                              className="dropdown-menu hover:text-gray-500 flex"
+                              className="dropdown-menu hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out flex"
                             >
                               <Link href={itemChild.url}>
                                 {itemChild.title}
                               </Link>
-                              <ul className="subMenu">
+                              <ul className="subMenu lg:shadow-lg">
                                 {subChildMenu?.map((itemSubMenu, index) => {
                                   if (itemChild.title == itemSubMenu.catName) {
                                     return (
                                       <li
                                         key={index}
-                                        className="text-black hover:text-gray-500"
+                                        className="text-black hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out"
                                       >
                                         <Link href={itemSubMenu.url}>
                                           {itemSubMenu.title}
