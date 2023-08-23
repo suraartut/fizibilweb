@@ -13,7 +13,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 const BannerTop = () => {
   return (
-    <div className="h-screen w-full">
+    <div className="lg:h-screen h-[50vh] w-full">
       <Swiper
         navigation={true}
         loop={true}
