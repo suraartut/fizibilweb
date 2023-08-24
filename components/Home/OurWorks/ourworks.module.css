@@ -1,0 +1,23 @@
+.divs {
+  @apply lg:grid grid-cols-4 w-full min-h-[320px];
+}
+
+.textcard {
+  @apply col-span-2 bg-[#1A1A1A] text-white py-12 lg:px-16 px-8;
+}
+
+.line {
+  @apply h-1 w-24 bg-[#2e8fce] mb-3;
+}
+
+.card_button {
+  @apply lg:w-1/4 w-2/3 px-9 py-6 bg-white hover:bg-[#2e8fce] hover:text-white text-black text-sm font-semibold tracking-wider flex gap-2 items-center;
+}
+
+.images_card {
+  @apply col-span-1;
+}
+
+.image {
+  @apply w-full object-cover;
+}
