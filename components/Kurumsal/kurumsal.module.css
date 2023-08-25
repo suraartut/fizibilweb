@@ -1,0 +1,59 @@
+.kurumsal {
+  @apply w-full lg:pt-32 pt-24 px-0;
+}
+
+.kurumsal_title {
+  @apply lg:container lg:mx-auto mx-5 text-center lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] lg:pb-6 pb-3;
+}
+
+.about_us_body {
+  @apply container mx-auto lg:px-0 px-5;
+}
+
+.titles {
+  @apply font-bold lg:text-2xl text-xl;
+}
+
+.first_paragraph {
+  @apply italic lg:text-lg my-5;
+}
+
+.why_fizibil {
+  @apply w-full bg-[#eaebec] lg:my-20 my-10;
+}
+
+.why_fizibil_title {
+  @apply container mx-auto lg:px-20 px-4 lg:pt-16 pt-10 pb-10;
+}
+
+.why_fizibil_container {
+  @apply container mx-auto pb-20 lg:px-0 px-5;
+}
+
+.cards {
+  @apply lg:grid grid-cols-3 lg:px-20 gap-6;
+}
+
+.white_card {
+  @apply col-span-1 bg-white px-10 py-16 text-center;
+}
+
+.blue_card {
+  @apply col-span-1 bg-[#2e8fce] text-white px-10 py-16 text-center lg:my-0 my-5;
+}
+
+.card_title {
+  @apply uppercase font-bold tracking-widest text-xl my-5;
+}
+
+.blue_line {
+  @apply h-1 w-24 bg-[#2e8fce] my-5 mx-auto;
+}
+
+.white_line {
+  @apply h-1 w-24 bg-white my-5 mx-auto;
+}
+
+.vizyon {
+  @apply container w-full mx-auto lg:flex gap-16 lg:mb-20 mb-10 lg:px-0 px-5;
+}
