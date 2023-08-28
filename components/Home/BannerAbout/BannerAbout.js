@@ -22,7 +22,9 @@ const BannerAbout = () => {
         <div className={styles.card}>
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
-            <h3 className={styles.card_title}>Project Title</h3>
+            <h3 className={styles.card_title}>
+              Makine Öğrenmesi ve Görüntü İşleme ile Mobil Sayaç Okuma
+            </h3>
             <p className="lg:my-6 my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
               accusamus ab voluptatibus inventore, architecto illum quisquam
@@ -30,9 +32,7 @@ const BannerAbout = () => {
               voluptates, quisquam maiores dolor dolorem?
             </p>
             <Link href="/" className={styles.card_button}>
-              <span className={styles.card_button_title}>
-                Explore Solutions
-              </span>
+              <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}
@@ -41,46 +41,32 @@ const BannerAbout = () => {
               />
             </Link>
           </div>
-          <div className={styles.card_black}>1</div>
-        </div>
-        <div className={styles.card}>
-          <div className={styles.card_black}>1</div>
-          <div className={styles.card_gray}>
-            <div className={styles.card_line}></div>
-            <h3 className={styles.card_title}>Project Title</h3>
-            <p className="lg:my-6 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              accusamus ab voluptatibus inventore, architecto illum quisquam
-              cupiditate. Quaerat quod hic tempore officia error atque libero
-              voluptates, quisquam maiores dolor dolorem?
-            </p>
-            <Link href="/" className={styles.card_button}>
-              <span className={styles.card_button_title}>
-                Explore Solutions
-              </span>
-              <Image
-                src="/assets/icons/right-sm.svg"
-                width={20}
-                height={20}
-                alt="right"
-              />
-            </Link>
+          <div className={styles.card_black}>
+            <img
+              src="/assets/Images/sayac-okuma.png"
+              alt="Sayaç Okuma"
+              className={styles.card_images}
+            />
           </div>
         </div>
         <div className={styles.card}>
+          <div className={styles.card_black}>
+            <img
+              src="/assets/Images/e-tic.png"
+              alt="E-ticaret"
+              className={styles.card_images}
+            />
+          </div>
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
-            <h3 className={styles.card_title}>Project Title</h3>
+            <h3 className={styles.card_title}>
+              Avrupa'da Hizmet Veren MLM E-ticaret Sitesi
+            </h3>
             <p className="lg:my-6 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              accusamus ab voluptatibus inventore, architecto illum quisquam
-              cupiditate. Quaerat quod hic tempore officia error atque libero
-              voluptates, quisquam maiores dolor dolorem?
+              Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
             </p>
             <Link href="/" className={styles.card_button}>
-              <span className={styles.card_button_title}>
-                Explore Solutions
-              </span>
+              <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}
@@ -89,7 +75,34 @@ const BannerAbout = () => {
               />
             </Link>
           </div>
-          <div className={styles.card_black}>1</div>
+        </div>
+        <div className={styles.card}>
+          <div className={styles.card_gray}>
+            <div className={styles.card_line}></div>
+            <h3 className={styles.card_title}>Üç Boyutlu Yazılım Geliştirme</h3>
+            <p className="lg:my-6 my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              accusamus ab voluptatibus inventore, architecto illum quisquam
+              cupiditate. Quaerat quod hic tempore officia error atque libero
+              voluptates, quisquam maiores dolor dolorem?
+            </p>
+            <Link href="/" className={styles.card_button}>
+              <span className={styles.card_button_title}>Keşfedİn</span>
+              <Image
+                src="/assets/icons/right-sm.svg"
+                width={20}
+                height={20}
+                alt="right"
+              />
+            </Link>
+          </div>
+          <div className={styles.card_black}>
+            <img
+              src="/assets/Images/3D-CAD.png"
+              alt="3D CAD"
+              className={styles.card_images}
+            />
+          </div>
         </div>
       </div>
     </div>

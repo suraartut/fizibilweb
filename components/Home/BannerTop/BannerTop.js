@@ -26,17 +26,25 @@ const BannerTop = () => {
       >
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider-1.jpg"
+            src="/assets/Images/banner-1.png"
             width={1920}
-            height={1080}
+            height={950}
             alt="Slider"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider-2.jpg"
-            width={5472}
-            height={3648}
+            src="/assets/Images/banner-2.png"
+            width={1920}
+            height={950}
+            alt="Slider"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/banner-3.png"
+            width={1920}
+            height={950}
             alt="Slider"
           />
         </SwiperSlide>

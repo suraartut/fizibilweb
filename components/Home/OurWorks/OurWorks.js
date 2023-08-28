@@ -10,27 +10,28 @@ const OurWorks = () => {
       <div className={styles.divs}>
         <div className={styles.textcard}>
           <div className={styles.line}></div>
-          <h3 className="font-bold text-xl">Our Works</h3>
+          <h3 className="font-bold text-xl">Fizibil'in Çalışma Alanları</h3>
           <p className="lg:my-6 my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            accusamus ab voluptatibus inventore, architecto illum quisquam
-            cupiditate. Quaerat quod hic tempore officia error atque libero
-            voluptates, quisquam maiores dolor dolorem?
+            Son teknoloji ve bilimsel gelişmelerin ışığında dünya
+            standartlarında bilişim alanında yenilikçi çözümler üretiyoruz.
+            Bunun için bilimsel ve teknolojik alandaki akademik
+            araştırmalarımızı ülkemiz adına katma değere dönüştürecek projeler
+            geliştiriyoruz.
           </p>
-          <Link href="/" className={styles.card_button}>
+          {/* <Link href="/" className={styles.card_button}>
             View All Software
-          </Link>
+          </Link> */}
         </div>
         <div className={styles.images_card}>
           <img
-            src="https://www.bentley.com/wp-content/uploads/thumbnail-home-feature-cad-modeling-and-visualization-700x600-1.jpg"
+            src="/assets/Images/yıgma.png"
             alt="Project"
             className={styles.image}
           />
         </div>
         <div className={styles.images_card}>
           <img
-            src="https://www.bentley.com/wp-content/uploads/thumbnail-home-feature-project-delivery-700x600-1.jpg"
+            src="/assets/Images/butik-yazılım.png"
             alt="Project"
             className={styles.image}
           />

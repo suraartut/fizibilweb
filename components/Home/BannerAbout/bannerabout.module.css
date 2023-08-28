@@ -19,7 +19,7 @@
 }
 
 .card_gray {
-  @apply col-span-2 bg-[#eaebec] py-12 lg:px-16 px-8;
+  @apply col-span-2 bg-[#eaebec] h-[280px] py-12 lg:px-16 px-8;
 }
 
 .card_black {
@@ -40,4 +40,8 @@
 
 .card_button_title {
   @apply underline underline-offset-4;
+}
+
+.card_images {
+  @apply object-fill w-full h-full;
 }

@@ -201,7 +201,7 @@ export const subChildMenu = [
   {
     id: 5,
     title: "Sayaç Okuma",
-    url: "/",
+    url: "/sayac",
     catName: "Mobil Uygulama",
   },
 ];

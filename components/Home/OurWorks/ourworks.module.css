@@ -11,7 +11,7 @@
 }
 
 .card_button {
-  @apply lg:w-1/4 w-2/3 px-9 py-6 bg-white hover:bg-[#2e8fce] hover:text-white text-black text-sm font-semibold tracking-wider flex gap-2 items-center;
+  @apply lg:w-auto w-2/3 px-9 py-6 bg-white hover:bg-[#2e8fce] hover:text-white text-black text-sm font-semibold tracking-wider flex gap-2 items-center;
 }
 
 .images_card {
