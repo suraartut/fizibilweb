@@ -19,11 +19,11 @@
 }
 
 .card_gray {
-  @apply col-span-2 bg-[#eaebec] h-[280px] py-12 lg:px-16 px-8;
+  @apply col-span-2 bg-[#eaebec] h-auto py-12 lg:px-16 px-8;
 }
 
 .card_black {
-  @apply col-span-1 h-[280px] bg-[#1A1A1A];
+  @apply col-span-1 h-auto bg-[#1A1A1A];
 }
 
 .card_line {

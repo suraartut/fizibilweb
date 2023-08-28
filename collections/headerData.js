@@ -160,14 +160,14 @@ export const childMenu = [
   {
     id: 17,
     title: "İskele",
-    url: "/",
+    url: "/iskele",
     catName: "Download",
     catChild: 0,
   },
   {
     id: 18,
     title: "Yığma",
-    url: "/",
+    url: "/yigma",
     catName: "Download",
     catChild: 0,
   },
@@ -177,19 +177,19 @@ export const subChildMenu = [
   {
     id: 1,
     title: "İskele",
-    url: "/",
+    url: "/iskele",
     catName: "PC Uygulama",
   },
   {
     id: 2,
     title: "Yığma",
-    url: "/",
+    url: "/yigma",
     catName: "PC Uygulama",
   },
   {
     id: 3,
     title: "Ayak Analiz",
-    url: "/",
+    url: "/ayak-analiz",
     catName: "PC Uygulama",
   },
   {

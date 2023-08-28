@@ -60,6 +60,7 @@ const KurumsalComponent = () => {
                   width={80}
                   height={80}
                   className="mx-auto"
+                  alt="ekonomik"
                 />
                 <h3 className={styles.card_title}>Ekonomİk</h3>
               </div>
@@ -77,6 +78,7 @@ const KurumsalComponent = () => {
                   width={80}
                   height={80}
                   className="mx-auto"
+                  alt="güncel"
                 />
                 <h3 className={styles.card_title}>Güncel</h3>
               </div>
@@ -94,6 +96,7 @@ const KurumsalComponent = () => {
                   width={80}
                   height={80}
                   className="mx-auto"
+                  alt="kullanıcı dostu"
                 />
                 <h3 className={styles.card_title}>Kullanıcı Dostu</h3>
               </div>

@@ -1,9 +1,13 @@
 .wrapper {
-  @apply w-full h-auto z-[100] absolute;
+  @apply w-full h-auto z-[100];
 }
 
 .wrapper_container {
-  @apply bg-transparent hover:bg-white transition-all duration-300 ease-in-out w-full h-24;
+  @apply lg:bg-transparent bg-white hover:bg-white transition-all duration-300 ease-in-out w-full h-24 lg:absolute relative z-[100];
+}
+
+.white_navbar {
+  @apply bg-white relative top-0 h-24;
 }
 
 .hamburger {

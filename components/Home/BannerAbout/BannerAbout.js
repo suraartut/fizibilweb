@@ -31,7 +31,7 @@ const BannerAbout = () => {
               cupiditate. Quaerat quod hic tempore officia error atque libero
               voluptates, quisquam maiores dolor dolorem?
             </p>
-            <Link href="/" className={styles.card_button}>
+            <Link href="/sayac" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"

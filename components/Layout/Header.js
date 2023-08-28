@@ -20,7 +20,11 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className={styles.wrapper_container}>
+      <div
+        className={
+          router.asPath == "/" ? styles.wrapper_container : styles.white_navbar
+        }
+      >
         <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
             <div className="flex">
@@ -69,9 +73,9 @@ const Header = () => {
                         <Image
                           src="/assets/icons/dropdown.svg"
                           height={18}
-                          width={18}
+                          width={16}
                           alt="dropdown"
-                          className="ml-1 text-xs font-extrabold uppercase tracking-widest"
+                          className="ml-1 text-xs  font-extrabold uppercase tracking-widest"
                         />
                       )}
                     </Link>
