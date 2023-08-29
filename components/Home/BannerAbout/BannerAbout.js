@@ -26,10 +26,11 @@ const BannerAbout = () => {
               Makine Öğrenmesi ve Görüntü İşleme ile Mobil Sayaç Okuma
             </h3>
             <p className="lg:my-6 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              accusamus ab voluptatibus inventore, architecto illum quisquam
-              cupiditate. Quaerat quod hic tempore officia error atque libero
-              voluptates, quisquam maiores dolor dolorem?
+              Yapay zeka alanında yaptığımız çeşitli bilimsel araştırmalarımızı,
+              sektörün ihtiyaçlarına yönelik olarak sonuç ürünlere
+              dönüştürüyoruz. Dijital görüntülerin elde edilerek işlenmesini ve
+              analizini gerçekleştirerek gerçek dünyadan sayısal veya sembolik
+              bilgileri çıktı olarak elde edebiliyoruz.
             </p>
             <Link href="/sayac" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
