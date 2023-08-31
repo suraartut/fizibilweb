@@ -7,8 +7,8 @@ const sayacOkuma = () => {
       <div className="w-full">
         <img src="/assets/Images/sayacokuma1200450.png" className="w-full" />
       </div>
-      <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="mx-32">
+      <div className="w-full lg:container lg:mx-auto my-10">
+        <div className="lg:mx-32 mx-5">
           {/* <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
             Sayaç Okuma Sistemi
           </h2> */}

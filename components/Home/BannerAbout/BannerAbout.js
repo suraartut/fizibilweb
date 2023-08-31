@@ -66,7 +66,7 @@ const BannerAbout = () => {
             <p className="lg:my-6 my-4">
               Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
             </p>
-            <Link href="/" className={styles.card_button}>
+            <Link href="/e-ticaret" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
@@ -87,7 +87,7 @@ const BannerAbout = () => {
               cupiditate. Quaerat quod hic tempore officia error atque libero
               voluptates, quisquam maiores dolor dolorem?
             </p>
-            <Link href="/" className={styles.card_button}>
+            <Link href="/3d-cad-programlama" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
