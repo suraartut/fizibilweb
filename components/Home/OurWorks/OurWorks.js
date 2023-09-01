@@ -10,7 +10,7 @@ const OurWorks = () => {
       <div className={styles.divs}>
         <div className={styles.textcard}>
           <div className={styles.line}></div>
-          <h3 className="font-bold text-xl">Fizibil'in Çalışma Alanları</h3>
+          <h3 className="font-bold text-xl">Fizibilin Çalışma Alanları</h3>
           <p className="lg:my-6 my-4">
             Son teknoloji ve bilimsel gelişmelerin ışığında dünya
             standartlarında bilişim alanında yenilikçi çözümler üretiyoruz.

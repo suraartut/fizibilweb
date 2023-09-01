@@ -61,7 +61,7 @@ const BannerAbout = () => {
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>
-              Avrupa'da Hizmet Veren MLM E-ticaret Sitesi
+              Avrupada Hizmet Veren MLM E-ticaret Sitesi
             </h3>
             <p className="lg:my-6 my-4">
               Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
