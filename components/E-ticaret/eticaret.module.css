@@ -1,0 +1,11 @@
+.main_container {
+  @apply w-full lg:container lg:mx-auto lg:my-10 my-5;
+}
+
+.title {
+  @apply text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3;
+}
+
+.paragraph {
+  @apply text-lg my-3;
+}

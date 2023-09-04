@@ -9,11 +9,11 @@ export const footerData = [
     title: "İLETİŞİM",
     link: "/contact",
   },
-  {
-    id: 3,
-    title: "SIKÇA SORULAN SORULAR",
-    link: "/",
-  },
+  // {
+  //   id: 3,
+  //   title: "SIKÇA SORULAN SORULAR",
+  //   link: "/",
+  // },
   {
     id: 4,
     title: "GİZLİLİK POLİTİKASI",

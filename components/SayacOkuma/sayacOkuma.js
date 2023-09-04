@@ -1,13 +1,18 @@
 import React from "react";
 import styles from "./sayac.module.css";
+import Image from "next/image";
 
 const sayacOkuma = () => {
   return (
     <div className="w-full">
       <div className="w-full">
-        <img src="/assets/Images/sayacokuma1200450.png" className="w-full" />
+        <img
+          src="/assets/Images/sayac-banner.png"
+          className={styles.banner}
+          alt="Sayaç Okuma"
+        />
       </div>
-      <div className="w-full lg:container lg:mx-auto my-10">
+      <div className={styles.body}>
         <div className="lg:mx-32 mx-5">
           {/* <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
             Sayaç Okuma Sistemi
@@ -24,22 +29,21 @@ const sayacOkuma = () => {
             olarak anlık okuma yapabilecek ve endeksör cihazların yerine
             kullanılabilecektir.
           </p>
-          <div className="lg:py-14 py-3 lg:grid grid-cols-2 gap-24">
-            <div>
-              <img src="/assets/Images/ulutek.jpg" />
+          <div className={styles.sayac}>
+            <div className={styles.images}>
+              <img
+                src="/assets/Images/dogalgaz-sayac.png"
+                alt="Doğalgaz Sayaç Okuma"
+              />
             </div>
-            <div>
-              <h3 className="lg:text-3xl text-xl font-bold mb-5">
-                Doğalgaz Sayacı
-              </h3>
+            <div className="col-span-2">
+              <h3 className={styles.titles}>Doğalgaz Sayacı</h3>
               <p className="lg:text-lg">Açıklama</p>
             </div>
           </div>
-          <div className="lg:py-14 py-3 lg:grid grid-cols-2 gap-24">
-            <div>
-              <h3 className="lg:text-3xl text-xl font-bold mb-5">
-                Elektrik Sayacı
-              </h3>
+          <div className={styles.sayac}>
+            <div className="col-span-2">
+              <h3 className={styles.titles}>Elektrik Sayacı</h3>
               <p className="lg:text-lg">
                 Sayaçtan alınması gereken değerler gün içinde bile zamanlara
                 bölünmektedir, haftasonu tüketimleri ve enerji ölçüm cinsinin de
@@ -56,8 +60,11 @@ const sayacOkuma = () => {
                 sağlanabilir.
               </p>
             </div>
-            <div>
-              <img src="/assets/Images/ulutek.jpg" />
+            <div className={styles.images}>
+              <img
+                src="/assets/Images/elektrik-sayac.png"
+                alt="Elektrik Sayaç Okuma"
+              />
             </div>
           </div>
         </div>

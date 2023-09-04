@@ -1,17 +1,21 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./eticaret.module.css";
+import Image from "next/image";
 
 const Eticaret = () => {
   return (
     <div className="w-full">
       <div className="w-full">
-        <img src="/assets/Images/sayacokuma1903500.png" className="w-full" />
+        <img
+          src="/assets/Images/e-ticaret-banner.png"
+          className="w-full lg:h-auto h-[15vh]"
+          alt="E-ticaret"
+        />
       </div>
-      <div className="w-full lg:container lg:mx-auto my-10">
+      <div className={styles.main_container}>
         <div className="lg:mx-32 mx-5">
-          <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
-            MLM E-ticaret Sitesi
-          </h2>
+          <h2 className={styles.title}>MLM E-ticaret Sitesi</h2>
           <p className="text-lg">
             Firmanın yada kişinin internet üzerinden ürün satış sitesine
             e-ticaret sitesi denir. E-ticaret sitesi yada diğer ismiyle sanal
@@ -31,7 +35,7 @@ const Eticaret = () => {
             istediği ürününü hem tanıtabilir hem de reklamını yapabilirsiniz.
           </p>
           <div>
-            <p className="text-lg my-3">
+            <p className={styles.paragraph}>
               MLM e-ticaret yazılımlarımızın içerisinde bulunan modüllerin
               bazıları şu şekildedir:
             </p>
@@ -56,7 +60,7 @@ const Eticaret = () => {
               </li>
               <li>Geçmiş dönemlerdeki puan ve primlerin gösterimi</li>
             </ol>
-            <p className="text-lg my-3">
+            <p className={styles.paragraph}>
               Diğer platform modülleri ve özellikleri için{" "}
               <span className="text-blue-500">
                 <Link

@@ -11,39 +11,63 @@ const OurWorks = () => {
         <div className={styles.textcard}>
           <div className={styles.line}></div>
           <h3 className="font-bold text-xl">Fizibilin Çalışma Alanları</h3>
-          <p className="lg:my-6 my-4">
+          <p className="lg:mt-6 mt-4">
             Son teknoloji ve bilimsel gelişmelerin ışığında dünya
             standartlarında bilişim alanında yenilikçi çözümler üretiyoruz.
             Bunun için bilimsel ve teknolojik alandaki akademik
             araştırmalarımızı ülkemiz adına katma değere dönüştürecek projeler
-            geliştiriyoruz.
+            geliştiriyoruz. <br />
+            <br />
+            Üç boyutlu yazılım geliştirme, coğrafi bilgi sistem yazılımları ve
+            harita sunucusu kurulum, servisler arası ara yazılım, web
+            uygulamaları, görüntü işleme ve makine öğrenmesi alanlarında
+            hizmetler vermekteyiz.
           </p>
           {/* <Link href="/" className={styles.card_button}>
             View All Software
           </Link> */}
         </div>
-        <div className={styles.images_card}>
-          <img
+
+        <figure className="snip1585">
+          <Image
             src="/assets/Images/yıgma.png"
+            width={700}
+            height={600}
             alt="Project"
             className={styles.image}
           />
-        </div>
-        <div className={styles.images_card}>
+          <figcaption>
+            <h3>
+              3 boyutlu <span>Yazılım</span>
+            </h3>
+          </figcaption>
+        </figure>
+
+        <figure className="snip1585">
           <img
             src="/assets/Images/butik-yazılım.png"
             alt="Project"
             className={styles.image}
           />
-        </div>
+          <figcaption>
+            <h3>
+              Web <span>Uygulamaları</span>
+            </h3>
+          </figcaption>
+        </figure>
       </div>
 
       <div className={styles.divs}>
         {workData?.map((item, index) => {
           return (
-            <div key={index} className={styles.images_card}>
+            <figure key={index} className="snip1585">
               <img src={item.url} alt={item.alt} className={styles.image} />
-            </div>
+              <figcaption>
+                <h3>
+                  {item.title1} <span>{item.title2}</span>
+                </h3>
+              </figcaption>
+            </figure>
           );
         })}
       </div>

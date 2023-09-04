@@ -82,10 +82,10 @@ const BannerAbout = () => {
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>Üç Boyutlu Yazılım Geliştirme</h3>
             <p className="lg:my-6 my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              accusamus ab voluptatibus inventore, architecto illum quisquam
-              cupiditate. Quaerat quod hic tempore officia error atque libero
-              voluptates, quisquam maiores dolor dolorem?
+              Yığma bina 3D tasarım ve statik/dinamik analiz yazılımı, İskele 3D
+              tasarım ve statik analiz yazılımı, Hafif çelik yapıların 3D
+              tasarım ve statik/dinamik analiz yazılımı, Statik/Dinamik Yapı
+              Analizi, 3D CBS, Model görüntüleyiciler vb.
             </p>
             <Link href="/3d-cad-programlama" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
