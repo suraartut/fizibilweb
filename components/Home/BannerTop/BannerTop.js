@@ -13,23 +13,13 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 const BannerTop = () => {
   return (
-    <div className="lg:h-screen h-[50vh] w-full">
+    <div className="lg:h-screen h-[45vh] w-full">
       <Swiper
         navigation={true}
         loop={true}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
-        }}
-        breakpoints={{
-          576: {
-            // width: 576,
-            slidesPerView: 2,
-          },
-          768: {
-            // width: 768,
-            slidesPerView: 1,
-          },
         }}
         modules={[Navigation, Autoplay]}
         className="mySwiper"
