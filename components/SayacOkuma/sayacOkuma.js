@@ -7,7 +7,7 @@ const sayacOkuma = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/sayac-banner.png"
+          src="/assets/Images/sayac-okuma-banner.png"
           className={styles.banner}
           alt="Sayaç Okuma"
         />

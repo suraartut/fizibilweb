@@ -5,7 +5,7 @@ const İnsaat = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/ins-muh-banner.png"
           className="w-full h-[50vh] object-cover"
         />
       </div>
@@ -15,7 +15,6 @@ const İnsaat = () => {
             İnşaat Mühendisliği
           </h2>
           <p className="">Açıklama</p>
-          <p>Download Bölümü</p>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ const Medical = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/medical-banner.png"
           className="w-full h-[50vh] object-cover"
         />
       </div>
@@ -15,7 +15,6 @@ const Medical = () => {
             Medical
           </h2>
           <p className="">Açıklama</p>
-          <p>Download Bölümü</p>
         </div>
       </div>
     </div>

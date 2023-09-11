@@ -8,7 +8,7 @@ const Eticaret = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/e-ticaret-banner.png"
+          src="/assets/Images/mlm-etic-banner.png"
           className="w-full lg:h-auto h-[15vh]"
           alt="E-ticaret"
         />

@@ -26,7 +26,7 @@ const BannerTop = () => {
       >
         <SwiperSlide>
           <Image
-            src="/assets/Images/banner1.png"
+            src="/assets/Images/bilgisayarli-goru.png"
             width={1920}
             height={950}
             alt="Slider"
@@ -34,7 +34,7 @@ const BannerTop = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/banner-2.png"
+            src="/assets/Images/sayac-okuma-mobil.png"
             width={1920}
             height={950}
             alt="Slider"
@@ -42,7 +42,31 @@ const BannerTop = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/banner3.png"
+            src="/assets/Images/hafif-celik-yazilim.png"
+            width={1920}
+            height={950}
+            alt="Slider"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/sayac-okuma-tablet.png"
+            width={1920}
+            height={950}
+            alt="Slider"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/muhen-cografya.png"
+            width={1920}
+            height={950}
+            alt="Slider"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/tarihi-eser.png"
             width={1920}
             height={950}
             alt="Slider"

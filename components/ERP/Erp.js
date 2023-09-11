@@ -5,7 +5,7 @@ const Erp = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/erp-banner.png"
           className="w-full h-[50vh] object-cover"
         />
       </div>
@@ -15,7 +15,6 @@ const Erp = () => {
             ERP
           </h2>
           <p className="">Açıklama</p>
-          <p>Download Bölümü</p>
         </div>
       </div>
     </div>

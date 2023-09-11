@@ -5,7 +5,7 @@ const Enerji = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/enerji-banner.png"
           className="w-full h-[50vh] object-cover"
         />
       </div>
@@ -15,7 +15,6 @@ const Enerji = () => {
             Enerji
           </h2>
           <p className="">Açıklama</p>
-          <p>Download Bölümü</p>
         </div>
       </div>
     </div>

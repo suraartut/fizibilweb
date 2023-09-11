@@ -6,7 +6,7 @@ const Yigma = () => {
     <div className="w-full">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/yigma-banner.png"
           className="w-full h-[50vh] object-cover"
         />
       </div>
