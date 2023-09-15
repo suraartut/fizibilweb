@@ -11,9 +11,9 @@ import "swiper/css/pagination";
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
 
-const BannerTop = () => {
+const BannerMobile = () => {
   return (
-    <div className="lg:h-screen h-[45vh] w-full pt-[88px] lg:block hidden">
+    <div className="lg:h-screen h-[50vh] w-full pt-[88px] lg:hidden block">
       <Swiper
         loop={true}
         pagination={true}
@@ -26,25 +26,25 @@ const BannerTop = () => {
       >
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider/bilgisayarli-goru.png"
-            width={1920}
-            height={950}
+            src="/assets/Images/mobil-slider/bilgisayarli-goru.png"
+            width={390}
+            height={360}
             alt="Bilgisayarlı Görü"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider/dogalgaz-sayac.png"
-            width={1920}
-            height={950}
+            src="/assets/Images/mobil-slider/dogalgaz-sayac.png"
+            width={390}
+            height={360}
             alt="Doğalgaz Sayaç Okuma"
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider/elektrik-sayac.png"
-            width={1920}
-            height={950}
+            src="/assets/Images/mobil-slider/elektrik-sayac.png"
+            width={390}
+            height={360}
             alt="Elektrik Sayacı Okuma"
           />
         </SwiperSlide>
@@ -53,4 +53,4 @@ const BannerTop = () => {
   );
 };
 
-export default BannerTop;
+export default BannerMobile;
