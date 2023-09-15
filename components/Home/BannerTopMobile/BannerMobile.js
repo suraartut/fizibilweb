@@ -13,7 +13,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 
 const BannerMobile = () => {
   return (
-    <div className="lg:h-screen h-[50vh] w-full pt-[88px] lg:hidden block">
+    <div className="lg:h-screen h-[53vh] w-full pt-[88px] lg:hidden block">
       <Swiper
         loop={true}
         pagination={true}
