@@ -3,7 +3,7 @@ import styles from "./iskele.module.css";
 
 const Iskele = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/iskele-banner.png"

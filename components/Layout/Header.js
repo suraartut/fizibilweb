@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className={styles.wrapper_container}>
+      <div className="bg-[#f8f9fa] shadow-bottom w-full h-[88px] fixed z-[100]">
         <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
             <div className="flex">
@@ -61,7 +61,7 @@ const Header = () => {
                 return (
                   <li
                     key={item.id}
-                    className="catMenu w-full hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out"
+                    className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                   >
                     <Link href={item.link} className={styles.category_menu}>
                       {item.title}
@@ -82,7 +82,7 @@ const Header = () => {
                           return (
                             <li
                               key={index}
-                              className="dropdown-menu hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out flex"
+                              className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex"
                             >
                               <Link href={itemChild.url}>
                                 {itemChild.title}
@@ -93,7 +93,7 @@ const Header = () => {
                                     return (
                                       <li
                                         key={index}
-                                        className="text-black hover:bg-[#f8f9fa] transition-all duration-300 ease-in-out"
+                                        className="text-black hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                                       >
                                         <Link href={itemSubMenu.url}>
                                           {itemSubMenu.title}

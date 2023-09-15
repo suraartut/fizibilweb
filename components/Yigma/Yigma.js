@@ -4,7 +4,7 @@ import styles from "./yigma.module.css";
 
 const Yigma = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/yigma-banner.png"

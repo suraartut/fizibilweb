@@ -2,7 +2,7 @@ import React from "react";
 
 const İnsaat = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/ins-muh-banner.png"

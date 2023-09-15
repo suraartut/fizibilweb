@@ -2,10 +2,6 @@
   @apply w-full h-auto z-[100];
 }
 
-.wrapper_container {
-  @apply bg-white shadow-xl w-full h-[88px] fixed z-[100];
-}
-
 .hamburger {
   @apply block w-8 h-[3px] bg-gray-700 animate-pulse;
 }

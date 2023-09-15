@@ -1,5 +1,5 @@
 .contact {
-  @apply w-full lg:container mx-auto lg:pt-8 pt-5 lg:px-0 px-5;
+  @apply w-full lg:container mx-auto pt-32 lg:px-0 px-5;
 }
 
 .title {

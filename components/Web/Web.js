@@ -2,7 +2,7 @@ import React from "react";
 
 const Web = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/web-program-banner.png"

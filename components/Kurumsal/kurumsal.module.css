@@ -1,5 +1,5 @@
 .kurumsal {
-  @apply w-full lg:pt-8 pt-5 px-0;
+  @apply w-full pt-36 px-0;
 }
 
 .kurumsal_title {
@@ -7,7 +7,7 @@
 }
 
 .about_us_body {
-  @apply container mx-auto lg:px-0 px-5 lg:mt-32 mt-24;
+  @apply container mx-auto lg:px-0 px-5;
 }
 
 .titles {

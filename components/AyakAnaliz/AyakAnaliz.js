@@ -3,7 +3,7 @@ import styles from "./ayakanaliz.module.css";
 
 const AyakAnaliz = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/pagebanner.jpg"

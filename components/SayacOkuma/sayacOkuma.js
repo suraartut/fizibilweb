@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const sayacOkuma = () => {
   return (
-    <div className="w-full">
+    <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
           src="/assets/Images/sayac-okuma-banner.png"

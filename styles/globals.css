@@ -210,6 +210,10 @@ body {
   align-items: center;
 }
 
+.shadow-bottom {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
 .swiper-pagination-bullet-active {
   background-color: rgb(46 143 206) !important;
   height: 12px !important;
