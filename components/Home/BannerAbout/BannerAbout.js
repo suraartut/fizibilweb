@@ -14,8 +14,11 @@ const BannerAbout = () => {
         <p className={styles.paragraph}>
           Farklı mühendislik disiplinlerini bir arada kullanarak etkin çözümler
           üreten ve mevcut çözümlemeleri de daha ileri bir noktaya taşımayı
-          hedefleyen firmamız; inşaat mühendisliğinden harita mühendisliğine
-          kadar, geniş bir yelpazede proje ve hizmet sunmaktadır.
+          hedefleyen firmamız; 3D CAD yazılımları, makina öğrenme temelli
+          görüntü işleme yazılımları, multilevel marketing özellikli e-ticaret
+          yazılımları, ERP yazılımları, SAP NonSAP yazılım ve danışmanlık
+          hizmetleri, masaüstü, web ve mobil platformlar gibi geniş bir
+          yelpazede proje ve hizmet sunmaktadır.
         </p>
       </div>
       <div className="lg:mt-16">

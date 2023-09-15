@@ -3,6 +3,17 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+}
+
 /* Snippets Starts */
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,700;);
 .snip1585 {
@@ -120,17 +131,6 @@
 }
 /* Snippets Ends */
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Work Sans", sans-serif;
-  overflow-x: hidden;
-}
-
 /* Header Categories Border */
 .catMenu:after {
   display: block;
@@ -152,7 +152,7 @@ body {
 .dropdown {
   display: none;
   position: absolute;
-  top: 98px;
+  top: 88px;
   text-align: start;
   background-color: #fff;
 }
@@ -210,9 +210,14 @@ body {
   align-items: center;
 }
 
-.swiper-button-next,
-.swiper-button-prev {
-  color: rgb(46 143 206) !important;
+.swiper-pagination-bullet-active {
+  background-color: rgb(46 143 206) !important;
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.swiper-pagination-bullet {
+  vertical-align: middle !important;
 }
 
 .swiper-slide img {

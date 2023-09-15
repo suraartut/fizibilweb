@@ -5,7 +5,6 @@ import styles from "./kurumsal.module.css";
 const KurumsalComponent = () => {
   return (
     <div className={styles.kurumsal}>
-      <h1 className={styles.kurumsal_title}>KURUMSAL</h1>
       <div className={styles.about_us_body}>
         <div className="lg:flex gap-16">
           <Image
@@ -26,9 +25,11 @@ const KurumsalComponent = () => {
             <p>
               Farklı mühendislik disiplinlerini bir arada kullanarak etkin
               çözümler üreten ve mevcut çözümlemeleri de daha ileri bir noktaya
-              taşımayı hedefleyen firmamız; inşaat mühendisliğinden harita
-              mühendisliğine kadar, geniş bir yelpazede proje ve hizmet
-              sunmaktadır.
+              taşımayı hedefleyen firmamız; 3D CAD yazılımları, makina öğrenme
+              temelli görüntü işleme yazılımları, multilevel marketing özellikli
+              e-ticaret yazılımları, ERP yazılımları, SAP NonSAP yazılım ve
+              danışmanlık hizmetleri, masaüstü, web ve mobil platformlar gibi
+              geniş bir yelpazede proje ve hizmet sunmaktadır.
             </p>
             <p className="my-5">
               Çözümlemelerimiz yalnızca problem odaklı değildir. Sektörün

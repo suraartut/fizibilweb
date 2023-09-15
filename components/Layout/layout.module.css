@@ -3,11 +3,7 @@
 }
 
 .wrapper_container {
-  @apply lg:bg-transparent bg-white hover:bg-white transition-all duration-300 ease-in-out w-full h-24 lg:absolute relative z-[100];
-}
-
-.white_navbar {
-  @apply bg-white relative top-0 h-24;
+  @apply bg-white shadow-xl w-full h-[88px] fixed z-[100];
 }
 
 .hamburger {
@@ -19,7 +15,7 @@
 }
 
 .category_menu {
-  @apply text-xs font-extrabold py-10 px-5 uppercase tracking-widest flex justify-center text-center items-center w-full;
+  @apply text-xs font-extrabold py-9 px-5 uppercase tracking-widest flex justify-center text-center items-center w-full;
 }
 
 .account {

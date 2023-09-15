@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./yigma.module.css";
 
 const Yigma = () => {
@@ -13,10 +14,21 @@ const Yigma = () => {
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
         <div className="mx-32">
           <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
-            Yığma
+            Yığma Analiz Yazılımı
           </h2>
           <p className="">Açıklama</p>
-          <p>Download Bölümü</p>
+          <p className="text-lg my-3">
+            Fizibil yığma lisanslı dosya için{" "}
+            <span className="text-blue-500">
+              <Link
+                href="/assets/File/fizibil.yigma2018.2511.msi"
+                download="e-ticaret-modules"
+              >
+                tıklayınız
+              </Link>
+            </span>
+            .
+          </p>
         </div>
       </div>
     </div>

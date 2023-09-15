@@ -6,22 +6,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // import required modules
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const BannerTop = () => {
   return (
-    <div className="lg:h-screen h-[45vh] w-full">
+    <div className="lg:h-screen h-[45vh] w-full pt-[88px]">
       <Swiper
-        navigation={true}
         loop={true}
+        pagination={true}
         autoplay={{
           delay: 5000,
           disableOnInteraction: false,
         }}
-        modules={[Navigation, Autoplay]}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -42,23 +42,7 @@ const BannerTop = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/hafif-celik-yazilim.png"
-            width={1920}
-            height={950}
-            alt="Slider"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
             src="/assets/Images/sayac-okuma-tablet.png"
-            width={1920}
-            height={950}
-            alt="Slider"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
-            src="/assets/Images/muhen-cografya.png"
             width={1920}
             height={950}
             alt="Slider"
