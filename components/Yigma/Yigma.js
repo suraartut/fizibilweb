@@ -17,12 +17,24 @@ const Yigma = () => {
             Yığma Analiz Yazılımı
           </h2>
           <p className="">Açıklama</p>
-          <p className="text-lg my-3">
+          <p className="my-3">
             Fizibil yığma lisanslı dosya için{" "}
             <span className="text-blue-500">
               <Link
                 href="/assets/File/fizibil.yigma2018.2511.msi"
-                download="e-ticaret-modules"
+                download="fizibil-yigma-lisansli-dosya"
+              >
+                tıklayınız
+              </Link>
+            </span>
+            .
+          </p>
+          <p className="my-3">
+            Fizibil yığma demo dosyası için{" "}
+            <span className="text-blue-500">
+              <Link
+                href="/assets/File/fizibil.yigma2018.2503.demo.msi"
+                download="fizibil-yigma-demo"
               >
                 tıklayınız
               </Link>

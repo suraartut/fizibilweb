@@ -112,22 +112,24 @@ const KurumsalComponent = () => {
         </div>
       </div>
       <div className={styles.vizyon}>
-        <div className="lg:mb-0 mb-5">
+        <div className="lg:mb-0 mb-8 lg:w-1/2">
           <h2 className={styles.titles}>Vizyonumuz</h2>
-          <p className="my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            veritatis laudantium totam officia fugit necessitatibus
-            reprehenderit, aut modi tempora, voluptatibus facere error quo dolor
-            sed consectetur est provident incidunt laboriosam.
+          <p className="my-4 italic">“Akademiden sektöre..”</p>
+          <p className="my-2">
+            Kurucu idarenin sahip olduğu akademik birikimi kullanarak
+            mühendislik, yazılım ve teknoloji alanlarında yenilikçi, fark
+            oluşturan çözümler sunmak, geliştirmek, ürün ve hizmetleri
+            millileştirmek ve kolaylıklar sağlamak, Türkiye ve dünya ölçeğinde
+            öncü konuma erişmek.
           </p>
         </div>
-        <div>
+        <div className="lg:w-1/2">
           <h2 className={styles.titles}>Misyonumuz</h2>
-          <p className="my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iste
-            quidem fuga harum nobis, sed vitae eius ipsam necessitatibus
-            reprehenderit soluta itaque in illo veniam aliquam optio iusto
-            ratione. Nesciunt!
+          <p className="my-4 italic">“Sıradışı problem, sıradışı çözüm”</p>
+          <p className="my-2">
+            Yazılım, mühendislik ve teknoloji alanlarında rutin ve sıradışı
+            problemlere çözüm üretmek üzere akademik birikim kullanılarak
+            inovasyon odaklı ürün ve hizmetler geliştirmek.
           </p>
         </div>
       </div>

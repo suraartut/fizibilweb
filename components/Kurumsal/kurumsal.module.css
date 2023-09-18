@@ -1,5 +1,5 @@
 .kurumsal {
-  @apply w-full pt-36 px-0;
+  @apply w-full lg:pt-40 pt-24 px-0;
 }
 
 .kurumsal_title {
@@ -55,5 +55,5 @@
 }
 
 .vizyon {
-  @apply container w-full mx-auto lg:flex gap-16 lg:mb-20 mb-10 lg:px-0 px-5;
+  @apply container w-full mx-auto lg:flex gap-28 lg:mb-20 mb-10 lg:px-0 px-5;
 }
