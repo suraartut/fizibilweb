@@ -216,12 +216,12 @@ body {
 
 .swiper-pagination-bullet-active {
   background-color: rgb(46 143 206) !important;
-  height: 12px !important;
-  width: 12px !important;
 }
 
 .swiper-pagination-bullet {
-  vertical-align: middle !important;
+  border-radius: 0% !important;
+  width: 40px !important;
+  height: 5px !important;
 }
 
 .swiper-slide img {
