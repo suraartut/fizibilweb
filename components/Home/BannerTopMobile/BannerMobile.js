@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import styles from "./bannermobile.module.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -10,11 +12,10 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
-import Link from "next/link";
 
 const BannerMobile = () => {
   return (
-    <div className="lg:h-screen h-[60vh] w-full pt-[88px] lg:hidden block">
+    <div className={styles.mobile_slider}>
       <Swiper
         loop={true}
         pagination={true}
@@ -29,20 +30,15 @@ const BannerMobile = () => {
           <Image
             src="/assets/Images/mobil-slider/bilgisayarli-goru.png"
             width={390}
-            height={360}
+            height={420}
             alt="Bilgisayarlı Görü"
             className="contrast-50"
           />
-          <div className="w-full absolute">
-            <div className="p-10 text-end">
-              <h3 className="font-bold text-white">
-                Bilgisayarlı Görü Sistemi
-              </h3>
-              <p className="pt-3 pb-8 text-base text-white">Açıklama</p>
-              <Link
-                href="/"
-                className="text-white text-sm px-12 py-3 border-2 border-[#2e8fce] bg-[#2e8fce] uppercase font-semibold hover:text-[#2e8fce] hover:border-white hover:bg-white tracking-wider w-full items-center"
-              >
+          <div className={styles.image_card}>
+            <div className="p-8 text-end">
+              <h3 className="font-bold text-white text-xl">Bilgisayarlı</h3>
+              <p className={styles.second_line}>Görü Sistemi</p>
+              <Link href="/" className={styles.button}>
                 Keşfedİn
               </Link>
             </div>
@@ -52,19 +48,41 @@ const BannerMobile = () => {
           <Image
             src="/assets/Images/mobil-slider/dogalgaz-sayac.png"
             width={390}
-            height={360}
+            height={420}
             alt="Doğalgaz Sayaç Okuma"
             className="contrast-50"
           />
+          <div className={styles.image_card}>
+            <div className="p-6 text-start">
+              <h3 className="font-bold text-white text-base pb-[2px]">
+                Yapay Zekâ ve Görüntü İşleme ile
+              </h3>
+              <p className={styles.second_line}>Doğalgaz Sayacı Okuma</p>
+              <Link href="/sayac" className={styles.button}>
+                Keşfedİn
+              </Link>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/elektrik-sayac.png"
             width={390}
-            height={360}
+            height={420}
             alt="Elektrik Sayacı Okuma"
             className="contrast-50"
           />
+          <div className={styles.image_card}>
+            <div className="p-6 text-start">
+              <h3 className="font-bold text-white text-base pb-[2px]">
+                Yapay Zekâ ve Görüntü İşleme ile
+              </h3>
+              <p className={styles.second_line}>Elektrik Sayacı Okuma</p>
+              <Link href="/sayac" className={styles.button}>
+                Keşfedİn
+              </Link>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

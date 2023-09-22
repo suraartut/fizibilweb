@@ -1,0 +1,15 @@
+.mobile_slider {
+  @apply lg:h-screen h-[60vh] w-full pt-[88px] lg:hidden block;
+}
+
+.image_card {
+  @apply w-full absolute;
+}
+
+.second_line {
+  @apply pb-6 text-white font-bold text-xl;
+}
+
+.button {
+  @apply text-white text-sm px-12 py-3 border-2 border-[#2e8fce] bg-[#2e8fce] uppercase font-semibold hover:text-[#2e8fce] hover:border-white hover:bg-white tracking-wider w-full items-center;
+}
