@@ -220,8 +220,18 @@ body {
 
 .swiper-pagination-bullet {
   border-radius: 0% !important;
-  width: 40px !important;
-  height: 5px !important;
+  width: 50px !important;
+  height: 4px !important;
+  margin: 0px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-pagination-bullet {
+    border-radius: 0% !important;
+    width: 30px !important;
+    height: 3px !important;
+    margin: 0px !important;
+  }
 }
 
 .swiper-slide img {
