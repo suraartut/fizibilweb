@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className="bg-[#f8f9fa] shadow-bottom w-full h-[88px] fixed z-[100]">
+      <div className="bg-[#f8f9fa] bg-opacity-95 shadow-bottom w-full h-[88px] fixed z-[100]">
         <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
             <div className="flex">

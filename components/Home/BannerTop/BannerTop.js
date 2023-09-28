@@ -48,6 +48,30 @@ const BannerTop = () => {
             alt="Elektrik Sayacı Okuma"
           />
         </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/slider/fizibil-iskele.png"
+            width={1920}
+            height={950}
+            alt="Fizibil İskele Yazılımı"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/slider/e-ticaret.png"
+            width={1920}
+            height={950}
+            alt="Multilevel marketing özellikli e-ticaret sitesi"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/slider/siparis.png"
+            width={1920}
+            height={950}
+            alt="Siparişe özel masaüstü, web ve mobil uygulamalar"
+          />
+        </SwiperSlide>
       </Swiper>
     </div>
   );
