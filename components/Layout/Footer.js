@@ -38,8 +38,9 @@ const Footer = () => {
             alt="Şirket Logosu"
           />
           <div className="w-full my-4 justify-start flex">
-            Özlüce, Uludağ Ünv. No:244 <br /> ULUTEK Teknoloji Geliştirme
-            Bölgesi <br /> 16120 Nilüfer/Bursa
+            Görükle Mah. Üniversite-1 Cd. Ulutek Tekno <br /> Yazılım Geliştirme
+            Merkezi No:933/238 <br />
+            Nilüfer/BURSA
           </div>
           <div className="w-full my-4 justify-start flex">
             <Link href="tel:+902244428777" className="flex items-center">
@@ -150,7 +151,7 @@ const Footer = () => {
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/company/fizibil-muhendislik-&-yazılım/">
                 <Image
                   src="/assets/icons/linkedin.svg"
                   alt="linkedIn"
@@ -160,7 +161,7 @@ const Footer = () => {
               </Link>
             </div>
             <div>
-              <Link href="/">
+              <Link href="https://www.youtube.com/@fizibilmuhendislikyazlm514">
                 <Image
                   src="/assets/icons/youtube-red.png"
                   alt="youtube"

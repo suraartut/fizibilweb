@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const BannerAbout = () => {
   return (
-    <div className={styles.banner_about}>
+    <div className={styles.banner_about} data-aos="fade-left">
       <div className="lg:text-center">
         <h3 className={styles.title_h3}>
           AKADEMİK BİLGİ VE TECRÜBE İLE REEL SEKTÖRDE

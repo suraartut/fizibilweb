@@ -20,7 +20,77 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className="bg-[#f8f9fa] bg-opacity-95 shadow-bottom w-full h-[88px] fixed z-[100]">
+      <div className="lg:flex hidden bg-[#2e8fce] py-2 px-16 text-white grid-cols-4 justify-between items-center">
+        <div className="flex gap-10">
+          <Link href="tel:+902244428777" className="flex items-center">
+            <Image
+              src="/assets/icons/phone.svg"
+              height={35}
+              width={35}
+              alt="phone"
+              className="mr-1"
+            />
+            <span className="hover:text-blue-200 transition-all duration-300 ease-in-out">
+              +90 (224) 442 87 77
+            </span>
+          </Link>
+          <Link href="mailto:destek@fizibil.com" className="flex items-center">
+            <Image
+              src="/assets/icons/mail.svg"
+              height={35}
+              width={35}
+              alt="e-mail"
+              className="mr-1"
+            />
+            <span className="hover:text-blue-200 transition-all duration-300 ease-in-out">
+              destek@fizibil.com
+            </span>
+          </Link>
+        </div>
+        <div className="social-media flex gap-5 items-center">
+          <div>
+            <Link href="/">
+              <Image
+                src="/assets/icons/facebook.svg"
+                alt="facebook"
+                width={25}
+                height={25}
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <Image
+                src="/assets/icons/twitter-x.png"
+                alt="twitter"
+                width={25}
+                height={25}
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href="https://www.linkedin.com/company/fizibil-muhendislik-&-yazılım/">
+              <Image
+                src="/assets/icons/linkedin.svg"
+                alt="linkedIn"
+                width={25}
+                height={25}
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href="https://www.youtube.com/@fizibilmuhendislikyazlm514">
+              <Image
+                src="/assets/icons/youtube-red.png"
+                alt="youtube"
+                width={25}
+                height={25}
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#f8f9fa] bg-opacity-95 shadow-bottom w-full h-[88px] lg:absolute fixed z-[100]">
         <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
             <div className="flex">
