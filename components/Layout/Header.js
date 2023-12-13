@@ -20,8 +20,8 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className="lg:flex hidden bg-[#2e8fce] py-2 px-16 text-white grid-cols-4 justify-between items-center">
-        <div className="flex gap-10">
+      <div className="lg:flex hidden bg-[#2e8fce] py-1 px-16 text-white grid-cols-4 justify-between items-center">
+        <div className="flex gap-10 text-sm">
           <Link href="tel:+902244428777" className="flex items-center">
             <Image
               src="/assets/icons/phone.svg"
@@ -133,7 +133,7 @@ const Header = () => {
                     key={item.id}
                     className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                   >
-                    <Link href={item.link} className={styles.category_menu}>
+                    <a href={item.link} className={styles.category_menu}>
                       {item.title}
                       {item.catChild > 0 && (
                         <Image
@@ -144,7 +144,7 @@ const Header = () => {
                           className="ml-1 text-xs font-extrabold uppercase tracking-widest"
                         />
                       )}
-                    </Link>
+                    </a>
 
                     <ul className="dropdown lg:shadow-lg">
                       {childMenu?.map((itemChild, index) => {
@@ -154,9 +154,7 @@ const Header = () => {
                               key={index}
                               className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex"
                             >
-                              <Link href={itemChild.url}>
-                                {itemChild.title}
-                              </Link>
+                              <a href={itemChild.url}>{itemChild.title}</a>
                               <ul className="subMenu lg:shadow-lg">
                                 {subChildMenu?.map((itemSubMenu, index) => {
                                   if (itemChild.title == itemSubMenu.catName) {
@@ -165,9 +163,9 @@ const Header = () => {
                                         key={index}
                                         className="text-black hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                                       >
-                                        <Link href={itemSubMenu.url}>
+                                        <a href={itemSubMenu.url}>
                                           {itemSubMenu.title}
-                                        </Link>
+                                        </a>
                                       </li>
                                     );
                                   }

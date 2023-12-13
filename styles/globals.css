@@ -253,3 +253,9 @@ body {
 .group:focus .group-focus\:max-h-40 {
   max-height: 10rem;
 }
+
+/*Sayaç Sayfası Liste*/
+.sayac .sayac-list li {
+  margin: 10px 0;
+  align-items: center;
+}

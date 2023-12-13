@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const sayacOkuma = () => {
   return (
-    <div className="w-full pt-[88px]">
+    <div className="w-full pt-[88px] sayac">
       <div className="w-full">
         <img
           src="/assets/Images/sayac-okuma-banner.png"
@@ -38,13 +38,165 @@ const sayacOkuma = () => {
             </div>
             <div className="col-span-2">
               <h3 className={styles.titles}>Doğalgaz Sayacı</h3>
-              <p className="lg:text-lg">Açıklama</p>
+              <p className="">
+                Onbeş milyonu bulan doğalgaz abonelerinin sayaç okuma işlemleri
+                manuel olarak gerçekleştirilmektedir. Okuma hatalarını ve
+                maliyetlerini azaltmak, okuma hızı ve konforu arttırmak, pandemi
+                döneminde mobilizasyon ve karantina alanlarına girilememesi
+                problemlerini ortadan kaldırmak amacıyla geliştirilen bu projede
+                gönderilen sayaç fotoğrafı üzerindeki barkod ve endeks değeri
+                metne çevrilerek geri gönderilir.
+              </p>
+              <p className="text-gray-500 my-5">
+                IOS ve/veya Android tabanlı geliştirilen uygulama ile kontrollü
+                olarak çekilen sayaç fotoğrafı API’ye post edilir ve geri dönen
+                barkod ve endeks değerleri kontrol edilerek ilgili kurumun veri
+                tabanına gönderilir. Varsa geri dönüş verilerini görüntüler.
+                Yerli ve uygun maliyetli api kullanılarak geliştirileceğinden
+                yaygın kullanıma uygundur. Şirketlere özel de geliştirilebilecek
+                uygulamaya birçok operasyonel inovatif ar-ge özelliği
+                eklenebilir. Yerli muadili yoktur. Yabancı muadilleri kullanım
+                başına yüksek fiyatlarla ücretlendirilmektedir (Anyline vs..).
+                Bu ürünler Ar-ge olarak kullanılsalar da yaygın kullanım için
+                fizibil değillerdir.
+              </p>
             </div>
+          </div>
+          <div className="lg:border-l-4 border-l-2 border-[#2e8fce] lg:pl-10 pl-2 lg:ml-4">
+            <ul className="sayac-list">
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Belli ölçülerdeki sayaç resimleri sisteme daha önceden
+                öğretilerek performanslı çalışma modeli
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Sistem aktif çalışırken yeni sayaç öğretilerek uygulamaya dahil
+                edilebilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                İsteğe bağlı olarak tek resimde hem barkod hem edeks okuyabilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Okuma gerçekleşmediğinde manuel girilen data, elde edilen resim
+                ile eşleştirilerek veri tabanında saklayabilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                API tabanlı mimari ile her türlü platforma uygulanabilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                İsteğe bağlı güvenlik için varsayımsal yaklaşım algoritması
+                kurgulayabilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Esnek raporlama servisleri
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Sayaçların 500x300 oranda çekilmiş resim setleri yüklenerek
+                sistemin imaj çözme kalitesi arttırılacaktır
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                İsteğe bağlı olarak tek resimde hem barkod hem endeks okuyabilme
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Işık veya benzeri dış etkenlerden dolayı okunamayan endeks
+                bilgileri için sisteme elle giriş yapılabilmektedir
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                El ile girilen her data çekilen resim ile beraber saklanır, aynı
+                zamanda belirlenen periyotlarda bu resim sistem için eğitime
+                tabi tutulur
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode-phone.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                Kuyruk modu , Gerçeklik Kontrolü gibi yapılar native uygulama
+                üzerinde geliştirilebilir
+              </li>
+              <li className="flex gap-4">
+                <Image
+                  src="/assets/icons/barcode.svg"
+                  alt="facebook"
+                  width={30}
+                  height={30}
+                />
+                API üzerinde firmanıza özel süreçler tasarlanarak lokal
+                akışlarınıza dahil edilebilir
+              </li>
+            </ul>
           </div>
           <div className={styles.sayac}>
             <div className="col-span-2">
               <h3 className={styles.titles}>Elektrik Sayacı</h3>
-              <p className="lg:text-lg">
+              <p className="">
                 Sayaçtan alınması gereken değerler gün içinde bile zamanlara
                 bölünmektedir, haftasonu tüketimleri ve enerji ölçüm cinsinin de
                 işin içine girmesiyle okuyucunun iş yükü ve hata yapma olasılığı
@@ -58,6 +210,17 @@ const sayacOkuma = () => {
                 yardımıyla başka hiçbir ek cihaza gerek kalmadan paylaşabilir.
                 Böylece zaman ve saha için istihdam edilen personelden tasarruf
                 sağlanabilir.
+              </p>
+              <p className="mt-4">
+                Aboneler şirket için geliştirilen mobil uygulamayla akıllı
+                telefonlarına yüklediklerinde abone numaraları ile kayıtlı
+                telefon numaraları üzerinden sms veya başka bir doğrulama metodu
+                ile güvenli bir şekilde abonelik bilgilerine ulaşabilecektir.
+                Abone telefon kamerasını sayaç üzerine tutarak Yapay Zekâ ile
+                ilgili endeks ve sayaç seri numarasını içeren barkod bilgilerini
+                otomatik okutarak sisteme yükleyebilecek, faturasını talep
+                edebilecek, dilerse ödemesini online olarak
+                gerçekleştirebilecektir.
               </p>
             </div>
             <div className={styles.images}>

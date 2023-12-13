@@ -14,9 +14,16 @@ const Iskele = () => {
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
         <div className="mx-32">
           <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
-            İskele Analiz Yazılımı
+            Neden Fizibil İskele?
           </h2>
-          <p className="">Açıklama</p>
+          {/* <p>Fizibil İskele Analiz Tahkik ve Çizim Programı</p> */}
+          <p className="">
+            • Dongle gerektirmeyen online lisanslama
+            <br />• Aks sistemi ile pratik 3D modelleme
+            <br />• Hızlı ve güvenilir analiz ve raporlama
+            <br />• Proje çizimleri görüntüleme ve DWG formatında kaydetme
+            <br />• DWG dosyadan Aks okuma <br />• Cazip fiyat
+          </p>
           <p className="my-3">
             Fizibil iskele lisanslı dosya için{" "}
             <span className="text-blue-500">
