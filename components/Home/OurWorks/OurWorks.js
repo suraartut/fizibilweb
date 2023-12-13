@@ -10,7 +10,7 @@ const OurWorks = () => {
       <div className={styles.divs}>
         <div className={styles.textcard}>
           <div className={styles.line}></div>
-          <h3 className="font-bold text-xl">Çalışma Alanlarımız</h3>
+          <h3 className="font-bold text-xl">Ürünlerimiz</h3>
           <p className="lg:mt-6 mt-4">
             Son teknoloji ve bilimsel gelişmelerin ışığında dünya
             standartlarında bilişim alanında yenilikçi çözümler üretiyoruz.

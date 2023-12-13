@@ -111,7 +111,8 @@ const MobileHeader = ({ showMenu }) => {
               })}
             </ul>
             <div className="w-full gap-5 px-6 py-6">
-              <div className={styles.mobile_account}>
+              {/* Account */}
+              {/* <div className={styles.mobile_account}>
                 <Image
                   src="/assets/icons/account.svg"
                   height={25}
@@ -119,7 +120,9 @@ const MobileHeader = ({ showMenu }) => {
                   alt="account"
                 />
                 <span className="pl-1 capitalize text-lg">Giriş</span>
-              </div>
+              </div> */}
+
+              {/* Language */}
               <div className={styles.mobile_language}>
                 <span className="text-lg">Tr</span>
                 <Image

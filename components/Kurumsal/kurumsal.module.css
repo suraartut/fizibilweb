@@ -7,7 +7,7 @@
 }
 
 .about_us_body {
-  @apply container mx-auto lg:px-0 px-5;
+  @apply container mx-auto lg:px-0 px-5 lg:mb-16 mb-8;
 }
 
 .titles {
@@ -19,7 +19,7 @@
 }
 
 .why_fizibil {
-  @apply w-full bg-[#eaebec] lg:my-20 my-10;
+  @apply w-full bg-[#eaebec];
 }
 
 .why_fizibil_title {
@@ -55,5 +55,5 @@
 }
 
 .vizyon {
-  @apply container w-full mx-auto lg:flex gap-28 lg:mb-20 mb-10 lg:px-0 px-5;
+  @apply container w-full mx-auto lg:flex gap-28 lg:mb-16 mb-10 lg:px-0 px-5;
 }

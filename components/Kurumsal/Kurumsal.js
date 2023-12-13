@@ -48,6 +48,28 @@ const KurumsalComponent = () => {
           </div>
         </div>
       </div>
+      <div className={styles.vizyon}>
+        <div className="lg:mb-0 mb-8 lg:w-1/2">
+          <h2 className={styles.titles}>Vizyonumuz</h2>
+          <p className="my-4 italic">“Akademiden sektöre..”</p>
+          <p className="my-2">
+            Kurucu idarenin sahip olduğu akademik birikimi kullanarak
+            mühendislik, yazılım ve teknoloji alanlarında yenilikçi, fark
+            oluşturan çözümler sunmak, geliştirmek, ürün ve hizmetleri
+            millileştirmek ve kolaylıklar sağlamak, Türkiye ve dünya ölçeğinde
+            öncü konuma erişmek.
+          </p>
+        </div>
+        <div className="lg:w-1/2">
+          <h2 className={styles.titles}>Misyonumuz</h2>
+          <p className="my-4 italic">“Sıradışı problem, sıradışı çözüm”</p>
+          <p className="my-2">
+            Yazılım, mühendislik ve teknoloji alanlarında rutin ve sıradışı
+            problemlere çözüm üretmek üzere akademik birikim kullanılarak
+            inovasyon odaklı ürün ve hizmetler geliştirmek.
+          </p>
+        </div>
+      </div>
       <div className={styles.why_fizibil}>
         <div className={styles.why_fizibil_title}>
           <h2 className={styles.titles}>Üç Adımda Neden Fizibil?</h2>
@@ -109,28 +131,6 @@ const KurumsalComponent = () => {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.vizyon}>
-        <div className="lg:mb-0 mb-8 lg:w-1/2">
-          <h2 className={styles.titles}>Vizyonumuz</h2>
-          <p className="my-4 italic">“Akademiden sektöre..”</p>
-          <p className="my-2">
-            Kurucu idarenin sahip olduğu akademik birikimi kullanarak
-            mühendislik, yazılım ve teknoloji alanlarında yenilikçi, fark
-            oluşturan çözümler sunmak, geliştirmek, ürün ve hizmetleri
-            millileştirmek ve kolaylıklar sağlamak, Türkiye ve dünya ölçeğinde
-            öncü konuma erişmek.
-          </p>
-        </div>
-        <div className="lg:w-1/2">
-          <h2 className={styles.titles}>Misyonumuz</h2>
-          <p className="my-4 italic">“Sıradışı problem, sıradışı çözüm”</p>
-          <p className="my-2">
-            Yazılım, mühendislik ve teknoloji alanlarında rutin ve sıradışı
-            problemlere çözüm üretmek üzere akademik birikim kullanılarak
-            inovasyon odaklı ürün ve hizmetler geliştirmek.
-          </p>
         </div>
       </div>
     </div>

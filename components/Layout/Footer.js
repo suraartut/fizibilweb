@@ -38,11 +38,23 @@ const Footer = () => {
             alt="Şirket Logosu"
           />
           <div className="w-full my-4 justify-start flex">
-            Görükle Mah. Üniversite-1 Cd. Ulutek Tekno <br /> Yazılım Geliştirme
-            Merkezi No:933/238 <br />
-            Nilüfer/BURSA
+            Görükle Mah. Üniversite-1 Cd.
+            <br /> ULUTEK Teknoloji Geliştirme Merkezi
+            <br /> No:933/238 Nilüfer/BURSA
           </div>
-          <div className="w-full my-4 justify-start flex">
+          <div className="w-full my-4 justify-start">
+            <Link href="tel:+905326467295" className="flex items-center">
+              <Image
+                src="/assets/icons/phone.svg"
+                height={35}
+                width={35}
+                alt="phone"
+                className="mr-1"
+              />
+              <span className="hover:text-gray-500 transition-all duration-300 ease-in-out">
+                +90 (532) 646 72 95
+              </span>
+            </Link>
             <Link href="tel:+902244428777" className="flex items-center">
               <Image
                 src="/assets/icons/phone.svg"

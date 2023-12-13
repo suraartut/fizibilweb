@@ -43,5 +43,5 @@
 }
 
 .mobile_language {
-  @apply flex text-xs font-extrabold uppercase tracking-widest items-center;
+  @apply flex text-xs font-extrabold uppercase tracking-widest items-center mb-8;
 }

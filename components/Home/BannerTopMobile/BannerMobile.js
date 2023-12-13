@@ -31,13 +31,13 @@ const BannerMobile = () => {
             src="/assets/Images/mobil-slider/bilgisayarli-goru.png"
             width={390}
             height={420}
-            alt="Bilgisayarlı Görü"
+            alt="Görüntü İşleme"
             className="contrast-50"
           />
           <div className={styles.image_card}>
             <div className="p-8 text-end">
-              <h3 className="font-bold text-white text-xl">Bilgisayarlı</h3>
-              <p className={styles.second_line}>Görü Sistemi</p>
+              <h3 className="font-bold text-white text-xl">Görüntü</h3>
+              <p className={styles.second_line}>İşleme</p>
               <Link href="/" className={styles.button}>
                 Keşfedİn
               </Link>

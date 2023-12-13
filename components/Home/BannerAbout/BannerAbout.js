@@ -56,7 +56,7 @@ const BannerAbout = () => {
         <div className={styles.card}>
           <div className={styles.card_black}>
             <img
-              src="/assets/Images/e-tic.png"
+              src="/assets/Images/3D-CAD.png"
               alt="E-ticaret"
               className={styles.card_images}
             />
@@ -64,10 +64,13 @@ const BannerAbout = () => {
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>
-              Avrupada Hizmet Veren MLM E-ticaret Sitesi
+              CAD Tabanlı 2D/3D Modelleme Yazılımları Geliştirme
             </h3>
             <p className="lg:my-6 my-4">
-              Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
+              Yığma bina 3D tasarım ve statik/dinamik analiz yazılımı, İskele 3D
+              tasarım ve statik analiz yazılımı, Hafif çelik yapıların 3D
+              tasarım ve statik/dinamik analiz yazılımı, 3D CBS, Model
+              görüntüleyiciler vb.
             </p>
             <Link href="/e-ticaret" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
@@ -83,12 +86,11 @@ const BannerAbout = () => {
         <div className={styles.card}>
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
-            <h3 className={styles.card_title}>Üç Boyutlu Yazılım Geliştirme</h3>
+            <h3 className={styles.card_title}>
+              Web Uygulamaları ve MLM E-ticaret Sitesi
+            </h3>
             <p className="lg:my-6 my-4">
-              Yığma bina 3D tasarım ve statik/dinamik analiz yazılımı, İskele 3D
-              tasarım ve statik analiz yazılımı, Hafif çelik yapıların 3D
-              tasarım ve statik/dinamik analiz yazılımı, Statik/Dinamik Yapı
-              Analizi, 3D CBS, Model görüntüleyiciler vb.
+              Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
             </p>
             <Link href="/3d-cad-programlama" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
@@ -102,10 +104,33 @@ const BannerAbout = () => {
           </div>
           <div className={styles.card_black}>
             <img
-              src="/assets/Images/3D-CAD.png"
+              src="/assets/Images/e-tic.png"
               alt="3D CAD"
               className={styles.card_images}
             />
+          </div>
+        </div>
+        <div className={styles.card}>
+          <div className={styles.card_black}>
+            <img
+              src="/assets/Images/foto.png"
+              alt="E-ticaret"
+              className={styles.card_images}
+            />
+          </div>
+          <div className={styles.card_gray}>
+            <div className={styles.card_line}></div>
+            <h3 className={styles.card_title}>ERP</h3>
+            <p className="lg:my-6 my-4">Açıklama</p>
+            <Link href="/e-ticaret" className={styles.card_button}>
+              <span className={styles.card_button_title}>Keşfedİn</span>
+              <Image
+                src="/assets/icons/right-sm.svg"
+                width={20}
+                height={20}
+                alt="right"
+              />
+            </Link>
           </div>
         </div>
       </div>

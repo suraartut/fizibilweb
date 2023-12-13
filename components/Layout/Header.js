@@ -20,7 +20,8 @@ const Header = () => {
 
   return (
     <header className={styles.wrapper}>
-      <div className="lg:flex hidden bg-[#2e8fce] py-1 px-16 text-white grid-cols-4 justify-between items-center">
+      {/* Phone, e-mail, social media */}
+      {/* <div className="lg:flex hidden bg-[#2e8fce] py-1 px-16 text-white grid-cols-4 justify-between items-center">
         <div className="flex gap-10 text-sm">
           <Link href="tel:+902244428777" className="flex items-center">
             <Image
@@ -89,7 +90,8 @@ const Header = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+
       <div className="bg-[#f8f9fa] bg-opacity-95 shadow-bottom w-full h-[88px] lg:absolute fixed z-[100]">
         <div className={styles.header_main}>
           <div className="flex lg:hidden relative">
@@ -185,7 +187,8 @@ const Header = () => {
 
           <div>
             <ul className="w-full flex gap-5">
-              <li className={styles.account}>
+              {/* Account */}
+              {/* <li className={styles.account}>
                 <Link href="/">
                   <Image
                     src="/assets/icons/account.svg"
@@ -195,8 +198,10 @@ const Header = () => {
                     className="mr-1"
                   />
                 </Link>
-              </li>
-              <li className={styles.shopping_cart}>
+              </li> */}
+
+              {/* Shopping Cart */}
+              {/* <li className={styles.shopping_cart}>
                 <Link href="/">
                   <Image
                     src="/assets/icons/shopping-cart.svg"
@@ -206,8 +211,9 @@ const Header = () => {
                     className="mr-1"
                   />
                 </Link>
-              </li>
+              </li> */}
 
+              {/* Language */}
               <li className={styles.language}>
                 <span className="text-sm">Tr</span>
                 <Image
