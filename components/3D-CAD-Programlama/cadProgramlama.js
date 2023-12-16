@@ -11,10 +11,16 @@ const cadProgramlama = () => {
       </div>
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
         <div className="mx-32">
-          <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
-            3D CAD Programlama
+          <h2 className="lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
+            CAD Tabanlı 2D/3D Modelleme Yazılımları Geliştirme
           </h2>
-          <p className="">Açıklama</p>
+          <p className="">
+            Projelerinizle ilgili bizimle
+            <span className="text-blue-500">
+              <a href="/contact"> iletişime geçin</a>
+            </span>
+            .
+          </p>
         </div>
       </div>
     </div>

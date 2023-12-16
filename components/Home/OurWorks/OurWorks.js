@@ -36,24 +36,28 @@ const OurWorks = () => {
             alt="Project"
             className={styles.image}
           />
-          <figcaption>
-            <h3>
-              3D CAD <span>Yazılım</span>
-            </h3>
-          </figcaption>
+          <a href="/3d-cad-programlama">
+            <figcaption>
+              <h3>
+                3D CAD <span>Yazılım</span>
+              </h3>
+            </figcaption>
+          </a>
         </figure>
 
         <figure className="snip1585">
-          <img
-            src="/assets/Images/butik-yazılım.png"
-            alt="Project"
-            className={styles.image}
-          />
-          <figcaption>
-            <h3>
-              Web <span>Uygulamaları</span>
-            </h3>
-          </figcaption>
+          <a href="/web-uygulama">
+            <img
+              src="/assets/Images/butik-yazılım.png"
+              alt="Project"
+              className={styles.image}
+            />
+            <figcaption>
+              <h3>
+                Web <span>Uygulamaları</span>
+              </h3>
+            </figcaption>
+          </a>
         </figure>
       </div>
 
@@ -61,12 +65,14 @@ const OurWorks = () => {
         {workData?.map((item, index) => {
           return (
             <figure key={index} className="snip1585">
-              <img src={item.url} alt={item.alt} className={styles.image} />
-              <figcaption>
-                <h3>
-                  {item.title1} <span>{item.title2}</span>
-                </h3>
-              </figcaption>
+              <a href={item.link}>
+                <img src={item.url} alt={item.alt} className={styles.image} />
+                <figcaption>
+                  <h3>
+                    {item.title1} <span>{item.title2}</span>
+                  </h3>
+                </figcaption>
+              </a>
             </figure>
           );
         })}

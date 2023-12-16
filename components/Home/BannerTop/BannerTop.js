@@ -41,7 +41,7 @@ const BannerTop = () => {
                 çıktı olarak elde edebiliyoruz
               </p>
               <Link
-                href="/sayac"
+                href="/goruntu-isleme"
                 className="text-[#2e8fce] text-sm px-12 py-3 border-2 border-white bg-white uppercase font-semibold hover:text-white hover:border-[#2e8fce] hover:bg-[#2e8fce] tracking-wider w-full items-center transition duration-500 ease-in-out"
               >
                 Keşfedİn

@@ -43,7 +43,7 @@ const Footer = () => {
             <br /> No:933/238 Nilüfer/BURSA
           </div>
           <div className="w-full my-4 justify-start">
-            <Link href="tel:+905326467295" className="flex items-center">
+            <Link href="tel:+905326467295" className="phone flex items-center">
               <Image
                 src="/assets/icons/phone.svg"
                 height={35}
@@ -55,7 +55,7 @@ const Footer = () => {
                 +90 (532) 646 72 95
               </span>
             </Link>
-            <Link href="tel:+902244428777" className="flex items-center">
+            <Link href="tel:+902244428777" className="phone flex items-center">
               <Image
                 src="/assets/icons/phone.svg"
                 height={35}
@@ -68,7 +68,7 @@ const Footer = () => {
               </span>
             </Link>
           </div>
-          <div className="w-full my-4 justify-start flex items-center">
+          <div className="e-mail w-full my-4 justify-start flex items-center">
             <Link
               href="mailto:destek@fizibil.com"
               className="flex items-center"

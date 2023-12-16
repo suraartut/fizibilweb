@@ -1,0 +1,19 @@
+.banner {
+  @apply w-full lg:h-auto h-[18vh];
+}
+
+.body {
+  @apply w-full lg:container lg:mx-auto lg:my-10 my-5;
+}
+
+.images {
+  @apply lg:my-0 my-3 col-span-1;
+}
+
+.titles {
+  @apply lg:text-3xl text-xl font-bold mb-5;
+}
+
+.sayac {
+  @apply lg:py-14 py-3 lg:grid grid-cols-3 gap-24;
+}

@@ -23,7 +23,7 @@ const Header = () => {
       {/* Phone, e-mail, social media */}
       {/* <div className="lg:flex hidden bg-[#2e8fce] py-1 px-16 text-white grid-cols-4 justify-between items-center">
         <div className="flex gap-10 text-sm">
-          <Link href="tel:+902244428777" className="flex items-center">
+          <Link href="tel:+902244428777" className="phone flex items-center">
             <Image
               src="/assets/icons/phone.svg"
               height={35}
@@ -35,7 +35,7 @@ const Header = () => {
               +90 (224) 442 87 77
             </span>
           </Link>
-          <Link href="mailto:destek@fizibil.com" className="flex items-center">
+          <Link href="mailto:destek@fizibil.com" className="e-mail flex items-center">
             <Image
               src="/assets/icons/mail.svg"
               height={35}

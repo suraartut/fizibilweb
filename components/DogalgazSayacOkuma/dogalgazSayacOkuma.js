@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./sayac.module.css";
+import styles from "./dsayac.module.css";
 import Image from "next/image";
 
-const sayacOkuma = () => {
+const dogalgazSayacOkuma = () => {
   return (
     <div className="w-full pt-[88px] sayac">
       <div className="w-full">
@@ -193,43 +193,6 @@ const sayacOkuma = () => {
               </li>
             </ul>
           </div>
-          <div className={styles.sayac}>
-            <div className="col-span-2">
-              <h3 className={styles.titles}>Elektrik Sayacı</h3>
-              <p className="">
-                Sayaçtan alınması gereken değerler gün içinde bile zamanlara
-                bölünmektedir, haftasonu tüketimleri ve enerji ölçüm cinsinin de
-                işin içine girmesiyle okuyucunun iş yükü ve hata yapma olasılığı
-                artmaktadır. Saha elemanları bu uygulamayı kullanarak, personel
-                hesapları üzerinden, gerekli görüldüğü taktirde okuma
-                yapabileceklerdir. Diğer taraftan uygulama sayesinde Endeksör
-                cihaz maliyetlerinin, akıllı telefonlarla azaltılabileceği
-                öngörülmektedir. Uygulama sayesinde saha elemanları hızlı bir
-                şekilde okumalarını gerçekleştirebilir ve bilgileri ilgili
-                şirket sunucusu ile kısa sürede elindeki akıllı telefon
-                yardımıyla başka hiçbir ek cihaza gerek kalmadan paylaşabilir.
-                Böylece zaman ve saha için istihdam edilen personelden tasarruf
-                sağlanabilir.
-              </p>
-              <p className="mt-4">
-                Aboneler şirket için geliştirilen mobil uygulamayla akıllı
-                telefonlarına yüklediklerinde abone numaraları ile kayıtlı
-                telefon numaraları üzerinden sms veya başka bir doğrulama metodu
-                ile güvenli bir şekilde abonelik bilgilerine ulaşabilecektir.
-                Abone telefon kamerasını sayaç üzerine tutarak Yapay Zekâ ile
-                ilgili endeks ve sayaç seri numarasını içeren barkod bilgilerini
-                otomatik okutarak sisteme yükleyebilecek, faturasını talep
-                edebilecek, dilerse ödemesini online olarak
-                gerçekleştirebilecektir.
-              </p>
-            </div>
-            <div className={styles.images}>
-              <img
-                src="/assets/Images/elektrik-sayac.png"
-                alt="Elektrik Sayaç Okuma"
-              />
-            </div>
-          </div>
         </div>
       </div>
 
@@ -384,4 +347,4 @@ const sayacOkuma = () => {
   );
 };
 
-export default sayacOkuma;
+export default dogalgazSayacOkuma;

@@ -35,7 +35,7 @@ const BannerAbout = () => {
               analizini gerçekleştirerek gerçek dünyadan sayısal veya sembolik
               bilgileri çıktı olarak elde edebiliyoruz.
             </p>
-            <Link href="/sayac" className={styles.card_button}>
+            <Link href="/goruntu-isleme" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
@@ -48,7 +48,7 @@ const BannerAbout = () => {
           <div className={styles.card_black}>
             <img
               src="/assets/Images/sayac-okuma.png"
-              alt="Sayaç Okuma"
+              alt="Görüntü İşleme"
               className={styles.card_images}
             />
           </div>
@@ -57,7 +57,7 @@ const BannerAbout = () => {
           <div className={styles.card_black}>
             <img
               src="/assets/Images/3D-CAD.png"
-              alt="E-ticaret"
+              alt="3D CAD Programlama"
               className={styles.card_images}
             />
           </div>
@@ -72,7 +72,7 @@ const BannerAbout = () => {
               tasarım ve statik/dinamik analiz yazılımı, 3D CBS, Model
               görüntüleyiciler vb.
             </p>
-            <Link href="/e-ticaret" className={styles.card_button}>
+            <Link href="/3d-cad-programlama" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"
@@ -90,10 +90,17 @@ const BannerAbout = () => {
               Web Uygulamaları ve MLM E-ticaret Sitesi
             </h3>
             <p className="lg:my-6 my-4">
-              Çok katmanlı pazarlamaya uygun doğrudan satış e-ticaret sitesi
+              Sınırları aşan dijital deneyimlere hoş geldiniz! Modern ve
+              etkileyici web siteleriyle çevrimiçi varlığınızı güçlendiriyoruz.
+              Dijital hikayeler yaratmaktan ve projeleri hayata geçirmekten daha
+              çok, birer dijital maceranın kahramanları olmaktan keyif alıyoruz.
+              Bizimle birlikte, kodları sanat eserine dönüştürün, çünkü dijital
+              dünya sizi bekliyor!
             </p>
-            <Link href="/3d-cad-programlama" className={styles.card_button}>
-              <span className={styles.card_button_title}>Keşfedİn</span>
+            <Link href="/web-uygulama" className={styles.card_button}>
+              <span className={styles.card_button_title}>
+                Sİz de bİzİmle bİrlİkte bu dİjİtal maceraya katılın!
+              </span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}
@@ -105,7 +112,7 @@ const BannerAbout = () => {
           <div className={styles.card_black}>
             <img
               src="/assets/Images/e-tic.png"
-              alt="3D CAD"
+              alt="E-ticaret"
               className={styles.card_images}
             />
           </div>
@@ -114,7 +121,7 @@ const BannerAbout = () => {
           <div className={styles.card_black}>
             <img
               src="/assets/Images/foto.png"
-              alt="E-ticaret"
+              alt="ERP"
               className={styles.card_images}
             />
           </div>
@@ -122,7 +129,7 @@ const BannerAbout = () => {
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>ERP</h3>
             <p className="lg:my-6 my-4">Açıklama</p>
-            <Link href="/e-ticaret" className={styles.card_button}>
+            <Link href="/erp" className={styles.card_button}>
               <span className={styles.card_button_title}>Keşfedİn</span>
               <Image
                 src="/assets/icons/right-sm.svg"

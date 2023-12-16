@@ -34,44 +34,54 @@ const Eticaret = () => {
             diyoruz. E- ticaret sitesi sayesinde firmanızın internet ortamında
             istediği ürününü hem tanıtabilir hem de reklamını yapabilirsiniz.
           </p>
-          <div>
-            <p className={styles.paragraph}>
-              MLM e-ticaret yazılımlarımızın içerisinde bulunan modüllerin
-              bazıları şu şekildedir:
-            </p>
-            <ol className="list-disc mx-5">
-              <li>
-                Sponsor linki veya sponsor numarası bilgisi ile arama yapılarak
-                ağaca kayıt olma / kayıt etme
-              </li>
-              <li>Alt üyelerin bulunduğu, üye ağacının görüntülenmesi</li>
-              <li>Geçmiş dönem üye ağaç tarihçelerinin görüntülenmesi</li>
-              <li>
-                Alt üyelerin ad, soyad, kullanıcı adı vs. gibi bilgilerle
-                filtrelenerek listelenmesi
-              </li>
-              <li>
-                Tarif edilen kazanç planına göre kazanılan puan ve primlerin
-                görüntülenmesi
-              </li>
-              <li>
-                Bu puan ve primlerin nesil ve kullanıcı bazında ayrıntılı
-                gösterimi
-              </li>
-              <li>Geçmiş dönemlerdeki puan ve primlerin gösterimi</li>
-            </ol>
-            <p className={styles.paragraph}>
-              Diğer platform modülleri ve özellikleri için{" "}
-              <span className="text-blue-500">
-                <Link
-                  href="/assets/File/e-ticaret-modules.pdf"
-                  download="e-ticaret-modules"
-                >
-                  tıklayınız
-                </Link>
-              </span>
-              .
-            </p>
+          <div className="lg:flex justify-between">
+            <div>
+              <p className={styles.paragraph}>
+                MLM e-ticaret yazılımlarımızın içerisinde bulunan modüllerin
+                bazıları şu şekildedir:
+              </p>
+              <ol className="list-disc mx-5">
+                <li>
+                  Sponsor linki veya sponsor numarası bilgisi ile arama
+                  yapılarak ağaca kayıt olma / kayıt etme
+                </li>
+                <li>Alt üyelerin bulunduğu, üye ağacının görüntülenmesi</li>
+                <li>Geçmiş dönem üye ağaç tarihçelerinin görüntülenmesi</li>
+                <li>
+                  Alt üyelerin ad, soyad, kullanıcı adı vs. gibi bilgilerle
+                  filtrelenerek listelenmesi
+                </li>
+                <li>
+                  Tarif edilen kazanç planına göre kazanılan puan ve primlerin
+                  görüntülenmesi
+                </li>
+                <li>
+                  Bu puan ve primlerin nesil ve kullanıcı bazında ayrıntılı
+                  gösterimi
+                </li>
+                <li>Geçmiş dönemlerdeki puan ve primlerin gösterimi</li>
+              </ol>
+              <p className={styles.paragraph}>
+                Diğer platform modülleri ve özellikleri için{" "}
+                <span className="text-blue-500">
+                  <Link
+                    href="/assets/File/e-ticaret-modules.pdf"
+                    download="e-ticaret-modules"
+                  >
+                    tıklayınız
+                  </Link>
+                </span>
+                .
+              </p>
+            </div>
+            <div>
+              <Image
+                src="/assets/Images/e-tic.png"
+                width={380}
+                height={380}
+                alt="mlm e-ticaret"
+              />
+            </div>
           </div>
         </div>
       </div>
