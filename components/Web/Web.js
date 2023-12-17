@@ -16,7 +16,7 @@ const Web = () => {
             <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
               "Kodun Gücüyle Dijital Hikayeler Yaratıyoruz!"
             </h2>
-            <h3 className="text-center font-bold">
+            <h3 className="text-center font-bold italic">
               Sıradanlığı Unutun, Biz Dijital Maceranın Kahramanlarıyız!
             </h3>
           </div>
@@ -99,7 +99,7 @@ const Web = () => {
               güçlendirmek, hedef kitlenizi genişletmek ve rekabette öne çıkmak
               için birlikte çalışabiliriz.
             </p>
-            <p className="font-bold py-2 text-center">
+            <p className="font-bold py-2 text-center italic">
               Daha Fazla İnovasyon, Daha Fazla Etki!
             </p>
             <p className="pb-2 lg:w-[40%] text-center mx-auto">

@@ -67,6 +67,14 @@ const BannerTop = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
+            src="/assets/Images/slider/yigma-slider.png"
+            width={1920}
+            height={950}
+            alt="Fizibil Yığma Yazılımı"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
             src="/assets/Images/slider/fizibil-iskele.png"
             width={1920}
             height={950}

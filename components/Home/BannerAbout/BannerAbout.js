@@ -67,13 +67,15 @@ const BannerAbout = () => {
               CAD Tabanlı 2D/3D Modelleme Yazılımları Geliştirme
             </h3>
             <p className="lg:my-6 my-4">
-              Yığma bina 3D tasarım ve statik/dinamik analiz yazılımı, İskele 3D
-              tasarım ve statik analiz yazılımı, Hafif çelik yapıların 3D
-              tasarım ve statik/dinamik analiz yazılımı, 3D CBS, Model
-              görüntüleyiciler vb.
+              Her sektör ve her proje farklıdır. Standart yazılımlar genellikle
+              spesifik gereksinimleri karşılamakta yetersiz kalabilir. Butik
+              yazılımlarımız, müşterilerimizin benzersiz ihtiyaçlarına yönelik
+              özelleştirilmiş çözümler sunar.
             </p>
             <Link href="/3d-cad-programlama" className={styles.card_button}>
-              <span className={styles.card_button_title}>Keşfedİn</span>
+              <span className={styles.card_button_title}>
+                Özelleştİrİlmİş CAD Çözümlerİyle Tanışın!
+              </span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}
