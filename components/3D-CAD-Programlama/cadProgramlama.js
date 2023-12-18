@@ -17,8 +17,8 @@ const cadProgramlama = () => {
               İleri Seviye CAD Çözümleriyle İşinizin Geleceğini Şekillendirin!
             </h2>
             <h3 className="text-center font-bold italic">
-              "Akıllı CAD Çözümleri İçin Yenilikçi ve İleri Düzey 2D/3D
-              Modelleme Yazılımlarıyla Sınırları Zorlayın!"
+              &quot;Akıllı CAD Çözümleri İçin Yenilikçi ve İleri Düzey 2D/3D
+              Modelleme Yazılımlarıyla Sınırları Zorlayın!&quot;
             </h3>
           </div>
           <p className="font-bold py-3">Yapabileceklerimiz</p>
@@ -73,7 +73,7 @@ const cadProgramlama = () => {
           <p className="pb-2 lg:w-2/3 text-center mx-auto italic">
             Projelerinizle ilgili bizimle
             <span className="text-blue-500">
-              <Link href="/contact"> iletişime geçin</Li>
+              <Link href="/contact"> iletişime geçin</Link>
             </span>
             .
           </p>

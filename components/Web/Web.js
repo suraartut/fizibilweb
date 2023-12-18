@@ -14,7 +14,7 @@ const Web = () => {
         <div className="lg:mx-0 mx-5">
           <div className="lg:mb-12 mb-6">
             <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
-              "Kodun Gücüyle Dijital Hikayeler Yaratıyoruz!"
+              &quot;Kodun Gücüyle Dijital Hikayeler Yaratıyoruz!&quot;
             </h2>
             <h3 className="text-center font-bold italic">
               Sıradanlığı Unutun, Biz Dijital Maceranın Kahramanlarıyız!
