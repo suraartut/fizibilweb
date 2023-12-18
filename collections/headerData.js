@@ -41,6 +41,12 @@ export const headerData = [
     link: "",
     catChild: 2,
   },
+  {
+    id: 8,
+    title: "İLETİŞİM",
+    link: "/contact",
+    catChild: 0,
+  },
 ];
 
 export const childMenu = [
