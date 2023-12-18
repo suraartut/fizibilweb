@@ -151,6 +151,20 @@ export const childMenu = [
     catChild: 0,
   },
   {
+    id: 35,
+    title: "Mobil Programlama",
+    url: "/",
+    catName: "Çözümler",
+    catChild: 0,
+  },
+  {
+    id: 36,
+    title: "Masaüstü Programlama",
+    url: "/",
+    catName: "Çözümler",
+    catChild: 0,
+  },
+  {
     id: 41,
     title: "Basında",
     url: "/basinda",

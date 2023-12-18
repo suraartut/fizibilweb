@@ -36,17 +36,17 @@ const OurWorks = () => {
             alt="Project"
             className={styles.image}
           />
-          <a href="/3d-cad-programlama">
+          <Link href="/3d-cad-programlama">
             <figcaption>
               <h3>
                 3D CAD <span>Yazılım</span>
               </h3>
             </figcaption>
-          </a>
+          </Link>
         </figure>
 
         <figure className="snip1585">
-          <a href="/web-uygulama">
+          <Link href="/web-uygulama">
             <img
               src="/assets/Images/butik-yazılım.png"
               alt="Project"
@@ -57,7 +57,7 @@ const OurWorks = () => {
                 Web <span>Uygulamaları</span>
               </h3>
             </figcaption>
-          </a>
+          </Link>
         </figure>
       </div>
 
@@ -65,14 +65,14 @@ const OurWorks = () => {
         {workData?.map((item, index) => {
           return (
             <figure key={index} className="snip1585">
-              <a href={item.link}>
+              <Link href={item.link}>
                 <img src={item.url} alt={item.alt} className={styles.image} />
                 <figcaption>
                   <h3>
                     {item.title1} <span>{item.title2}</span>
                   </h3>
                 </figcaption>
-              </a>
+              </Link>
             </figure>
           );
         })}

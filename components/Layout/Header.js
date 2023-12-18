@@ -135,7 +135,7 @@ const Header = () => {
                     key={item.id}
                     className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                   >
-                    <a href={item.link} className={styles.category_menu}>
+                    <Link href={item.link} className={styles.category_menu}>
                       {item.title}
                       {item.catChild > 0 && (
                         <Image
@@ -146,7 +146,7 @@ const Header = () => {
                           className="ml-1 text-xs font-extrabold uppercase tracking-widest"
                         />
                       )}
-                    </a>
+                    </Link>
 
                     <ul className="dropdown lg:shadow-lg">
                       {childMenu?.map((itemChild, index) => {
@@ -156,7 +156,9 @@ const Header = () => {
                               key={index}
                               className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex"
                             >
-                              <a href={itemChild.url}>{itemChild.title}</a>
+                              <Link href={itemChild.url}>
+                                {itemChild.title}
+                              </Link>
                               <ul className="subMenu lg:shadow-lg">
                                 {subChildMenu?.map((itemSubMenu, index) => {
                                   if (itemChild.title == itemSubMenu.catName) {
@@ -165,9 +167,9 @@ const Header = () => {
                                         key={index}
                                         className="text-black hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
                                       >
-                                        <a href={itemSubMenu.url}>
+                                        <Link href={itemSubMenu.url}>
                                           {itemSubMenu.title}
-                                        </a>
+                                        </Link>
                                       </li>
                                     );
                                   }

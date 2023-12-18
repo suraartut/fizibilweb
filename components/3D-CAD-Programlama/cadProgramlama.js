@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const cadProgramlama = () => {
   return (
@@ -72,7 +73,7 @@ const cadProgramlama = () => {
           <p className="pb-2 lg:w-2/3 text-center mx-auto italic">
             Projelerinizle ilgili bizimle
             <span className="text-blue-500">
-              <a href="/contact"> iletişime geçin</a>
+              <Link href="/contact"> iletişime geçin</Li>
             </span>
             .
           </p>
