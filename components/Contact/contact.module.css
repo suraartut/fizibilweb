@@ -1,13 +1,13 @@
 .contact {
-  @apply w-full lg:container mx-auto pt-32 lg:px-0 px-5;
+  @apply w-full lg:container mx-auto lg:pt-12 lg:px-0 px-5;
 }
 
 .title {
-  @apply text-center lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] lg:pb-6 pb-3;
+  @apply lg:text-5xl text-2xl lg:mb-5;
 }
 
 .form_cart {
-  @apply w-full grid lg:grid-cols-2 text-white;
+  @apply w-full grid lg:grid-cols-2 text-white shadow-xl shadow-gray-500;
 }
 
 .title_h2 {

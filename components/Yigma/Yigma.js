@@ -90,7 +90,7 @@ const Yigma = () => {
             </p>
           </div>
 
-          <div className="my-5">
+          <div className="my-5 bg-blue-100 py-10 px-20">
             <p className="font-bold lg:py-3 py-2">
               Yığma Yazılım Fiyatlarımızı Hemen Öğrenin!
             </p>
