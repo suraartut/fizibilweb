@@ -17,7 +17,7 @@ const elektrikSayacOkuma = () => {
           {/* <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
             Sayaç Okuma Sistemi
           </h2> */}
-          <p className="text-lg lg:pt-10 lg:pb-4">
+          <p className="text-lg lg:pt-2 lg:pb-4">
             Yapay zeka alanında yaptığımız çeşitli bilimsel araştırmalarımızı,
             sektörün ihtiyaçlarına yönelik olarak sonuç ürünlere dönüştürüyoruz.
             Dijital görüntülerin elde edilerek işlenmesini ve analizini
@@ -33,37 +33,171 @@ const elektrikSayacOkuma = () => {
             <div className="col-span-2">
               <h3 className={styles.titles}>Elektrik Sayacı</h3>
               <p className="">
-                Sayaçtan alınması gereken değerler gün içinde bile zamanlara
-                bölünmektedir, haftasonu tüketimleri ve enerji ölçüm cinsinin de
-                işin içine girmesiyle okuyucunun iş yükü ve hata yapma olasılığı
-                artmaktadır. Saha elemanları bu uygulamayı kullanarak, personel
-                hesapları üzerinden, gerekli görüldüğü taktirde okuma
-                yapabileceklerdir. Diğer taraftan uygulama sayesinde Endeksör
-                cihaz maliyetlerinin, akıllı telefonlarla azaltılabileceği
-                öngörülmektedir. Uygulama sayesinde saha elemanları hızlı bir
-                şekilde okumalarını gerçekleştirebilir ve bilgileri ilgili
-                şirket sunucusu ile kısa sürede elindeki akıllı telefon
-                yardımıyla başka hiçbir ek cihaza gerek kalmadan paylaşabilir.
-                Böylece zaman ve saha için istihdam edilen personelden tasarruf
-                sağlanabilir.
+                Tarafımızca geliştirilen Yapay Zekâ ve Görüntü işleme algoritma
+                ve yazılımları ile mobil cihazlar (akıllı telefonlar) için bir
+                mobil uygulamaya dönüştürülmesi ile, tüm mobil cihazlar (Android
+                ve iOS), manuel ve dijital elektrik sayaçların endeks
+                bilgilerini ve sayaç seri numarasını içeren barkod bilgisiyle
+                beraber döndüren, kamera akışından otomatik olarak anlık okuma
+                yapabilecek Endeksör cihazlarına çevrilebilecektir.
               </p>
-              <p className="mt-4">
-                Aboneler şirket için geliştirilen mobil uygulamayla akıllı
-                telefonlarına yüklediklerinde abone numaraları ile kayıtlı
-                telefon numaraları üzerinden sms veya başka bir doğrulama metodu
-                ile güvenli bir şekilde abonelik bilgilerine ulaşabilecektir.
-                Abone telefon kamerasını sayaç üzerine tutarak Yapay Zekâ ile
-                ilgili endeks ve sayaç seri numarasını içeren barkod bilgilerini
-                otomatik okutarak sisteme yükleyebilecek, faturasını talep
-                edebilecek, dilerse ödemesini online olarak
-                gerçekleştirebilecektir.
+              <p className="lg:mt-4 mt-2">
+                Yerli muadili yoktur. Yabancı muadilleri kullanım başına yüksek
+                fiyatlarla ücretlendirilmektedir (Anyline vs..). Bu ürünler
+                Ar-ge olarak kullanılsalar da yaygın kullanım için fizibil
+                değillerdir.
+              </p>
+              <p className="lg:mt-4 mt-2">
+                Yerli ve uygun maliyetli olarak geliştirildiğinden dolayı yaygın
+                kullanıma uygundur.
+              </p>
+              <p className="lg:mt-4 mt-2">
+                Şirketlere özel de geliştirilebilecek uygulamaya birçok
+                operasyonel inovatif ar-ge özelliği eklenebilir.
               </p>
             </div>
             <div className={styles.images}>
-              <img
-                src="/assets/Images/elektrik-sayac.png"
-                alt="Elektrik Sayaç Okuma"
+              <Image
+                src="/assets/Images/elektrik-sayac3.jpeg"
+                alt="Elektrik saatti ve Sayaç Okuma"
+                width={350}
+                height={350}
               />
+            </div>
+          </div>
+          {/* Sayaçlar Nasıl Okunur? */}
+          <div>
+            <p className="font-bold text-xl lg:py-3 py-2">
+              Sayaçlar Yapay Zekâ ile Nasıl Okunur?
+            </p>
+            <ul className="goruntu-isleme lg:pb-3 pb-2">
+              <li>Kişi mobil cihaz kamerasını sayaca tutar.</li>
+              <li>Sayacın dijital görüntüsü elde edilir.</li>
+              <li>Görüntü bilgisayarlı görü ile işlenir ve analiz edilir.</li>
+              <li>
+                Sayaç seri numarası ve endeks verileri çıktı olarak alınır.
+              </li>
+            </ul>
+          </div>
+          {/* Gerekçe ve Temel Özellikler */}
+          <div>
+            <p className="font-bold text-xl lg:py-4 py-2">
+              Gerekçe ve Temel Özellikler
+            </p>
+            <p className="">
+              Sayaçtan alınması gereken değerler gün içinde bile zamanlara
+              bölünmektedir, hafta sonu tüketimleri ve enerji ölçüm cinsinin de
+              işin içine girmesiyle okuyucunun iş yükü ve hata yapma olasılığı
+              artmaktadır. Saha elemanları bu uygulamayı kullanarak, personel
+              hesapları üzerinden, gerekli görüldüğü taktirde okuma
+              yapabileceklerdir. Diğer taraftan uygulama sayesinde Endeksör
+              cihaz maliyetlerinin, akıllı telefonlarla azaltılabileceği
+              öngörülmektedir. Uygulama sayesinde saha elemanları hızlı bir
+              şekilde okumalarını gerçekleştirebilir ve bilgileri ilgili şirket
+              sunucusu ile kısa sürede elindeki akıllı telefon yardımıyla başka
+              hiçbir ek cihaza gerek kalmadan paylaşabilir. Böylece zaman ve
+              saha için istihdam edilen personelden tasarruf sağlanabilir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Aboneler şirket için geliştirilen mobil uygulamayla akıllı
+              telefonlarına yüklediklerinde abone numaraları ile kayıtlı telefon
+              numaraları üzerinden sms veya başka bir doğrulama metodu ile
+              güvenli bir şekilde abonelik bilgilerine ulaşabilecektir. Abone
+              telefon kamerasını sayaç üzerine tutarak Yapay Zekâ ile ilgili
+              endeks ve sayaç seri numarasını içeren barkod bilgilerini otomatik
+              okutarak sisteme yükleyebilecek, faturasını talep edebilecek,
+              dilerse ödemesini online olarak gerçekleştirebilecektir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Görüntünün yapay zeka ile canlılık tespiti ve önceki endeks
+              bilgileri çapraz doğrulama algoritmaları ile abonelerin doğru bir
+              şekilde sayaçlarını çektiklerinden emin olunabilmektedir. Yapay
+              zekânın okuma yaptığı endekslerin bilgileri ve ilgili sayaç
+              görseli kontrol için şirket sunucularına gerekli görüldüğü
+              taktirde yollanabilir. Okumalarını zamanında yapmayan
+              kullanıcılar, uygulama pop-upları veya diğer dijital kanallardan
+              hatırlatmalar yolu ile sayaç okunmalarını yapmalarının
+              sağlanabileceği düşünülmektedir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Endeks bilgileri kamera akışından geliştirilmiş olan derin öğrenme
+              nesne tanıma algoritması ile tespit edilebilmektedir. Nesne tanıma
+              ile endeks etiketine göre sayaç bilgisi de tespit
+              edilebilmektedir. Alınan sayaç bilgisi ilgili endeks bilgisi
+              etiketi ile geliştirilen OCR yardımıyla okutularak hızlı bir
+              şekilde eş zamanlı olarak döndürülebilmektedir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Mobil cihazların uygulamaya entegre cihaz kameraları vasıtası ile
+              manuel ve dijital sayaçların kameranın görüntü akışı içerisinde
+              tüm endeks değerleri (T zaman tarifeleri endeks bilgileri)
+              otomatik ve eş zamanlı olarak dijital gösterge üzerinden anlık
+              tespit edilebilir ve sayaç üzerindeki seri numaralarını içeren
+              barkod bilgisi ile Yapay Zekâ sayesinde tespit edildiği an okuma
+              yapabilir. Böylece otomatik okunan değerler mobil cihazın veri
+              tabanında tutulabilmesinin yanında, paylaşılmak üzere, kablosuz
+              haberleşme yöntemleriyle anında şirketin veri depolama ve
+              faturalandırma sistemlerine yollanabilir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Özellikle tek fazlı manuel ve çok fazlı dijital elektrik
+              sayaçlarının okunabilmesi için, gerekli spesifik görüntü işleme
+              algoritmaları geliştirilmiştir. Bunun için hazırlanmış yapay zekâ
+              modeli dijital gösterge üzerindeki T endekslerini (T, T1, T2…)
+              anlık tespit ederek tüketim değerlerini otomatik
+              döndürebilmektedir.
+            </p>
+            <div className="lg:w-1/3 mx-auto lg:my-8 my-3">
+              <Image
+                src="/assets/Images/elektrik-sayac2.jpeg"
+                alt="Elektrik sayacı ve okuma"
+                width={300}
+                height={300}
+                className="lg:w-full mx-auto"
+              />
+            </div>
+            <p className="lg:mt-4 mt-2">
+              Kodlanmış otomatik barkod okuyucu ile görüntü akışından otomatik
+              olarak barkod bilgisi ve sayaç seri numarası eş zamanlı tespit
+              edilebilmekte bu sayede hangi sayacın hangi aboneye ait olduğu
+              bilgisi ile ilişkilendirilen veri ile sayacın ilgili aboneye ait
+              olup olmadığı kontrol edilebilecektir. Bu noktada tasarlanan mobil
+              uygulamanın bir API ile haberleşerek mi yoksa mobil cihaz üzerinde
+              native (yerel) olarak mı koşturulacağı müşterinin tercihlerine
+              göre belirlenecektir.
+            </p>
+            <p className="lg:mt-4 mt-2">
+              Şirketin genel olarak uygulamada nasıl bir mimari istediği
+              kavramsal tartışmalardan sonra tespit edilecek ve o doğrultuda
+              geliştirmeler devam edecektir. API olarak tasarlanacaksa model
+              sunucu üzerinde koşturulacak şekilde geliştirilerek, gerekli
+              geliştirmeler bu doğrultuda devam edecektir.
+            </p>
+
+            <div className="flex lg:my-8 my-3 gap-16">
+              <Image
+                src="/assets/Images/e-sayaclar.png"
+                alt="Elektrik sayaçları"
+                width={600}
+                height={600}
+              />
+              <div className="">
+                <p className="lg:mt-4 mt-2">
+                  Native olarak tasarlanan eğitilmiş Yapay Zekâ modeli mobil
+                  cihazlar için uygun olarak optimize edilmiştir. Bu sayede
+                  mobil cihazların işlemcilerine uyarlanan Yapay Zekâ native
+                  olarak mobil cihazlarda herhangi bir internet bağlantısına
+                  gerek kalmadan hızlı bir şekilde cihaz üzerinde
+                  çalışabilmektedir.
+                </p>
+                <p className="lg:mt-4 mt-2">
+                  Android ve IOS (müşteri taleplerine göre) cihazlar için kamera
+                  entegrasyonu, Yapay Zekâ entegrasyonu veya API ile
+                  haberleşecek modüller sonradan eklenecektir. Müşteri istekleri
+                  doğrultusunda arayüz tasarımları yapılarak mobil uygulamaya
+                  entegre edilebilmektedir.
+                </p>
+              </div>
             </div>
           </div>
         </div>

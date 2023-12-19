@@ -50,7 +50,7 @@ const Yigma = () => {
               </ol>
             </div>
             <div className="">
-              Pafta Fotoğrafıcadfasfsdgfdafadfsadasfadfasf
+              Pafta Fotoğrafı
               {/* <Image
                 src="/assets/Images/Resim1.jpg"
                 width={800}
@@ -63,30 +63,78 @@ const Yigma = () => {
               {/* Rapor örneklerinin fotoğraflarını de koy, bulut tabanlı yığma arayüzünü de koy */}
             </div>
           </div>
-          <p className="mt-8">
-            Fizibil yığma lisanslı dosya için{" "}
-            <span className="text-blue-500">
-              <Link
-                href="/assets/File/fizibil.yigma2018.2511.msi"
-                download="fizibil-yigma-lisansli-dosya"
-              >
-                tıklayınız
+          <div>
+            <p className="mt-8">
+              Fizibil yığma lisanslı dosya için{" "}
+              <span className="text-blue-500">
+                <Link
+                  href="/assets/File/fizibil.yigma2018.2511.msi"
+                  download="fizibil-yigma-lisansli-dosya"
+                >
+                  tıklayınız
+                </Link>
+              </span>
+              .
+            </p>
+            <p className="my-1">
+              Fizibil yığma demo dosyası için{" "}
+              <span className="text-blue-500">
+                <Link
+                  href="/assets/File/fizibil.yigma2018.2503.demo.msi"
+                  download="fizibil-yigma-demo"
+                >
+                  tıklayınız
+                </Link>
+              </span>
+              .
+            </p>
+          </div>
+
+          <div className="my-5">
+            <p className="font-bold lg:py-3 py-2">
+              Yığma Yazılım Fiyatlarımızı Hemen Öğrenin!
+            </p>
+            <p className="lg:pb-3 pb-2">
+              Yığma yazılım çözümlerimizle işinizi zirveye taşımak artık daha
+              erişilebilir! Size özel çözümlerimizin fiyatlarını öğrenmek için
+              hemen aşağıdaki formu doldurun ve avantajlı tekliflerimizi
+              kaçırmayın. İşte size özel bir deneyim yaşamak için adım adım
+              rehber:
+            </p>
+            <ol className="list-decimal list-inside">
+              <li>
+                🖊️ <span className="font-bold">Formu Doldurun:</span> Formu
+                doldurarak ihtiyaçlarınızı ve projenizi bizimle paylaşın.
+              </li>
+              <li>
+                🚀{" "}
+                <span className="font-bold">Özel Teklifiniz Hazır Olsun:</span>{" "}
+                Bizimle paylaştığınız bilgiler doğrultusunda size özel bir
+                teklif hazırlayalım.
+              </li>
+              <li>
+                📞 <span className="font-bold">Hemen İletişime Geçelim:</span>{" "}
+                Hazır teklifimizi alınca size ulaşarak detayları konuşalım ve
+                projenizi birlikte şekillendirelim.
+              </li>
+              <li>
+                🌐 <span className="font-bold">Teknolojiyle Tanışın:</span>{" "}
+                Yığma yazılım çözümlerimizin gücüyle işlerinizi daha verimli ve
+                yenilikçi bir şekilde yönetin.
+              </li>
+            </ol>
+            <p className="font-bold lg:py-3 py-2 items-center">
+              <Link href="/contact">
+                Fiyatlar ve İletişim İçin Hemen Formu Doldurun 👉
               </Link>
-            </span>
-            .
-          </p>
-          <p className="my-1">
-            Fizibil yığma demo dosyası için{" "}
-            <span className="text-blue-500">
-              <Link
-                href="/assets/File/fizibil.yigma2018.2503.demo.msi"
-                download="fizibil-yigma-demo"
-              >
-                tıklayınız
-              </Link>
-            </span>
-            .
-          </p>
+            </p>
+            <p className="lg:pb-3 pb-2">
+              Yığma yazılımında fark yaratmak ve işinizi zirveye taşımak için
+              şimdi harekete geçin. Size özel çözümlerimizi keşfetmek ve
+              avantajlı fiyatlarımızı öğrenmek için formu doldurun, teknolojiyle
+              dolu bir geleceğe adım atın!
+            </p>
+          </div>
         </div>
       </div>
     </div>

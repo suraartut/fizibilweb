@@ -36,6 +36,53 @@ const Iskele = () => {
             </span>
             .
           </p>
+          <div className="my-5">
+            <p className="font-bold lg:py-3 py-2">
+              İskele Yazılım Fiyatlarımızı Hemen Keşfedin!
+            </p>
+            <p className="lg:pb-3 pb-2">
+              İskele yazılımında fark yaratmak için buradayız! İşinizi daha
+              verimli ve etkili bir şekilde yönetmek için size özel
+              çözümlerimizin fiyatlarını öğrenmek ister misiniz? İşte size özel
+              bir deneyim yaşamak için adım adım rehber:
+            </p>
+            <ol className="list-decimal list-inside">
+              <li>
+                🖊️ <span className="font-bold">Formu Doldurun:</span> Formu
+                doldurarak projenizle ilgili detayları bizimle paylaşın.
+                İhtiyaçlarınızı tam olarak anlamamıza yardımcı olun.
+              </li>
+              <li>
+                🚀 <span className="font-bold">Fiyatlarımızı Keşfedin: </span>
+                Size özel çözümlerimizin fiyatlarını öğrenmek için formunuzu
+                inceledikten sonra en uygun teklifi hazırlayalım.
+              </li>
+              <li>
+                📞 <span className="font-bold">Hızlı İletişim: </span>
+                Teklifimizi aldığınızda size en kısa sürede ulaşarak detayları
+                konuşalım ve projenizi birlikte şekillendirelim.
+              </li>
+              <li>
+                🌐
+                <span className="font-bold">
+                  İskele Yazılımı İle Yenilik:
+                </span>{" "}
+                İskele yazılımı çözümlerimizle işlerinizi daha stratejik bir
+                şekilde yönetin ve sektörde fark yaratın.
+              </li>
+            </ol>
+            <p className="font-bold lg:py-3 py-2 items-center">
+              <Link href="/contact">
+                Fiyatlar ve İletişim İçin Hemen Formu Doldurun 👉
+              </Link>
+            </p>
+            <p className="lg:pb-3 pb-2">
+              İskele yazılımıyla iş süreçlerinizi optimize etmek ve daha
+              rekabetçi bir konuma gelmek için şimdi harekete geçin. Size özel
+              çözümlerimizi keşfetmek ve avantajlı fiyatlarımızı öğrenmek için
+              formu doldurun, teknolojiyle dolu bir geleceğe adım atın!
+            </p>
+          </div>
         </div>
       </div>
     </div>

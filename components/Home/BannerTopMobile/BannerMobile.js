@@ -46,26 +46,6 @@ const BannerMobile = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src="/assets/Images/mobil-slider/dogalgaz-sayac.png"
-            width={390}
-            height={420}
-            alt="Doğalgaz Sayaç Okuma"
-            className="contrast-50"
-          />
-          <div className={styles.image_card}>
-            <div className="p-6 text-start">
-              <h3 className="font-bold text-white text-base pb-[2px]">
-                Yapay Zekâ ve Görüntü İşleme ile
-              </h3>
-              <p className={styles.second_line}>Doğalgaz Sayacı Okuma</p>
-              <Link href="/sayac" className={styles.button}>
-                Keşfedİn
-              </Link>
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image
             src="/assets/Images/mobil-slider/elektrik-sayac.png"
             width={390}
             height={420}
@@ -78,6 +58,26 @@ const BannerMobile = () => {
                 Yapay Zekâ ve Görüntü İşleme ile
               </h3>
               <p className={styles.second_line}>Elektrik Sayacı Okuma</p>
+              <Link href="/sayac" className={styles.button}>
+                Keşfedİn
+              </Link>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/mobil-slider/dogalgaz-sayac.png"
+            width={390}
+            height={420}
+            alt="Doğalgaz Sayaç Okuma"
+            className="contrast-50"
+          />
+          <div className={styles.image_card}>
+            <div className="p-6 text-start">
+              <h3 className="font-bold text-white text-base pb-[2px]">
+                Yapay Zekâ ve Görüntü İşleme ile
+              </h3>
+              <p className={styles.second_line}>Doğalgaz Sayacı Okuma</p>
               <Link href="/sayac" className={styles.button}>
                 Keşfedİn
               </Link>

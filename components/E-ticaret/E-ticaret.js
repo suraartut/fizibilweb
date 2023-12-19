@@ -76,7 +76,7 @@ const Eticaret = () => {
             </div>
             <div>
               <Image
-                src="/assets/Images/mlm2.png"
+                src="/assets/Images/mlm-780x840.png"
                 width={280}
                 height={280}
                 alt="mlm e-ticaret"

@@ -142,6 +142,39 @@ const BannerAbout = () => {
             </Link>
           </div>
         </div>
+        <div className={styles.card}>
+          <div className={styles.card_gray}>
+            <div className={styles.card_line}></div>
+            <h3 className={styles.card_title}>
+              Yaratıcı Çözümlerle Tanışın: Butik Yazılım Siparişi ve Partnerlik!
+            </h3>
+            <p className="lg:my-6 my-4">
+              İhtiyaçlarınıza özel ve butik yazılım çözümleri sunmak üzere
+              buradayız! İş süreçlerinizi optimize etmek, özel projelerinizi
+              hayata geçirmek ve geleceğin teknolojisine adım atmak için bize
+              katılın. Sadece işinizi değil, aynı zamanda iş ortaklığınızı da
+              güçlendireceğimiz çözümlerimizle fark yaratın.
+            </p>
+            <Link href="/contact" className={styles.card_button}>
+              <span className={styles.card_button_title}>
+                Butİk ve Özel Yazılım taleplerİnİz İçİn İletİşİme geçİn!
+              </span>
+              <Image
+                src="/assets/icons/right-sm.svg"
+                width={20}
+                height={20}
+                alt="right"
+              />
+            </Link>
+          </div>
+          <div className={styles.card_black}>
+            <img
+              src="/assets/Images/e-tic.png"
+              alt="E-ticaret"
+              className={styles.card_images}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

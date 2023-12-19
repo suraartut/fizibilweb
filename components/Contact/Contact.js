@@ -37,17 +37,19 @@ const ContactComponent = () => {
             son. Yazılım terziniz, çözüm ortağınız olmak istiyoruz. Kısaca
             projenizden bahsediniz.
           </p>
-          <div className="text-lg font-bold">
-            Telefon:{" "}
-            <Link href="tel:+90 (224) 442 87 77">+90 (224) 442 87 77</Link>
+          <div className="phone text-lg font-bold">
+            Telefon: <Link href="tel:+905326467295">+90 (532) 646 72 95</Link>
           </div>
-          <div className="text-lg font-bold my-4">
+          <div className="phone text-lg font-bold">
+            Telefon: <Link href="tel:+902244428777">+90 (224) 442 87 77</Link>
+          </div>
+          <div className="e-mail text-lg font-bold my-4">
             E-posta:{" "}
             <Link href="mailto:destek@fizibil.com">destek@fizibil.com</Link>
           </div>
           <div className="text-lg font-bold">
-            ULUTEK Teknoloji Geliştirme Bölgesi Görükle Mh. Üniversite-1 Cd.
-            No:933/Z019 Nilüfer/Bursa
+            Görükle Mah. Üniversite-1 Cd. ULUTEK Teknoloji Geliştirme Merkezi
+            No:933/238 Nilüfer/BURSA
           </div>
           <div className="mt-10 lg:mb-0 mb-3">
             <Link href="/kurumsal" className={styles.about_button}>

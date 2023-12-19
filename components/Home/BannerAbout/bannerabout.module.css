@@ -35,7 +35,7 @@
 }
 
 .card_button {
-  @apply uppercase text-sm font-semibold text-gray-700 hover:text-gray-500 tracking-wider w-full flex gap-2 items-center;
+  @apply uppercase text-sm font-semibold text-gray-700 hover:text-gray-500 tracking-wider w-full flex gap-2 items-center duration-200 ease-in-out;
 }
 
 .card_button_title {

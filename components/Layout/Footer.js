@@ -37,7 +37,11 @@ const Footer = () => {
             height={50}
             alt="Şirket Logosu"
           />
-          <div className="w-full my-4 justify-start flex">
+          <div className="w-full my-2 justify-start font-bold">
+            FİZİBİL MÜH. YAZ. BİL. İNŞ. DAN. <br /> İTH. İHR. SAN. VE TİC. LTD.
+            ŞTİ
+          </div>
+          <div className="w-full mt-2 mb-4 justify-start flex">
             Görükle Mah. Üniversite-1 Cd.
             <br /> ULUTEK Teknoloji Geliştirme Merkezi
             <br /> No:933/238 Nilüfer/BURSA
