@@ -15,5 +15,5 @@
 }
 
 .sayac {
-  @apply lg:py-14 py-3 lg:grid grid-cols-3 gap-24;
+  @apply lg:py-5 py-3 lg:grid grid-cols-3 gap-20;
 }

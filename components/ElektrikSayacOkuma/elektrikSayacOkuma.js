@@ -31,7 +31,7 @@ const elektrikSayacOkuma = () => {
           </p>
           <div className={styles.sayac}>
             <div className="col-span-2">
-              <h3 className={styles.titles}>Elektrik Sayacı</h3>
+              <h3 className={styles.titles}>Elektrik Sayacı Okuma</h3>
               <p className="">
                 Tarafımızca geliştirilen Yapay Zekâ ve Görüntü işleme algoritma
                 ve yazılımları ile mobil cihazlar (akıllı telefonlar) için bir
@@ -47,13 +47,11 @@ const elektrikSayacOkuma = () => {
                 Ar-ge olarak kullanılsalar da yaygın kullanım için fizibil
                 değillerdir.
               </p>
-              <p className="lg:mt-4 mt-2">
+              <p className="lg:mt-4 mt-2 text-gray-500 italic">
                 Yerli ve uygun maliyetli olarak geliştirildiğinden dolayı yaygın
-                kullanıma uygundur.
-              </p>
-              <p className="lg:mt-4 mt-2">
-                Şirketlere özel de geliştirilebilecek uygulamaya birçok
-                operasyonel inovatif ar-ge özelliği eklenebilir.
+                kullanıma uygundur. Şirketlere özel de geliştirilebilecek
+                uygulamaya birçok operasyonel inovatif ar-ge özelliği
+                eklenebilir.
               </p>
             </div>
             <div className={styles.images}>
@@ -65,6 +63,7 @@ const elektrikSayacOkuma = () => {
               />
             </div>
           </div>
+
           {/* Sayaçlar Nasıl Okunur? */}
           <div>
             <p className="font-bold text-xl lg:py-3 py-2">
@@ -79,6 +78,7 @@ const elektrikSayacOkuma = () => {
               </li>
             </ul>
           </div>
+
           {/* Gerekçe ve Temel Özellikler */}
           <div>
             <p className="font-bold text-xl lg:py-4 py-2">

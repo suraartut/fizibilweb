@@ -133,38 +133,45 @@ const KurumsalComponent = () => {
           </div>
         </div>
       </div>
-      <div className="my-10 container mx-auto lg:flex justify-around">
-        <div className="text-center">
-          <Image
-            src="/assets/Images/Fizibil-ISO-9001.jpg"
-            width={280}
-            height={160}
-            alt="alt"
-          />
-          <div className="text-sm italic w-full text-center">
-            Fizibil ISO 9001 Belgesi
+
+      {/* Sertifikalarımız */}
+      <div className="lg:container mx-auto lg:mt-12 mt-4">
+        <h3 className="border-b border-blue-500 my-2 font-bold text-2xl text-center pb-2">
+          Sertifikalarımız
+        </h3>
+        <div className="my-8 container mx-auto lg:flex justify-around">
+          <div className="text-center">
+            <Image
+              src="/assets/Images/Fizibil-ISO-9001.jpg"
+              width={280}
+              height={160}
+              alt="alt"
+            />
+            <div className="text-sm italic w-full text-center">
+              Fizibil ISO 9001 Belgesi
+            </div>
           </div>
-        </div>
-        <div className="text-center">
-          <Image
-            src="/assets/Images/Fizibil-ISO-14001.jpg"
-            width={280}
-            height={160}
-            alt="alt"
-          />
-          <div className="text-sm italic w-full text-center">
-            Fizibil ISO 14001 Belgesi
+          <div className="text-center">
+            <Image
+              src="/assets/Images/Fizibil-ISO-14001.jpg"
+              width={280}
+              height={160}
+              alt="alt"
+            />
+            <div className="text-sm italic w-full text-center">
+              Fizibil ISO 14001 Belgesi
+            </div>
           </div>
-        </div>
-        <div className="text-center">
-          <Image
-            src="/assets/Images/Fizibil-ISO-27001.jpg"
-            width={280}
-            height={160}
-            alt="alt"
-          />
-          <div className="text-sm italic w-full text-center">
-            Fizibil ISO 27001 Belgesi
+          <div className="text-center">
+            <Image
+              src="/assets/Images/Fizibil-ISO-27001.jpg"
+              width={280}
+              height={160}
+              alt="alt"
+            />
+            <div className="text-sm italic w-full text-center">
+              Fizibil ISO 27001 Belgesi
+            </div>
           </div>
         </div>
       </div>
