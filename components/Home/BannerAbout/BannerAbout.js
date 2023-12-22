@@ -26,7 +26,7 @@ const BannerAbout = () => {
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>
-              Makine Öğrenmesi ve Görüntü İşleme ile Mobil Sayaç Okuma
+              Makine Öğrenmesi ve Görüntü İşleme ile Uygulama Geliştirme
             </h3>
             <p className="lg:my-6 my-4">
               Yapay zeka alanında yaptığımız çeşitli bilimsel araştırmalarımızı,
@@ -36,7 +36,9 @@ const BannerAbout = () => {
               bilgileri çıktı olarak elde edebiliyoruz.
             </p>
             <Link href="/goruntu-isleme" className={styles.card_button}>
-              <span className={styles.card_button_title}>Keşfedİn</span>
+              <span className={styles.card_button_title}>
+                Makİne Öğrenmesİ ve Görüntü İşleme Uygulamalarını İnceleYİN!
+              </span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}

@@ -7,12 +7,12 @@ import { referencesData } from "@/collections/referencesData";
 const References = () => {
   return (
     <div className="my-8">
-      <h2 className={styles.title}>Referanslarımız</h2>
+      <h2 className={styles.title}>Referanslarımız ve İş Ortaklarımız</h2>
       {/* <p className={styles.paragraph}>
         Thousands of companies around the world utilize Bentley software. Here
         are just a few….
       </p> */}
-      <Marquee className="reference" autoFill={true}>
+      {/* <Marquee className="reference" autoFill={true}>
         {referencesData?.map((item, index) => {
           return (
             <Image
@@ -24,7 +24,7 @@ const References = () => {
             />
           );
         })}
-      </Marquee>
+      </Marquee> */}
     </div>
   );
 };

@@ -15,8 +15,8 @@ const OurWorks = () => {
             Fizibil, geniş ve çeşitli bir yazılım yelpazesi ile sektördeki
             ihtiyaçları karşılamak için burada! İskele ve yığma yazılımı,
             doğalgaz ve elektrik sayacı okuma uygulamaları, statik proje bedeli
-            hesaplama, görüntü işleme, MLM özellikli e-ticaret, ayak analizi,
-            kentsel dönüşüm bilgi sistemi, ERP danışmanlık ve yazılım
+            hesaplama, görüntü işleme, MLM özellikli e-ticaret, magenta ayak
+            analizi, kentsel dönüşüm bilgi sistemi, ERP danışmanlık ve yazılım
             hizmetleri, özel ve butik yazılım çözümleri, web programlama, mobil
             programlama ve masaüstü programlama gibi birbirinden özgün ve etkili
             ürünlerimizle iş süreçlerinizi optimize edin. Sektördeki
@@ -32,31 +32,31 @@ const OurWorks = () => {
 
         <figure className="snip1585">
           <Image
-            src="/assets/Images/yıgma.png"
+            src="/assets/Images/butik-yazılım.png"
             width={700}
             height={600}
-            alt="Project"
+            alt="Fizibil İskele"
             className={styles.image}
           />
-          <Link href="/3d-cad-programlama">
+          <Link href="/iskele">
             <figcaption>
               <h3>
-                3D CAD <span>Yazılım</span>
+                FİZİBİL <span>İSKELE ANALİZİ</span>
               </h3>
             </figcaption>
           </Link>
         </figure>
 
         <figure className="snip1585">
-          <Link href="/web-uygulama">
+          <Link href="/yigma">
             <img
-              src="/assets/Images/butik-yazılım.png"
-              alt="Project"
+              src="/assets/Images/yıgma.png"
+              alt="Fizibil Yığma"
               className={styles.image}
             />
             <figcaption>
               <h3>
-                Web <span>Uygulamaları</span>
+                FİZİBİL<span>YIĞMA ANALİZİ</span>
               </h3>
             </figcaption>
           </Link>

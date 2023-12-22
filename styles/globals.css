@@ -220,6 +220,11 @@ body {
   margin: 0px !important;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  color: #2e8fce !important;
+}
+
 @media screen and (max-width: 600px) {
   .swiper-pagination-bullet {
     border-radius: 0% !important;

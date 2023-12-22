@@ -26,6 +26,7 @@ const BannerMobile = () => {
         modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
+        {/* GÖRÜNTÜ İŞLEME SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/bilgisayarli-goru.png"
@@ -44,6 +45,7 @@ const BannerMobile = () => {
             </div>
           </div>
         </SwiperSlide>
+        {/* ELEKTRİK SAYAÇ SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/elektrik-sayac.png"
@@ -64,6 +66,7 @@ const BannerMobile = () => {
             </div>
           </div>
         </SwiperSlide>
+        {/* DOĞALGAZ SAYAÇ SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/dogalgaz-sayac.png"
@@ -84,12 +87,34 @@ const BannerMobile = () => {
             </div>
           </div>
         </SwiperSlide>
+        {/* YIĞMA ANALİZ SLIDER */}
+        <SwiperSlide>
+          <Image
+            src="/assets/Images/mobil-slider/yigma.png"
+            width={390}
+            height={420}
+            alt="Fizibil Yığma Analiz"
+            className="contrast-50"
+          />
+          <div className={styles.image_card}>
+            <div className="p-6 text-end">
+              <h3 className="font-bold text-white text-base pb-[2px]">
+                Fizibil
+              </h3>
+              <p className={styles.second_line}>Yığma Analizi</p>
+              <Link href="/sayac" className={styles.button}>
+                Keşfedİn
+              </Link>
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* İSKELE ANALİZ SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/iskele.png"
             width={390}
             height={420}
-            alt="Fizibil İskele"
+            alt="Fizibil İskele Analiz"
             className="contrast-50"
           />
           <div className={styles.image_card}>
@@ -97,13 +122,14 @@ const BannerMobile = () => {
               <h3 className="font-bold text-white text-base pb-[2px]">
                 Fizibil
               </h3>
-              <p className={styles.second_line}>İskele Yazılımı</p>
+              <p className={styles.second_line}>İskele Analizi</p>
               <Link href="/iskele" className={styles.button}>
                 Keşfedİn
               </Link>
             </div>
           </div>
         </SwiperSlide>
+        {/* E-TİCARET SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/e-ticaret.png"
@@ -124,6 +150,7 @@ const BannerMobile = () => {
             </div>
           </div>
         </SwiperSlide>
+        {/* ERP SLIDER */}
         <SwiperSlide>
           <Image
             src="/assets/Images/mobil-slider/siparise-ozel.png"

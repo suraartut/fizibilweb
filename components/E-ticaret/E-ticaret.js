@@ -15,7 +15,7 @@ const Eticaret = () => {
       </div>
       <div className={styles.main_container}>
         <div className="lg:mx-32 mx-5">
-          <h2 className={styles.title}>MLM E-ticaret Sitesi</h2>
+          <h2 className={styles.title}>MLM Özellikli E-ticaret Sitesi</h2>
           <p className="text-lg">
             Firmanın yada kişinin internet üzerinden ürün satış sitesine
             e-ticaret sitesi denir. E-ticaret sitesi yada diğer ismiyle sanal

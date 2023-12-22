@@ -4,10 +4,10 @@ import styles from "./contact.module.css";
 
 const ContactComponent = () => {
   return (
-    <div className="w-full pt-[88px]">
+    <div className="w-full pt-[89px]">
       <div className="w-full">
         <img
-          src="/assets/Images/contact-us.jpg"
+          src="/assets/Images/contact-us.png"
           className="w-full h-[60vh] object-cover"
         />
         <div className="text-center text-white absolute top-[30%] justify-center w-full">
