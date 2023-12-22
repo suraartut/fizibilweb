@@ -1,9 +1,9 @@
 .contact {
-  @apply w-full lg:container mx-auto lg:pt-12 lg:px-0 px-5;
+  @apply w-full lg:px-0 px-5;
 }
 
 .title {
-  @apply lg:text-5xl text-2xl lg:mb-5;
+  @apply lg:text-5xl text-xl lg:mb-5;
 }
 
 .form_cart {

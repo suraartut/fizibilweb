@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "./contact.module.css";
 
-const ContactComponent = () => {
+const Contact2Component = () => {
   return (
     <div className="w-full pt-[89px]">
       <div className="w-full">
@@ -19,7 +19,7 @@ const ContactComponent = () => {
           </p>
         </div>
       </div>
-      <div className={styles.contact}>
+      <div className="w-full lg:container mx-auto lg:pt-12 lg:px-0 px-5">
         <div className={styles.form_cart}>
           <div className={styles.first_cart}>
             <h3 className={styles.title_h3}>ARAMA TALEBİNDE BULUNUN</h3>
@@ -73,7 +73,7 @@ const ContactComponent = () => {
           </div>
         </div>
 
-        <div className="lg:my-0 my-8">
+        <div className="lg:my-14 my-8">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12185.529821589047!2d28.8582583!3d40.2227979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e2012f6bf51%3A0xa70ede31fea27808!2zRml6aWJpbCBNw7xoZW5kaXNsaWsgJiBZYXrEsWzEsW0!5e0!3m2!1str!2str!4v1692608260109!5m2!1str!2str"
             width="100%"
@@ -89,4 +89,4 @@ const ContactComponent = () => {
   );
 };
 
-export default ContactComponent;
+export default Contact2Component;
