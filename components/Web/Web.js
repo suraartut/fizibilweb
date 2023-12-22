@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import styles from "./web.module.css";
+import Link from "next/link";
 
 const Web = () => {
   return (
@@ -107,6 +109,94 @@ const Web = () => {
               sınırları aşan, etkileyici ve inovatif dijital çözümlerle tanışın.
               Geleceği birlikte şekillendirelim!
             </p>
+          </div>
+        </div>
+        <div className="lg:mt-10">
+          <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
+            Web Çözümlerimiz
+          </h3>
+          <div className="lg:flex">
+            <div className={styles.card}>
+              <div className={styles.card_black}>
+                <Image
+                  src="/assets/Images/3D-CAD.png"
+                  alt="ERP Yazılım ve Danışmanlık"
+                  className={styles.card_images}
+                  width={350}
+                  height={350}
+                />
+              </div>
+              <div className={styles.card_gray}>
+                <div className={styles.card_line}></div>
+                <h3 className={styles.card_title}>
+                  ERP Yazılım ve Danışmanlık
+                </h3>
+                <p className="lg:my-6 my-4">Açıklama</p>
+                <Link href="/iskele" className={styles.card_button}>
+                  <span className={styles.card_button_title}>KEŞFEDİN!</span>
+                  <Image
+                    src="/assets/icons/right-sm.svg"
+                    width={20}
+                    height={20}
+                    alt="right"
+                  />
+                </Link>
+              </div>
+            </div>
+            <div className={styles.card}>
+              <div className={styles.card_black}>
+                <Image
+                  src="/assets/Images/3D-CAD.png"
+                  alt="MLM Özellikli E-ticaret Portalı"
+                  className={styles.card_images}
+                  width={350}
+                  height={350}
+                />
+              </div>
+              <div className={styles.card_gray}>
+                <div className={styles.card_line}></div>
+                <h3 className={styles.card_title}>
+                  MLM Özellikli E-ticaret Portalı
+                </h3>
+                <p className="lg:my-6 my-4">Açıklama</p>
+                <Link href="/e-ticaret" className={styles.card_button}>
+                  <span className={styles.card_button_title}>KEŞFEDİN!</span>
+                  <Image
+                    src="/assets/icons/right-sm.svg"
+                    width={20}
+                    height={20}
+                    alt="right"
+                  />
+                </Link>
+              </div>
+            </div>
+            <div className={styles.card}>
+              <div className={styles.card_black}>
+                <Image
+                  src="/assets/Images/3D-CAD.png"
+                  alt="Kentsel Dönüşüm Bilgi Sistemi"
+                  className={styles.card_images}
+                  width={350}
+                  height={350}
+                />
+              </div>
+              <div className={styles.card_gray}>
+                <div className={styles.card_line}></div>
+                <h3 className={styles.card_title}>
+                  Kentsel Dönüşüm Bilgi Sistemi
+                </h3>
+                <p className="lg:my-6 my-4">Açıklama</p>
+                <Link href="/iskele" className={styles.card_button}>
+                  <span className={styles.card_button_title}>KEŞFEDİN!</span>
+                  <Image
+                    src="/assets/icons/right-sm.svg"
+                    width={20}
+                    height={20}
+                    alt="right"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

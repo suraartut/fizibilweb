@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import styles from "./cadprogramlama.module.css";
+import Image from "next/image";
 
 const cadProgramlama = () => {
   return (
@@ -11,7 +13,7 @@ const cadProgramlama = () => {
         />
       </div>
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="lg:mx-24 mx-5">
+        <div className="">
           <div className="lg:mb-12 mb-6">
             <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
               İleri Seviye CAD Çözümleriyle İşinizin Geleceğini Şekillendirin!
@@ -77,6 +79,63 @@ const cadProgramlama = () => {
             </span>
             .
           </p>
+        </div>
+        <div className="lg:mt-10">
+          <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
+            CAD Çözümleme Uygulamalarımız
+          </h3>
+          <div className="lg:flex gap-5">
+            <div className={styles.card}>
+              <div className={styles.card_black}>
+                <Image
+                  src="/assets/Images/3D-CAD.png"
+                  alt="Fizibil İskele Analiz"
+                  className={styles.card_images}
+                  width={350}
+                  height={350}
+                />
+              </div>
+              <div className={styles.card_gray}>
+                <div className={styles.card_line}></div>
+                <h3 className={styles.card_title}>Fizibil İskele Analiz</h3>
+                <p className="lg:my-6 my-4">Açıklama</p>
+                <Link href="/iskele" className={styles.card_button}>
+                  <span className={styles.card_button_title}>KEŞFEDİN!</span>
+                  <Image
+                    src="/assets/icons/right-sm.svg"
+                    width={20}
+                    height={20}
+                    alt="right"
+                  />
+                </Link>
+              </div>
+            </div>
+            <div className={styles.card}>
+              <div className={styles.card_gray}>
+                <div className={styles.card_line}></div>
+                <h3 className={styles.card_title}>Fizibil Yığma Analiz</h3>
+                <p className="lg:my-6 my-4">Açıklama</p>
+                <Link href="/yigma" className={styles.card_button}>
+                  <span className={styles.card_button_title}>KEŞFEDİN!</span>
+                  <Image
+                    src="/assets/icons/right-sm.svg"
+                    width={20}
+                    height={20}
+                    alt="right"
+                  />
+                </Link>
+              </div>
+              <div className={styles.card_black}>
+                <Image
+                  src="/assets/Images/yıgma.png"
+                  alt="Fizibil Yığma Analiz"
+                  className={styles.card_images}
+                  width={350}
+                  height={350}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
