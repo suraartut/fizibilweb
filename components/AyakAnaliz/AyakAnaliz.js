@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./ayakanaliz.module.css";
+import Image from "next/image";
 
 const AyakAnaliz = () => {
   return (
@@ -11,11 +12,49 @@ const AyakAnaliz = () => {
         />
       </div>
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="mx-32">
-          <h2 className="text-center lg:w-1/4 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-3">
-            Magenta Ayak Analiz
-          </h2>
-          <p className="">Açıklama</p>
+        <div className="">
+          <div className="lg:mb-12 mb-6">
+            <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
+              İlerlemenin Anahtarı: Magenta Ayak Analiziyle Derinlemesine Veri
+              Çözümlemesi
+            </h2>
+            {/* <h3 className="text-center font-bold italic">
+              Sıradanlığı Unutun, Biz Dijital Maceranın Kahramanlarıyız!
+            </h3> */}
+          </div>
+          <p className="mb-2">
+            Ayaklarda bulunan ortopedik sorunların daha hızlı belirlenip
+            raporlanabilmesi için doktor incelemesine sunulmak ve ayak tabanlığı
+            üretim atölyesine gönderilmek üzere belge hazırlayan bir bilgisayar
+            programı geliştirilmiştir.
+          </p>
+          <ol>Masaüstünde kullanılmak üzere hazırlanan bu uygulama ile;</ol>
+          <li>
+            Hastalarının ayak tabanı ve ayak bilek fotoğrafları programa
+            yüklenebilir veya program yardımıyla fotoğrafları
+            çekilebilir/taranabilir.
+          </li>
+          <li>
+            Bu fotoğraflar üzerinde çizme araçları kullanılarak ilgili açı ve
+            uzunluk bilgilerinin belirlenmesi ile hastanın ayak problemleri ile
+            ilgili tanı koyulabilir.
+          </li>
+          <li>
+            Önceden tanımlı taban bilek sorunlarını ile ilgili rapor
+            oluşturabilir.
+          </li>
+          <li>
+            Oluşturulan rapor ile hastaya özel üretilecek ayakkabı tabanlığı
+            için gerekli bilgiler belge haline getirilebilir.
+          </li>
+        </div>
+        <div className="">
+          <Image
+            src="/assets/Images/ayak-analiz-telif.jpg"
+            alt="Ayak Analiz Telif"
+            width={350}
+            height={350}
+          />
         </div>
       </div>
     </div>
