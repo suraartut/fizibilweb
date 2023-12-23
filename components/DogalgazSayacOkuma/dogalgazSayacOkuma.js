@@ -197,174 +197,61 @@ const dogalgazSayacOkuma = () => {
               native (yerel) olarak mı koşturulacağı müşterinin tercihlerine
               göre belirlenecektir.
             </p>
-            <p className="lg:mt-4 mt-2">
-              Şirketin genel olarak uygulamada nasıl bir mimari istediği
-              kavramsal tartışmalardan sonra tespit edilecek ve o doğrultuda
-              geliştirmeler devam edecektir. API olarak tasarlanacaksa model
-              sunucu üzerinde koşturulacak şekilde geliştirilerek, gerekli
-              geliştirmeler bu doğrultuda devam edecektir.
-            </p>
-            <p className="lg:mt-4 mt-2">
-              Native olarak tasarlanan eğitilmiş Yapay Zekâ modeli mobil
-              cihazlar için uygun olarak optimize edilmiştir. Bu sayede mobil
-              cihazların işlemcilerine uyarlanan Yapay Zekâ native olarak mobil
-              cihazlarda herhangi bir internet bağlantısına gerek kalmadan hızlı
-              bir şekilde cihaz üzerinde çalışabilmektedir.
-            </p>
-            <p className="lg:mt-4 mt-2">
-              Android ve IOS (müşteri taleplerine göre) cihazlar için kamera
-              entegrasyonu, Yapay Zekâ entegrasyonu veya API ile haberleşecek
-              modüller sonradan eklenecektir. Müşteri istekleri doğrultusunda
-              arayüz tasarımları yapılarak mobil uygulamaya entegre
-              edilebilmektedir. Okuma gerçekleşmediğinde manuel girilen data,
-              elde edilen resim ile eşleştirilerek veri tabanında saklayabilme.
-            </p>
-            <p className="lg:mt-4 mt-2">
-              API tabanlı mimari ile her türlü platforma uygulanabilme. (Sistem
-              API tabanlı mimaride tercih edildiğinde IOS, Android, Windows ve
-              WEB platformlarında rahatlıkla kullanılabilmektedir.)
-            </p>
-            <p className="lg:mt-4 mt-2">
-              Kuyruk modu, Gerçeklik Kontrolü gibi yapılar native uygulama
-              üzerinde geliştirilebilir.
-            </p>
-            <p className="lg:mt-4 mt-2 font-bold">
-              Firmanıza özel süreçler tasarlanarak lokal akışlarınıza dahil
-              edilebilir.
-            </p>
+            <div className="lg:flex gap-12">
+              <div>
+                <p className="lg:mt-4 mt-2">
+                  Şirketin genel olarak uygulamada nasıl bir mimari istediği
+                  kavramsal tartışmalardan sonra tespit edilecek ve o doğrultuda
+                  geliştirmeler devam edecektir. API olarak tasarlanacaksa model
+                  sunucu üzerinde koşturulacak şekilde geliştirilerek, gerekli
+                  geliştirmeler bu doğrultuda devam edecektir.
+                </p>
+                <p className="lg:mt-4 mt-2">
+                  Native olarak tasarlanan eğitilmiş Yapay Zekâ modeli mobil
+                  cihazlar için uygun olarak optimize edilmiştir. Bu sayede
+                  mobil cihazların işlemcilerine uyarlanan Yapay Zekâ native
+                  olarak mobil cihazlarda herhangi bir internet bağlantısına
+                  gerek kalmadan hızlı bir şekilde cihaz üzerinde
+                  çalışabilmektedir.
+                </p>
+                <p className="lg:mt-4 mt-2">
+                  Android ve IOS (müşteri taleplerine göre) cihazlar için kamera
+                  entegrasyonu, Yapay Zekâ entegrasyonu veya API ile
+                  haberleşecek modüller sonradan eklenecektir. Müşteri istekleri
+                  doğrultusunda arayüz tasarımları yapılarak mobil uygulamaya
+                  entegre edilebilmektedir. Okuma gerçekleşmediğinde manuel
+                  girilen data, elde edilen resim ile eşleştirilerek veri
+                  tabanında saklayabilme.
+                </p>
+                <p className="lg:mt-4 mt-2">
+                  API tabanlı mimari ile her türlü platforma uygulanabilme.
+                  (Sistem API tabanlı mimaride tercih edildiğinde IOS, Android,
+                  Windows ve WEB platformlarında rahatlıkla
+                  kullanılabilmektedir.)
+                </p>
+                <p className="lg:mt-4 mt-2">
+                  Kuyruk modu, Gerçeklik Kontrolü gibi yapılar native uygulama
+                  üzerinde geliştirilebilir.
+                </p>
+                <p className="lg:mt-4 mt-2 font-bold">
+                  Firmanıza özel süreçler tasarlanarak lokal akışlarınıza dahil
+                  edilebilir.
+                </p>
+              </div>
+              <div>
+                <Image
+                  className="mt-2"
+                  src="/assets/Images/dogalgaz-sayac-tescil.jpg"
+                  alt="Doğalgaz Sayacı Okuma Tescil Belgesi"
+                  width={650}
+                  height={750}
+                />
+                <div className="text-sm italic w-full text-center">
+                  Doğalgaz Sayacı Okuma Tescil Belgesi
+                </div>
+              </div>
+            </div>
           </div>
-
-          {/* <div className="lg:border-l-4 border-l-2 border-[#2e8fce] lg:pl-10 pl-2 lg:ml-4">
-            <ul className="sayac-list">
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Belli ölçülerdeki sayaç resimleri sisteme daha önceden
-                öğretilerek performanslı çalışma modeli
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Sistem aktif çalışırken yeni sayaç öğretilerek uygulamaya dahil
-                edilebilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                İsteğe bağlı olarak tek resimde hem barkod hem edeks okuyabilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Okuma gerçekleşmediğinde manuel girilen data, elde edilen resim
-                ile eşleştirilerek veri tabanında saklayabilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                API tabanlı mimari ile her türlü platforma uygulanabilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                İsteğe bağlı güvenlik için varsayımsal yaklaşım algoritması
-                kurgulayabilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Esnek raporlama servisleri
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Sayaçların 500x300 oranda çekilmiş resim setleri yüklenerek
-                sistemin imaj çözme kalitesi arttırılacaktır
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                İsteğe bağlı olarak tek resimde hem barkod hem endeks okuyabilme
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Işık veya benzeri dış etkenlerden dolayı okunamayan endeks
-                bilgileri için sisteme elle giriş yapılabilmektedir
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                El ile girilen her data çekilen resim ile beraber saklanır, aynı
-                zamanda belirlenen periyotlarda bu resim sistem için eğitime
-                tabi tutulur
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode-phone.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                Kuyruk modu , Gerçeklik Kontrolü gibi yapılar native uygulama
-                üzerinde geliştirilebilir
-              </li>
-              <li className="flex gap-4">
-                <Image
-                  src="/assets/icons/barcode.svg"
-                  alt="facebook"
-                  width={30}
-                  height={30}
-                />
-                API üzerinde firmanıza özel süreçler tasarlanarak lokal
-                akışlarınıza dahil edilebilir
-              </li>
-            </ul>
-          </div> */}
         </div>
       </div>
 

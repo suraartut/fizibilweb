@@ -91,7 +91,7 @@ const BannerAbout = () => {
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
             <h3 className={styles.card_title}>
-              Web Uygulamaları ve MLM E-ticaret Sitesi
+              Web Uygulamaları ve MLM E-Ticaret Sitesi
             </h3>
             <p className="lg:my-6 my-4">
               Sınırları aşan dijital deneyimlere hoş geldiniz! Modern ve
@@ -124,17 +124,23 @@ const BannerAbout = () => {
         <div className={styles.card}>
           <div className={styles.card_black}>
             <img
-              src="/assets/Images/foto.png"
+              src="/assets/Images/ERP-rapor.png"
               alt="ERP"
               className={styles.card_images}
             />
           </div>
           <div className={styles.card_gray}>
             <div className={styles.card_line}></div>
-            <h3 className={styles.card_title}>ERP</h3>
-            <p className="lg:my-6 my-4">Açıklama</p>
+            <h3 className={styles.card_title}>ERP & CRM</h3>
+            <p className="lg:my-6 my-4">
+              Hayalinizdeki iş süreçleri artık daha yakınınızda! Fizibil, iş
+              dünyasında çığır açan ERP (Enterprise Resource Planning) çözümleri
+              ile sizlere en iyi hizmeti sunmaya hazır.
+            </p>
             <Link href="/erp" className={styles.card_button}>
-              <span className={styles.card_button_title}>Keşfedİn</span>
+              <span className={styles.card_button_title}>
+                İŞİNİZİ ZİRVEYE Taşıyan ERP ve CRM ÇÖZÜMLERİ!
+              </span>
               <Image
                 src="/assets/icons/right-sm.svg"
                 width={20}

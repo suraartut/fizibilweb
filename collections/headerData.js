@@ -109,7 +109,7 @@ export const childMenu = [
   },
   {
     id: 23,
-    title: "E-ticaret",
+    title: "E-Ticaret",
     url: "/e-ticaret",
     catName: "ENDÜSTRİ",
     catChild: 2,
@@ -137,14 +137,14 @@ export const childMenu = [
   },
   {
     id: 33,
-    title: "ERP(PC, mobil, web)",
+    title: "ERP & CRM (masaüstü, mobil, web)",
     url: "/erp",
     catName: "Çözümler",
     catChild: 0,
   },
   {
     id: 34,
-    title: "MLM Özellikli E-ticaret Portalı",
+    title: "MLM Özellikli E-Ticaret Portalı",
     url: "/e-ticaret",
     catName: "Çözümler",
     catChild: 0,
@@ -287,7 +287,7 @@ export const subChildMenu = [
   },
   {
     id: 52,
-    title: "MLM Özellikli E-ticaret Portalı",
+    title: "MLM Özellikli E-Ticaret Portalı",
     url: "/e-ticaret",
     catName: "Web Uygulama",
   },
@@ -305,14 +305,8 @@ export const subChildMenu = [
   },
   {
     id: 71,
-    title: "MLM Özellikli - Çok Katmanlı Pazarlama",
+    title: "MLM Özellikli E-Ticaret Portalı",
     url: "/e-ticaret",
-    catName: "E-ticaret",
-  },
-  {
-    id: 71,
-    title: "E-ticaret",
-    url: "/e-ticaret",
-    catName: "E-ticaret",
+    catName: "E-Ticaret",
   },
 ];

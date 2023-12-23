@@ -14,8 +14,7 @@ const AyakAnaliz = () => {
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
         <div className="lg:mb-12 mb-6">
           <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
-            İlerlemenin Anahtarı: Magenta Ayak Analiziyle Derinlemesine Veri
-            Çözümlemesi
+            Magenta Ayak Analizi Çözümlemesi
           </h2>
           {/* <h3 className="text-center font-bold italic">
               Sıradanlığı Unutun, Biz Dijital Maceranın Kahramanlarıyız!

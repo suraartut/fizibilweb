@@ -35,28 +35,28 @@ const OurWorks = () => {
             src="/assets/Images/butik-yazılım.png"
             width={700}
             height={600}
-            alt="Fizibil İskele"
+            alt="Doğalgaz Sayacı Okuma"
             className={styles.image}
           />
-          <Link href="/iskele">
+          <Link href="/dogalgaz-sayac">
             <figcaption>
               <h3>
-                FİZİBİL <span>İSKELE ANALİZİ</span>
+                DOĞALGAZ <span>SAYAÇ OKUMA</span>
               </h3>
             </figcaption>
           </Link>
         </figure>
 
         <figure className="snip1585">
-          <Link href="/yigma">
+          <Link href="/elektrik-sayac">
             <img
               src="/assets/Images/yıgma.png"
-              alt="Fizibil Yığma"
+              alt="Elektrik Sayacı Okuma"
               className={styles.image}
             />
             <figcaption>
               <h3>
-                FİZİBİL<span>YIĞMA ANALİZİ</span>
+                ELEKTRİK<span>SAYAÇ OKUMA</span>
               </h3>
             </figcaption>
           </Link>
