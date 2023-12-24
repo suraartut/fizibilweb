@@ -48,7 +48,7 @@ const Iskele = () => {
               <span className="text-blue-500">
                 <Link
                   href="/assets/File/fizibil.iskele.online.msi"
-                  download="fizibil-yigma-lisansli-dosya"
+                  download="fizibil-iskele-lisansli-dosya"
                 >
                   tıklayınız
                 </Link>

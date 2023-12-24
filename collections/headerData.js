@@ -37,12 +37,6 @@ export const headerData = [
   },
   {
     id: 7,
-    title: "Download",
-    link: "",
-    catChild: 2,
-  },
-  {
-    id: 8,
     title: "İLETİŞİM",
     link: "/contact",
     catChild: 0,
@@ -182,20 +176,6 @@ export const childMenu = [
     title: "Sosyal Medya",
     url: "/sosyal-medya",
     catName: "Haberler",
-    catChild: 0,
-  },
-  {
-    id: 51,
-    title: "Fizibil İskele Analiz",
-    url: "/iskele",
-    catName: "Download",
-    catChild: 0,
-  },
-  {
-    id: 52,
-    title: "Fizibil Yığma Analiz",
-    url: "/yigma",
-    catName: "Download",
     catChild: 0,
   },
 ];

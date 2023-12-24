@@ -127,62 +127,107 @@ const Header = () => {
           </div>
 
           {/* Category Menu Start*/}
-          <div className="lg:block hidden">
+          <div className="lg:flex hidden">
             <ul className="menu w-full flex">
               {headerData?.map((item) => {
                 return (
-                  <li
-                    key={item.id}
-                    className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
-                  >
-                    <Link href={item.link} className={styles.category_menu}>
-                      {item.title}
-                      {item.catChild > 0 && (
-                        <Image
-                          src="/assets/icons/dropdown.svg"
-                          height={18}
-                          width={16}
-                          alt="dropdown"
-                          className="ml-1 text-xs font-extrabold uppercase tracking-widest"
-                        />
-                      )}
-                    </Link>
+                  <>
+                    <li
+                      key={item.id}
+                      className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
+                    >
+                      <Link href={item.link} className={styles.category_menu}>
+                        {item.title}
+                        {item.catChild > 0 && (
+                          <Image
+                            src="/assets/icons/dropdown.svg"
+                            height={18}
+                            width={16}
+                            alt="dropdown"
+                            className="ml-1 text-xs font-extrabold uppercase tracking-widest"
+                          />
+                        )}
+                      </Link>
 
-                    <ul className="dropdown lg:shadow-lg">
-                      {childMenu?.map((itemChild, index) => {
-                        if (item.title == itemChild.catName) {
-                          return (
-                            <li
-                              key={index}
-                              className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex"
-                            >
-                              <Link href={itemChild.url}>
-                                {itemChild.title}
-                              </Link>
-                              <ul className="subMenu lg:shadow-lg">
-                                {subChildMenu?.map((itemSubMenu, index) => {
-                                  if (itemChild.title == itemSubMenu.catName) {
-                                    return (
-                                      <li
-                                        key={index}
-                                        className="text-black hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
-                                      >
-                                        <Link href={itemSubMenu.url}>
-                                          {itemSubMenu.title}
-                                        </Link>
-                                      </li>
-                                    );
-                                  }
-                                })}
-                              </ul>
-                            </li>
-                          );
-                        }
-                      })}
-                    </ul>
-                  </li>
+                      <ul className="dropdown lg:shadow-lg">
+                        {childMenu?.map((itemChild, index) => {
+                          if (item.title == itemChild.catName) {
+                            return (
+                              <li
+                                key={index}
+                                className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex"
+                              >
+                                <Link href={itemChild.url}>
+                                  {itemChild.title}
+                                </Link>
+                                <ul className="subMenu lg:shadow-lg">
+                                  {subChildMenu?.map((itemSubMenu, index) => {
+                                    if (
+                                      itemChild.title == itemSubMenu.catName
+                                    ) {
+                                      return (
+                                        <li
+                                          key={index}
+                                          className="text-black hover:bg-[#eaebec] transition-all duration-300 ease-in-out"
+                                        >
+                                          <Link href={itemSubMenu.url}>
+                                            {itemSubMenu.title}
+                                          </Link>
+                                        </li>
+                                      );
+                                    }
+                                  })}
+                                </ul>
+                              </li>
+                            );
+                          }
+                        })}
+                      </ul>
+                    </li>
+                  </>
                 );
               })}
+            </ul>
+            <ul>
+              <li className="catMenu w-full hover:bg-[#eaebec] transition-all duration-300 ease-in-out">
+                <Link href="" className={styles.category_menu}>
+                  Download
+                  <Image
+                    src="/assets/icons/dropdown.svg"
+                    height={18}
+                    width={16}
+                    alt="dropdown"
+                    className="ml-1 text-xs font-extrabold uppercase tracking-widest"
+                  />
+                </Link>
+
+                <ul className="dropdown lg:shadow-lg">
+                  <li className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex">
+                    <Link
+                      href="/assets/File/fizibil.iskele.online.msi"
+                      download="fizibil-iskele-lisansli-dosya"
+                    >
+                      Fizibil İskele Lisanslı Dosya
+                    </Link>
+                  </li>
+                  <li className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex">
+                    <Link
+                      href="/assets/File/fizibil.yigma2018.2503.demo.msi"
+                      download="fizibil-yigma-demo"
+                    >
+                      Fizibil Yığma Demo
+                    </Link>
+                  </li>
+                  <li className="dropdown-menu hover:bg-[#eaebec] transition-all duration-300 ease-in-out flex">
+                    <Link
+                      href="/assets/File/fizibil.yigma2018.2511.msi"
+                      download="fizibil-yigma-lisansli-dosya"
+                    >
+                      Fizibil Yığma Lisanslı Dosya
+                    </Link>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
           {/* Category Menu End */}

@@ -16,7 +16,7 @@ const SosyalMedya = () => {
           </h2>
           <div>
             <h3 className="font-bold lg:mb-6">
-              İMO Bursa Şubesi'nde Yığma Yapı Analizi ve Tasarımı Semineri:
+              İMO Bursa Şubesi&apos;nde Yığma Yapı Analizi ve Tasarımı Semineri:
               Genel Müdürümüzden Aydınlatıcı Bilgiler
             </h3>
             <div className="lg:grid grid-cols-2">
@@ -37,18 +37,19 @@ const SosyalMedya = () => {
                   Büyük bir gurur ve heyecanla duyuruyoruz: Genel Müdürümüz Dr.
                   Mahmud Sami DÖVEN, yığma yapıların analizi ve tasarımı
                   konusunda Türkiye İnşaat Mühendisleri Odası (İMO) Bursa
-                  Şubesi'nde düzenlenen seminerde konuşmacı olarak yer aldı! Bu
-                  değerli anı sizinle paylaşmak ve seminerin ardındaki bilgileri
-                  aktarmak için bu özel videoyu paylaşıyoruz.
+                  Şubesi&apos;nde düzenlenen seminerde konuşmacı olarak yer
+                  aldı! Bu değerli anı sizinle paylaşmak ve seminerin ardındaki
+                  bilgileri aktarmak için bu özel videoyu paylaşıyoruz.
                 </p>
                 <p>
-                  Bu video, Dr. Mahmud Sami DÖVEN'in seminer sırasında aktardığı
-                  bilgileri içeriyor ve izleyenlere, yığma yapıların analizi ve
-                  tasarımında karşılaşılan zorlukların nasıl aşılabileceğine
-                  dair pratik bilgiler sunuyor. Ayrıca, Fizibil ekibinin, bu
-                  alandaki en son teknolojileri ve sürdürülebilirlik ilkelerini
-                  nasıl entegre ettiğini göstererek, sektöre yön veren bir lider
-                  olduğunu bir kez daha kanıtlıyor.
+                  Bu video, Dr. Mahmud Sami DÖVEN&apos;in seminer sırasında
+                  aktardığı bilgileri içeriyor ve izleyenlere, yığma yapıların
+                  analizi ve tasarımında karşılaşılan zorlukların nasıl
+                  aşılabileceğine dair pratik bilgiler sunuyor. Ayrıca, Fizibil
+                  ekibinin, bu alandaki en son teknolojileri ve
+                  sürdürülebilirlik ilkelerini nasıl entegre ettiğini
+                  göstererek, sektöre yön veren bir lider olduğunu bir kez daha
+                  kanıtlıyor.
                 </p>
                 <p className="my-3">
                   Eğer siz de yığma yapıların analizi ve tasarımı konusunda

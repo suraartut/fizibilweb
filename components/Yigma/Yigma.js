@@ -18,11 +18,12 @@ const Yigma = () => {
             Fizibil Yığma Analizi
           </h2>
           <p className="mb-6 italic">
-            İnşaat mühendislerinin kullanımı için Yığma binaların TBDY2018'e
-            göre tasarlanması, performans analizlerinin yapılması ve RBYBHY'e
-            göre risk analizlerinin yapılması. (3 boyutlu modellenmesi,
-            statik-dinamik analizi, raporlanması ve proje paftalarının dwg
-            formatında otomatik hazırlanması) için paket program
+            İnşaat mühendislerinin kullanımı için Yığma binaların
+            TBDY2018&apos;e göre tasarlanması, performans analizlerinin
+            yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması. (3
+            boyutlu modellenmesi, statik-dinamik analizi, raporlanması ve proje
+            paftalarının dwg formatında otomatik hazırlanması) için paket
+            program
           </p>
           <p className="mt-2">
             <strong>Fizibil yığma analiz programı,</strong> yığma binaların
