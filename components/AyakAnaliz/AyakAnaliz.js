@@ -8,7 +8,7 @@ const AyakAnaliz = () => {
       <div className="w-full">
         <img
           src="/assets/Images/ayakanaliz.png"
-          className="w-full lg:h-[50vh] h-[13vh] object-cover"
+          className="w-full lg:h-[50vh] h-[12vh] object-cover"
           alt="Ayak Analiz"
         />
       </div>

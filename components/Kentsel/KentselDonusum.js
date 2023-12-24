@@ -7,12 +7,12 @@ const Kentsel = () => {
       <div className="w-full">
         <img
           src="/assets/Images/kent-donus-banner.png"
-          className="w-full h-[50vh] object-cover"
+          className="w-full lg:h-[50vh] h-[12vh] object-cover"
           alt="Kentsel Dönüşüm Bilgi Sistemi"
         />
       </div>
-      <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="">
+      <div className="w-full my-8">
+        <div className="lg:container lg:mx-auto mx-5">
           <h2 className="text-center lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 pb-3">
             Kentsel Dönüşüm Bilgi Sistemi
           </h2>
@@ -26,14 +26,14 @@ const Kentsel = () => {
               />
             </div>
             <div>
-              <p className="text-lg">
+              <p className="text-lg lg:mt-0 mt-4">
                 Kentsel dönüşüm kanunu kapsamında dönüştürülecek alanlarda
                 kullanılmak üzere kentsel dönüşüm bilgi sistemi hazırlanmıştır.
               </p>
               <p className="mt-5 mb-2">
                 Web ortamında kullanılmak üzere hazırlanan bu uygulama ile;
               </p>
-              <div className="flex gap-2 items-center">
+              <div className="flex gap-2 items-center mb-2">
                 <Image
                   src="/assets/icons/check.svg"
                   alt="check"
@@ -59,7 +59,7 @@ const Kentsel = () => {
                   eklenebilir.
                 </p>
               </div>
-              <div className="flex gap-2 items-center">
+              <div className="flex gap-2 items-center my-2">
                 <Image
                   src="/assets/icons/check.svg"
                   alt="check"
