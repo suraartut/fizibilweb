@@ -84,7 +84,7 @@ const cadProgramlama = () => {
           <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
             CAD Çözümleme Uygulamalarımız
           </h3>
-          <div className="lg:flex gap-5">
+          <div className="gap-5 lg:grid grid-cols-2">
             <div className={styles.card}>
               <div className={styles.card_black}>
                 <Image
@@ -98,7 +98,12 @@ const cadProgramlama = () => {
               <div className={styles.card_gray}>
                 <div className={styles.card_line}></div>
                 <h3 className={styles.card_title}>Fizibil İskele Analiz</h3>
-                <p className="lg:my-6 my-4">Açıklama</p>
+                <p className="lg:my-6 my-4">
+                  İnşaat mühendislerinin kullanımı için cephe iskelelerinin 3
+                  boyutlu modellenmesi, statik analizi, raporlanması ve proje
+                  paftalarının dwg formatında otomatik hazırlanması için
+                  geliştirilmiş paket program
+                </p>
                 <Link href="/iskele" className={styles.card_button}>
                   <span className={styles.card_button_title}>KEŞFEDİN!</span>
                   <Image
@@ -114,7 +119,14 @@ const cadProgramlama = () => {
               <div className={styles.card_gray}>
                 <div className={styles.card_line}></div>
                 <h3 className={styles.card_title}>Fizibil Yığma Analiz</h3>
-                <p className="lg:my-6 my-4">Açıklama</p>
+                <p className="lg:my-6 my-4">
+                  İnşaat mühendislerinin kullanımı için Yığma binaların
+                  TBDY2018'e göre tasarlanması, performans analizlerinin
+                  yapılması ve RBYBHY'e göre risk analizlerinin yapılması. (3
+                  boyutlu modellenmesi, statik-dinamik analizi, raporlanması ve
+                  proje paftalarının dwg formatında otomatik hazırlanması) için
+                  paket program
+                </p>
                 <Link href="/yigma" className={styles.card_button}>
                   <span className={styles.card_button_title}>KEŞFEDİN!</span>
                   <Image

@@ -96,14 +96,14 @@ export const childMenu = [
   {
     id: 21,
     title: "İnşaat Mühendisliği",
-    url: "/insaat-muhendisligi",
+    url: "/",
     catName: "ENDÜSTRİ",
     catChild: 4,
   },
   {
     id: 22,
     title: "Enerji",
-    url: "/enerji",
+    url: "/",
     catName: "ENDÜSTRİ",
     catChild: 3,
   },
@@ -117,7 +117,7 @@ export const childMenu = [
   {
     id: 24,
     title: "Medical",
-    url: "/medical",
+    url: "/",
     catName: "ENDÜSTRİ",
     catChild: 1,
   },
@@ -159,7 +159,7 @@ export const childMenu = [
   {
     id: 35,
     title: "Mobil Programlama",
-    url: "/",
+    url: "/mobil-uygulama",
     catName: "Çözümler",
     catChild: 0,
   },

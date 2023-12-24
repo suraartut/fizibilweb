@@ -14,10 +14,17 @@ const Yigma = () => {
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-6">
         <div className="lg:mx-32 mx-5">
-          <h2 className="text-center lg:w-1/4 w-2/3 lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 border-b-2 border-[#2e8fce] pb-2">
+          <h2 className="lg:text-3xl text-2xl pb-2 font-bold">
             Fizibil Yığma Analizi
           </h2>
-          <p className="">
+          <p className="mb-6 italic">
+            İnşaat mühendislerinin kullanımı için Yığma binaların TBDY2018'e
+            göre tasarlanması, performans analizlerinin yapılması ve RBYBHY'e
+            göre risk analizlerinin yapılması. (3 boyutlu modellenmesi,
+            statik-dinamik analizi, raporlanması ve proje paftalarının dwg
+            formatında otomatik hazırlanması) için paket program
+          </p>
+          <p className="mt-2">
             <strong>Fizibil yığma analiz programı,</strong> yığma binaların
             tasarlanması ve tahkikinde kullanılmak üzere KOSGEB Ar-Ge İnovasyon
             projesi olarak geliştirilmiş bir yazılımdır. Yazılım bulut desteğine
@@ -64,7 +71,7 @@ const Yigma = () => {
             </div>
           </div>
           <div>
-            <p className="mt-8">
+            <p className="mt-8 italic">
               Fizibil yığma analizi lisanslı dosya için{" "}
               <span className="text-blue-500">
                 <Link

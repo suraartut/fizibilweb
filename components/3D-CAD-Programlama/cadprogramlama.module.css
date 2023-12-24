@@ -1,13 +1,13 @@
 .card {
-  @apply mx-auto my-5 lg:px-0 px-5 lg:flex;
+  @apply mx-auto my-5 lg:px-0 px-5 col-span-1 lg:grid grid-cols-5;
 }
 
 .card_gray {
-  @apply bg-[#eaebec] h-auto py-12 lg:px-12 px-8 min-w-[380px];
+  @apply bg-[#eaebec] h-auto py-12 lg:px-12 px-8 min-w-[380px] col-span-3;
 }
 
 .card_black {
-  @apply h-auto bg-[#1A1A1A];
+  @apply h-auto bg-[#1A1A1A] col-span-2;
 }
 
 .card_line {
