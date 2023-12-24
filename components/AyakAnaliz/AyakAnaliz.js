@@ -13,15 +13,18 @@ const AyakAnaliz = () => {
         />
       </div>
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="lg:flex gap-16 lg:mx-20 lg:mt-14">
-          <div className="lg:mt-20">
+        <div className="lg:flex gap-16 lg:mt-14 items-center">
+          <div className="lg:mt-8">
             <Image
               className="mx-auto"
-              src="/assets/Images/Magenta-1.png"
+              src="/assets/Images/ayak-analiz-telif.jpg"
               alt="Ayak Analiz Telif"
-              width={650}
-              height={600}
+              width={350}
+              height={480}
             />
+            <p className="font-bold text-center italic text-sm">
+              Magenta Ayak Analiz Tescil Belgemiz
+            </p>
           </div>
           <div className="">
             <div className="lg:mb-12 mb-6">
@@ -70,18 +73,6 @@ const AyakAnaliz = () => {
               </ol>
             </div>
           </div>
-        </div>
-        <div className="lg:mt-8">
-          <Image
-            className="mx-auto"
-            src="/assets/Images/ayak-analiz-telif.jpg"
-            alt="Ayak Analiz Telif"
-            width={250}
-            height={380}
-          />
-          <p className="font-bold text-center italic text-sm">
-            Magenta Ayak Analiz Tescil Belgemiz
-          </p>
         </div>
       </div>
     </div>
