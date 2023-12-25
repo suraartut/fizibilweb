@@ -13,17 +13,18 @@ const OurWorks = () => {
           <h3 className="font-bold text-xl">Ürünlerimiz</h3>
           <p className="lg:mt-6 mt-4">
             Fizibil, geniş ve çeşitli bir yazılım yelpazesi ile sektördeki
-            ihtiyaçları karşılamak için burada! İskele ve yığma yazılımı,
-            doğalgaz ve elektrik sayacı okuma uygulamaları, statik proje bedeli
+            ihtiyaçları karşılamak için burada! Doğalgaz ve elektrik sayacı
+            okuma uygulamaları, iskele ve yığma yazılımı, statik proje bedeli
             hesaplama, görüntü işleme, MLM özellikli e-ticaret, magenta ayak
-            analizi, kentsel dönüşüm bilgi sistemi, ERP danışmanlık ve yazılım
-            hizmetleri, özel ve butik yazılım çözümleri, web programlama, mobil
-            programlama ve masaüstü programlama gibi birbirinden özgün ve etkili
-            ürünlerimizle iş süreçlerinizi optimize edin. Sektördeki
-            deneyimimizle, müşterilerimizin özel ihtiyaçlarına yönelik çözümler
-            sunarak, teknolojik dönüşümde lider olmanıza yardımcı oluyoruz.
-            Gelişmiş yazılım çözümleri ile işlerinizi daha verimli ve rekabetçi
-            bir şekilde yönetmek için bize katılın!
+            analizi, kentsel dönüşüm bilgi sistemi, ERP-CRM danışmanlık ve
+            yazılım hizmetleri, özel ve butik yazılım çözümleri, web
+            programlama, mobil programlama ve masaüstü programlama gibi
+            birbirinden özgün ve etkili ürün ve hizmetlerimizle iş süreçlerinizi
+            optimize edin. Sektördeki deneyimimizle, müşterilerimizin özel
+            ihtiyaçlarına yönelik çözümler sunarak, teknolojik dönüşümde lider
+            olmanıza yardımcı oluyoruz. Gelişmiş yazılım çözümleri ile
+            işlerinizi daha verimli ve rekabetçi bir şekilde yönetmek için bize
+            ulaşın!
           </p>
           {/* <Link href="/" className={styles.card_button}>
             View All Software

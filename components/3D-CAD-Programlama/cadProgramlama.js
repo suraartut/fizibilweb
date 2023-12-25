@@ -122,7 +122,7 @@ const cadProgramlama = () => {
                 <p className="lg:my-6 my-4">
                   İnşaat mühendislerinin kullanımı için Yığma binaların
                   TBDY2018&apos;e göre tasarlanması, performans analizlerinin
-                  yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması.
+                  yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması
                   (3 boyutlu modellenmesi, statik-dinamik analizi, raporlanması
                   ve proje paftalarının dwg formatında otomatik hazırlanması)
                   için paket program

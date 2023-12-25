@@ -13,14 +13,14 @@ const Yigma = () => {
         />
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-6">
-        <div className="lg:mx-32 mx-5">
-          <h2 className="lg:text-3xl text-2xl pb-2 font-bold">
+        <div className="lg:mx-10 mx-5">
+          <h2 className="lg:text-3xl text-2xl mb-4 font-bold text-center">
             Fizibil Yığma Analizi
           </h2>
-          <p className="mb-6 italic">
+          <p className="mb-6 italic text-gray-600 text-lg text-center">
             İnşaat mühendislerinin kullanımı için Yığma binaların
             TBDY2018&apos;e göre tasarlanması, performans analizlerinin
-            yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması. (3
+            yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması (3
             boyutlu modellenmesi, statik-dinamik analizi, raporlanması ve proje
             paftalarının dwg formatında otomatik hazırlanması) için paket
             program
@@ -28,9 +28,20 @@ const Yigma = () => {
           <p className="mt-2">
             <strong>Fizibil yığma analiz programı,</strong> yığma binaların
             tasarlanması ve tahkikinde kullanılmak üzere KOSGEB Ar-Ge İnovasyon
-            projesi olarak geliştirilmiş bir yazılımdır. Yazılım bulut desteğine
-            sahiptir. Aynı projenin farklı versiyonları ekip çalışmasına imkan
-            sağlayacak şekilde bulutta saklanabilmektedir.
+            projesi olarak geliştirilmiş bir yazılımdır. Bulut proje depolama
+            desteğine sahip program, gelişmiş, modern ve kullanışlı veri girme
+            ara yüzü ile projelerin kolay ve seri halde modellenmesini sağlarken
+            gelişmiş araçları ve analiz özellikleri sayesinde hızlı, güvenilir
+            analiz imkanı ve anlaşılır raporlama imkanı sunmaktadır. 16 Şubat
+            2019 tarihinde yayınlan RBTE 2019’a göre riskli yapı analiz ve
+            tahkiki yapılması, mod birleştirme ve döşeme yüklerinin dağıtımının
+            duvar ve döşemelerin sonlu elemanlar ile modellenerek analiz
+            edilmesi gibi birçok yeni kural getirildiği için sistematik sonlu
+            elemanlar metodu analizleri gerektirmektedir. Fizibil Yığma Analiz
+            kullanarak istenen analizler tarif edilen yöntemlerle
+            yapılabilmektedir ve programın herhangi bir özelliğinin kullanılması
+            için herhangi bir harici yazılım kullanma zorunluluğu
+            bulunmamaktadır.
           </p>
           <p className="my-5">
             Yığma yapılar için; Riskli Yapı Tespit Projesi RBT 2019, Uyumlu Yeni
@@ -38,35 +49,49 @@ const Yigma = () => {
             üzere üç farklı analiz ve tasarım seçeneği mevcuttur.
           </p>
           <div className="mt-6 lg:flex justify-between">
-            <div className="lg:my-0 my-4">
+            <div className="lg:my-0 my-4 italic">
               <p className="font-bold mb-2">Öne Çıkan Özellikler</p>
               <ol className="list-disc mx-5">
-                <li>Kullanıcı dostu arayüz</li>
+                <li>Kullanıcı dostu modern, kolay ve sade (Ribbon) arayüz</li>
+                <li>Mimari (DWG) projeden aks okuma</li>
                 <li>
                   Bulut desteği ile projelerin bulutta saklanma ve indirilmesi
                 </li>
                 <li>Yapısal olmayan elemanların analizi</li>
                 <li>
-                  Eşdeğer deprem yükü veya mod birleştirmeye göre deprem hesabı
+                  Eşdeğer deprem yükü veya Mod birleştirmeye göre deprem hesabı
                 </li>
-                <li>Modelde merdiven ve çatı eklenmesi</li>
-                <li>Katman gizlenmesi</li>
+                <li>
+                  Sonlu elemanlar ile duvar ve döşemelerin modellenmesi ve
+                  analizi
+                </li>
+                <li>
+                  Program içinden açılan harita üzerinden koordinat seçimi
+                </li>
+                <li>Çevrimdışı yaklaşık Ss ve S1 hesabı</li>
+                <li>Gerçekçi merdiven ve çatı modellenmesi</li>
+                <li>Katmanlı çizim yapısı</li>
                 <li>Kolay anlaşılır raporlama</li>
+                <li>Pafta antet hazırlama sihirbazı</li>
                 <li>Pafta düzenleme editörü</li>
-                <li>Kesit alma</li>
-                <li>Metraj</li>
+                <li>Hızlı ve pratik kesit alma</li>
+                <li>Yapı metraj hesabı ve raporlama</li>
+                <li>Proje dosyasını çift klik ile otomatik yükleme</li>
+                <li>Sürükle - bırak ile proje yükleme</li>
+                <li>Uygun fiyat politikası</li>
               </ol>
             </div>
             <div className="">
-              Pafta Fotoğrafı
-              {/* <Image
-                src="/assets/Images/Resim1.jpg"
-                width={800}
-                height={600}
+              <Image
+                className="bg-gray-100 p-5"
+                src="/assets/Images/yigma-proje-cesitleri.png"
+                width={740}
+                height={700}
                 alt="alt"
-              /> */}
-              <div className="text-sm italic w-full text-center">
-                Pafta Düzenleme Editörü
+              />
+              <div className="text-sm italic w-full text-center font-bold">
+                Projelerinizi yeni yönetmeliklere uygun olarak kolaylıkla
+                hazırlayabilirsiniz
               </div>
               {/* Rapor örneklerinin fotoğraflarını de koy, bulut tabanlı yığma arayüzünü de koy */}
             </div>

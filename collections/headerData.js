@@ -44,27 +44,27 @@ export const headerData = [
 ];
 
 export const childMenu = [
-  {
-    id: 1,
-    title: "Hakkımızda",
-    url: "/",
-    catName: "ŞİRKET",
-    catChild: 0,
-  },
-  {
-    id: 2,
-    title: "Vizyonumuz",
-    url: "/",
-    catName: "ŞİRKET",
-    catChild: 0,
-  },
-  {
-    id: 3,
-    title: "Misyonumuz",
-    url: "/",
-    catName: "ŞİRKET",
-    catChild: 0,
-  },
+  // {
+  //   id: 1,
+  //   title: "Hakkımızda",
+  //   url: "/",
+  //   catName: "ŞİRKET",
+  //   catChild: 0,
+  // },
+  // {
+  //   id: 2,
+  //   title: "Vizyonumuz",
+  //   url: "/",
+  //   catName: "ŞİRKET",
+  //   catChild: 0,
+  // },
+  // {
+  //   id: 3,
+  //   title: "Misyonumuz",
+  //   url: "/",
+  //   catName: "ŞİRKET",
+  //   catChild: 0,
+  // },
 
   {
     id: 11,
@@ -76,7 +76,7 @@ export const childMenu = [
   {
     id: 12,
     title: "Mobil Uygulama",
-    url: "/",
+    url: "/mobil-uygulama",
     catName: "Ürünler",
     catChild: 3,
   },
@@ -90,14 +90,14 @@ export const childMenu = [
   {
     id: 21,
     title: "İnşaat Mühendisliği",
-    url: "/",
+    url: "",
     catName: "ENDÜSTRİ",
     catChild: 4,
   },
   {
     id: 22,
     title: "Enerji",
-    url: "/",
+    url: "",
     catName: "ENDÜSTRİ",
     catChild: 3,
   },
@@ -111,7 +111,7 @@ export const childMenu = [
   {
     id: 24,
     title: "Medical",
-    url: "/",
+    url: "",
     catName: "ENDÜSTRİ",
     catChild: 1,
   },
@@ -160,7 +160,7 @@ export const childMenu = [
   {
     id: 36,
     title: "Masaüstü Programlama",
-    url: "/",
+    url: "",
     catName: "Çözümler",
     catChild: 0,
   },
