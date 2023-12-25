@@ -9,8 +9,12 @@ const Yigma = () => {
       <div className="w-full">
         <img
           src="/assets/Images/yigma-banner.png"
-          className="w-full h-[50vh] object-cover"
+          className="w-full lg:h-[50vh] h-[12vh] object-cover"
         />
+        <div className=" text-white lg:text-7xl absolute lg:top-[35%] top-[16%] lg:right-[25%] right-[25%]">
+          <h2 className="lg:pb-4">Fizibil Yığma</h2>
+          <h2>Analiz Yazılımı</h2>
+        </div>
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-6">
         <div className="lg:mx-10 mx-5">
@@ -123,7 +127,7 @@ const Yigma = () => {
             </p>
           </div>
 
-          <div className="my-5 bg-blue-100 py-10 px-20">
+          <div className="my-5 bg-blue-100 lg:py-10 py-6 lg:px-20 px-6">
             <p className="font-bold lg:py-3 py-2">
               Yığma Yazılım Fiyatlarımızı Hemen Öğrenin!
             </p>

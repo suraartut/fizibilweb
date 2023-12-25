@@ -118,11 +118,11 @@ const Mobil = () => {
             <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
               Mobil Programlama Çözümlerimiz
             </h3>
-            <div className="lg:flex">
+            <div className="lg:grid grid-cols-3 gap-12">
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/dogalgaz-sayac.png"
                     alt="Doğalgaz Sayacı Okuma Uygulaması"
                     className={styles.card_images}
                     width={350}
@@ -132,8 +132,13 @@ const Mobil = () => {
                 <div className={styles.card_gray}>
                   <div className={styles.card_line}></div>
                   <h3 className={styles.card_title}>Doğalgaz Sayacı Okuma</h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
-                  <Link href="/iskele" className={styles.card_button}>
+                  <p className="lg:my-6 my-4">
+                    Şirketimiz, enerji tüketiminizi optimize etmenizi sağlayan
+                    yenilikçi bir çözüm sunuyor: Doğalgaz Sayacı Okuma Mobil
+                    Uygulaması. Artık doğalgaz tüketiminizi daha etkili bir
+                    şekilde kontrol edebilir, tasarruf sağlayın.
+                  </p>
+                  <Link href="/dogalgaz-sayac" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
                       src="/assets/icons/right-sm.svg"
@@ -147,7 +152,7 @@ const Mobil = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/elektrik-sayac.png"
                     alt="Elektrik Sayacı Okuma Uygulaması"
                     className={styles.card_images}
                     width={350}
@@ -157,8 +162,13 @@ const Mobil = () => {
                 <div className={styles.card_gray}>
                   <div className={styles.card_line}></div>
                   <h3 className={styles.card_title}>Elektrik Sayacı Okuma</h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
-                  <Link href="/e-ticaret" className={styles.card_button}>
+                  <p className="lg:my-6 my-4">
+                    Enerji kullanımınızı anlık olarak izlemenin ve kontrol
+                    etmenin yeni yolu burada! Elektrik Sayacı Okuma Uygulamamız
+                    ile günlük enerji tüketiminizi optimize edin, faturalarınızı
+                    azaltın ve çevre dostu bir yaşam tarzına geçiş yapın.
+                  </p>
+                  <Link href="/elektrik-sayac" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
                       src="/assets/icons/right-sm.svg"
@@ -184,8 +194,14 @@ const Mobil = () => {
                   <h3 className={styles.card_title}>
                     Statik Proje Bedeli Hesaplama
                   </h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
-                  <Link href="/iskele" className={styles.card_button}>
+                  <p className="lg:my-6 my-4">
+                    Şirketimiz, inşaat ve projelerinizin maliyet yönetimini
+                    kolaylaştırmak için Statik Proje Bedeli Hesaplama Uygulaması
+                    ile karşınızda. Proje maliyetlerinizi hızlı ve hassas bir
+                    şekilde hesaplayın, bütçenizi optimize edin ve
+                    projelerinizin başarısını artırın.
+                  </p>
+                  <Link href="/proje-bedel" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
                       src="/assets/icons/right-sm.svg"

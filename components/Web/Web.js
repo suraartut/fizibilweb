@@ -119,7 +119,7 @@ const Web = () => {
             <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
               Web Çözümlerimiz
             </h3>
-            <div className="lg:flex">
+            <div className="lg:grid grid-cols-3 gap-12">
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
@@ -135,8 +135,15 @@ const Web = () => {
                   <h3 className={styles.card_title}>
                     ERP Yazılım ve Danışmanlık
                   </h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
-                  <Link href="/iskele" className={styles.card_button}>
+                  <p className="lg:my-6 my-4">
+                    Şirketimiz, iş süreçlerinizi optimize etmek ve verimliliği
+                    artırmak için özel olarak tasarlanmış ERP yazılım ve
+                    danışmanlık çözümleri sunmaktadır. İşletmenizin
+                    ihtiyaçlarına özel olarak uyarlanabilen bu çözümlerle iş
+                    süreçlerinizi daha etkili hale getirebilir, kaynakları
+                    yönetebilir ve rekabet avantajınızı artırabilirsiniz.
+                  </p>
+                  <Link href="/erp" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
                       src="/assets/icons/right-sm.svg"
@@ -162,7 +169,13 @@ const Web = () => {
                   <h3 className={styles.card_title}>
                     MLM Özellikli E-ticaret Portalı
                   </h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
+                  <p className="lg:my-6 my-4">
+                    E-ticaret dünyasında öne çıkmak için tasarlanmış MLM
+                    özellikli e-ticaret portalımız ile satış stratejilerinizi
+                    güçlendirin. Geniş ürün yelpazesi, etkili ödeme sistemleri
+                    ve çok seviyeli pazarlama (MLM) entegrasyonu ile işinizi
+                    daha da büyütmenize yardımcı oluyoruz.
+                  </p>
                   <Link href="/e-ticaret" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
@@ -189,8 +202,14 @@ const Web = () => {
                   <h3 className={styles.card_title}>
                     Kentsel Dönüşüm Bilgi Sistemi
                   </h3>
-                  <p className="lg:my-6 my-4">Açıklama</p>
-                  <Link href="/iskele" className={styles.card_button}>
+                  <p className="lg:my-6 my-4">
+                    Kentsel dönüşüm projelerinizi daha etkili bir şekilde
+                    yönetmek ve bilgi akışını optimize etmek için tasarlanmış
+                    Kentsel Dönüşüm Bilgi Sistemi ile tanışın. Şirketimiz,
+                    inşaat sektöründe uzmanlaşmış ve kentsel dönüşüm süreçlerini
+                    kolaylaştırmayı hedeflemiştir.
+                  </p>
+                  <Link href="/kentsel-donusum" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>
                     <Image
                       src="/assets/icons/right-sm.svg"
