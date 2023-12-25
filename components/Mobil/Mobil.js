@@ -17,7 +17,7 @@ const Mobil = () => {
         <div className="lg:mx-0 mx-5">
           <div className="lg:mb-12 mb-6">
             <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
-              <code>&quot;Mobil Dünyası'na Hoş Geldiniz!&quot;</code>
+              <code>&quot;Mobil Dünyası&apos;na Hoş Geldiniz!&quot;</code>
             </h2>
             <h3 className="text-center font-bold text-xl">
               <code>
