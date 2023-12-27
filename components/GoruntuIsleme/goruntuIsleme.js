@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const goruntuIsleme = () => {
   return (
-    <div className="w-full pt-32 mb-10">
+    <div className="w-full pt-32 mb-10 listimage">
       <div className="lg:container mx-auto">
         <h3 className="text-center font-bold italic">
           Yapay zeka alanında yaptığımız çeşitli bilimsel araştırmalarımızı
@@ -26,7 +26,7 @@ const goruntuIsleme = () => {
               <p className="font-bold lg:py-3 py-2">
                 Uygulama Programlama Arayüzü (API)
               </p>
-              <ul className="goruntu-isleme lg:pb-3 pb-2">
+              <ul className="lg:pb-3 pb-2">
                 <li>
                   Dijital fotoğraf sunucuya yollanır ve sunucuda analiz edilir.
                 </li>

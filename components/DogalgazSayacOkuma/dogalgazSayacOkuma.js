@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const dogalgazSayacOkuma = () => {
   return (
-    <div className="w-full pt-[88px] sayac">
+    <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
           src="/assets/Images/dogalsayaçokuma2.png"

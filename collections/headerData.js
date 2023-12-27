@@ -164,13 +164,13 @@ export const childMenu = [
     catName: "Çözümler",
     catChild: 0,
   },
-  {
-    id: 41,
-    title: "Basında",
-    url: "/basinda",
-    catName: "Haberler",
-    catChild: 0,
-  },
+  // {
+  //   id: 41,
+  //   title: "Basında",
+  //   url: "/basinda",
+  //   catName: "Haberler",
+  //   catChild: 0,
+  // },
   {
     id: 42,
     title: "Sosyal Medya",

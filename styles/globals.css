@@ -254,12 +254,6 @@ body {
   max-height: 10rem;
 }
 
-/*Sayaç Sayfası Liste*/
-.sayac .sayac-list li {
-  margin: 10px 0;
-  align-items: center;
-}
-
 /*Telefon ve E-mail kopyalanamaz*/
 .phone,
 .e-mail {
@@ -270,7 +264,12 @@ body {
   user-select: none;
 }
 
-.goruntu-isleme li {
-  list-style-type: disc;
-  list-style-position: inside;
+.listimage li {
+  margin: 0;
+  padding-left: 40px;
+  list-style: none !important;
+  background-image: url("/assets/icons/check.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
 }

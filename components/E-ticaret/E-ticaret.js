@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Eticaret = () => {
   return (
-    <div className="w-full pt-[88px]">
+    <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
           src="/assets/Images/mlm-etic-banner.png"
@@ -74,14 +74,14 @@ const Eticaret = () => {
                 .
               </p>
             </div>
-            <div>
+            {/* <div>
               <Image
                 src="/assets/Images/mlm-780x840.png"
                 width={280}
                 height={280}
                 alt="mlm e-ticaret"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

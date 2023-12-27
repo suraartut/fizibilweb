@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const elektrikSayacOkuma = () => {
   return (
-    <div className="w-full pt-[88px] sayac">
+    <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
           src="/assets/Images/elksayaçokuma2.png"

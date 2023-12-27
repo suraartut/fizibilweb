@@ -5,7 +5,7 @@ import styles from "./yigma.module.css";
 
 const Yigma = () => {
   return (
-    <div className="w-full pt-[88px]">
+    <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
           src="/assets/Images/yigma-banner.png"
@@ -58,9 +58,6 @@ const Yigma = () => {
               <ol className="list-disc mx-5">
                 <li>Kullanıcı dostu modern, kolay ve sade (Ribbon) arayüz</li>
                 <li>Mimari (DWG) projeden aks okuma</li>
-                <li>
-                  Bulut desteği ile projelerin bulutta saklanma ve indirilmesi
-                </li>
                 <li>Yapısal olmayan elemanların analizi</li>
                 <li>
                   Eşdeğer deprem yükü veya Mod birleştirmeye göre deprem hesabı

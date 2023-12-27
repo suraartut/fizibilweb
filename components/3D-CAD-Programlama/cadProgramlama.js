@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const cadProgramlama = () => {
   return (
-    <div className="w-full pt-[88px]">
+    <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
           src="/assets/Images/3D-banner.png"
@@ -23,21 +23,34 @@ const cadProgramlama = () => {
               Modelleme Yazılımlarıyla Sınırları Zorlayın!&quot;
             </h3>
           </div>
-          <p className="font-bold py-3">Yapabileceklerimiz</p>
-          <p className="lg:pb-3 pb-2">
-            • 3 boyutlu modellemenin manuel olarak kullanıcı tarafından en rahat
-            şekilde yapılabilmesini sağlamak. <br />• Birlikte çalışılması
-            gereken programlardan veya manuel olarak hazırlanmış dosyalardan
-            elde edilen verilerin otomatik 3 boyutlu model haline getirilmesini
-            sağlamak. <br />• Model içerisinde bulunan elemanlara veri
-            atamasını, verilerin görsel olmayan tablolar halinde yönetilmesi
-            yerine hazırlanan model üzerinden yönetilmesini sağlamak. <br />•
-            Elde edilen verilerle gerekli analizler yapmak, özelleştirilmiş
-            tablolar haline getirmek ve istenen çıktıları elde edip metin, tablo
-            veya çizim olarak kaydedilmesini sağlamak. <br />• Kullanıcıların
-            ihtiyaçlarına özel arayüz oluşturarak, kullanıcıların daha etkili
-            bir çalışma deneyimi sunmasını sağlamak.
-          </p>
+
+          <ol className="lg:pb-3 pb-2">
+            <p className="font-bold py-3">Yapabileceklerimiz</p>
+            <li>
+              3 boyutlu modellemenin manuel olarak kullanıcı tarafından en rahat
+              şekilde yapılabilmesini sağlamak.
+            </li>
+            <li>
+              Birlikte çalışılması gereken programlardan veya manuel olarak
+              hazırlanmış dosyalardan elde edilen verilerin otomatik 3 boyutlu
+              model haline getirilmesini sağlamak.
+            </li>
+            <li>
+              Model içerisinde bulunan elemanlara veri atamasını, verilerin
+              görsel olmayan tablolar halinde yönetilmesi yerine hazırlanan
+              model üzerinden yönetilmesini sağlamak.
+            </li>
+            <li>
+              Elde edilen verilerle gerekli analizler yapmak, özelleştirilmiş
+              tablolar haline getirmek ve istenen çıktıları elde edip metin,
+              tablo veya çizim olarak kaydedilmesini sağlamak.
+            </li>
+            <li>
+              Kullanıcıların ihtiyaçlarına özel arayüz oluşturarak,
+              kullanıcıların daha etkili bir çalışma deneyimi sunmasını
+              sağlamak.
+            </li>
+          </ol>
           <p className="font-bold pt-6 pb-4">
             Neden 3D CAD Tabanlı Butik Yazılım?
           </p>
