@@ -1,0 +1,31 @@
+.card {
+  @apply mx-auto my-5 lg:px-0 px-5;
+}
+
+.card_gray {
+  @apply bg-[#eaebec] h-auto py-12 lg:px-12 px-8 lg:min-w-[380px];
+}
+
+.card_black {
+  @apply h-auto bg-[#1A1A1A] lg:h-[400px];
+}
+
+.card_line {
+  @apply h-1 w-24 bg-[#2e8fce] mb-3;
+}
+
+.card_title {
+  @apply font-bold text-xl;
+}
+
+.card_button {
+  @apply uppercase text-sm font-semibold text-gray-700 hover:text-gray-500 tracking-wider w-full flex gap-2 items-center duration-200 ease-in-out;
+}
+
+.card_button_title {
+  @apply underline underline-offset-4;
+}
+
+.card_images {
+  @apply object-fill w-full h-full;
+}

@@ -27,6 +27,7 @@ const Mobil = () => {
               </div>
               <div className="lg:hidden block mb-3">
                 <Image
+                  className="mx-auto"
                   src="/assets/Images/phone.jpg"
                   width={350}
                   height={350}

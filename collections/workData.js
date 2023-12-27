@@ -9,7 +9,7 @@ export const workData = [
   },
   {
     id: 2,
-    url: "/assets/Images/civil.png",
+    url: "/assets/Images/iskele-multi.png",
     alt: "Fizibil İskele Analizi",
     title1: "FİZİBİL",
     title2: "İSKELE ANALİZ",
@@ -25,7 +25,7 @@ export const workData = [
   },
   {
     id: 4,
-    url: "/assets/Images/ERP-rapor.png",
+    url: "/assets/Images/e-tic.png",
     alt: "MLM Özellikli E-Ticaret Portalı",
     title1: "MLM ÖZELLİKLİ",
     title2: "E-TİCARET PORTALI",
@@ -33,7 +33,7 @@ export const workData = [
   },
   {
     id: 5,
-    url: "/assets/Images/ERP-rapor.png",
+    url: "/assets/Images/kentsel-donusum.png",
     alt: "Kentsel Dönüşüm Bilgi Sistemi",
     title1: "KENTSEL DÖNÜŞÜM",
     title2: "BİLGİ SİSTEMİ",

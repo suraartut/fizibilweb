@@ -69,7 +69,7 @@ export const childMenu = [
   {
     id: 11,
     title: "Masaüstü Uygulama",
-    url: "",
+    url: "/masaustu-uygulama",
     catName: "Ürünler",
     catChild: 3,
   },
@@ -160,7 +160,7 @@ export const childMenu = [
   {
     id: 36,
     title: "Masaüstü Programlama",
-    url: "",
+    url: "/masaustu-uygulama",
     catName: "Çözümler",
     catChild: 0,
   },

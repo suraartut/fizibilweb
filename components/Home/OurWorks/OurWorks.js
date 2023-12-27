@@ -33,9 +33,9 @@ const OurWorks = () => {
 
         <figure className="snip1585">
           <Image
-            src="/assets/Images/butik-yazılım.png"
-            width={700}
-            height={600}
+            src="/assets/Images/dogalgaz-sayac.png"
+            width={400}
+            height={400}
             alt="Doğalgaz Sayacı Okuma"
             className={styles.image}
           />
@@ -51,7 +51,7 @@ const OurWorks = () => {
         <figure className="snip1585">
           <Link href="/elektrik-sayac">
             <img
-              src="/assets/Images/yıgma.png"
+              src="/assets/Images/elektrik-sayac.png"
               alt="Elektrik Sayacı Okuma"
               className={styles.image}
             />

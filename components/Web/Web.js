@@ -35,6 +35,7 @@ const Web = () => {
               </div>
               <div className="lg:hidden block mb-3">
                 <Image
+                  className="mx-auto"
                   src="/assets/Images/web-responsive.jpg"
                   width={350}
                   height={350}
