@@ -156,11 +156,11 @@ const Masaustu = () => {
                   <h3 className={styles.card_title}>Fizibil Yığma Analiz</h3>
                   <p className="lg:my-6 my-4">
                     İnşaat mühendislerinin kullanımı için Yığma binaların
-                    TBDY2018'e göre tasarlanması, performans analizlerinin
-                    yapılması ve RBYBHY'e göre risk analizlerinin yapılması (3
-                    boyutlu modellenmesi, statik-dinamik analizi, raporlanması
-                    ve proje paftalarının dwg formatında otomatik hazırlanması)
-                    için paket program
+                    TBDY201&apos;e göre tasarlanması, performans analizlerinin
+                    yapılması ve RBYBHY&apos;e göre risk analizlerinin yapılması
+                    (3 boyutlu modellenmesi, statik-dinamik analizi,
+                    raporlanması ve proje paftalarının dwg formatında otomatik
+                    hazırlanması) için paket program
                   </p>
                   <Link href="/yigma" className={styles.card_button}>
                     <span className={styles.card_button_title}>KEŞFEDİN!</span>

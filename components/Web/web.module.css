@@ -7,7 +7,7 @@
 }
 
 .card_black {
-  @apply h-auto bg-[#1A1A1A];
+  @apply h-auto bg-[#1A1A1A] lg:h-[400px];
 }
 
 .card_line {

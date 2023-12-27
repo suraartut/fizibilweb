@@ -124,11 +124,11 @@ const Web = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/ERP-rapor.png"
                     alt="ERP Yazılım ve Danışmanlık"
                     className={styles.card_images}
-                    width={350}
-                    height={350}
+                    width={384}
+                    height={329}
                   />
                 </div>
                 <div className={styles.card_gray}>
@@ -158,11 +158,11 @@ const Web = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/e-tic.png"
                     alt="MLM Özellikli E-ticaret Portalı"
                     className={styles.card_images}
-                    width={350}
-                    height={350}
+                    width={371}
+                    height={281}
                   />
                 </div>
                 <div className={styles.card_gray}>
@@ -191,11 +191,11 @@ const Web = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/kentsel-donusum.png"
                     alt="Kentsel Dönüşüm Bilgi Sistemi"
                     className={styles.card_images}
-                    width={350}
-                    height={350}
+                    width={384}
+                    height={189}
                   />
                 </div>
                 <div className={styles.card_gray}>
