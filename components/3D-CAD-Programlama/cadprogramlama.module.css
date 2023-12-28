@@ -27,5 +27,5 @@
 }
 
 .card_images {
-  @apply object-fill w-full h-full;
+  @apply object-cover w-full h-full;
 }
