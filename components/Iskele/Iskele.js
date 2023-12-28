@@ -9,7 +9,7 @@ const Iskele = () => {
       <div className="w-full">
         <img
           src="/assets/Images/iskele-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
         />
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-3">

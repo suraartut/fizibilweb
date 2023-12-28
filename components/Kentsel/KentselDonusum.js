@@ -7,7 +7,7 @@ const Kentsel = () => {
       <div className="w-full">
         <img
           src="/assets/Images/kentseldonusum-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
           alt="Kentsel Dönüşüm Bilgi Sistemi"
         />
       </div>

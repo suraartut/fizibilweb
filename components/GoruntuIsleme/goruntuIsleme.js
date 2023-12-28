@@ -5,8 +5,15 @@ import Image from "next/image";
 
 const goruntuIsleme = () => {
   return (
-    <div className="w-full pt-32 mb-10 listimage">
-      <div className="lg:container mx-auto">
+    <div className="w-full pt-[88px] listimage">
+      <div className="w-full">
+        <img
+          src="/assets/Images/goruntu-isleme-banner.png"
+          className="w-full lg:h-auto h-[15vh]"
+          alt="Sayaç Okuma"
+        />
+      </div>
+      <div className="lg:container lg:mx-auto mx-5 mt-5">
         <h3 className="text-center font-bold italic">
           Yapay zeka alanında yaptığımız çeşitli bilimsel araştırmalarımızı
           sektörün genelinin ihtiyaçlarına yönelik olarak sonuç ürünlere

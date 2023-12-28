@@ -9,7 +9,7 @@ const Yigma = () => {
       <div className="w-full">
         <img
           src="/assets/Images/yigma-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
         />
         <div className=" text-white lg:text-7xl absolute lg:top-[35%] top-[16%] lg:right-[25%] right-[25%]">
           <h2 className="lg:pb-4">Fizibil Yığma</h2>

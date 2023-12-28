@@ -9,7 +9,7 @@ const Masaustu = () => {
       <div className="w-full">
         <img
           src="/assets/Images/Masaüstü-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
           alt="Masaüstü Programlama"
         />
       </div>

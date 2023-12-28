@@ -9,7 +9,7 @@ const Mobil = () => {
       <div className="w-full">
         <img
           src="/assets/Images/mobil-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
           alt="Mobil Programlama"
         />
       </div>

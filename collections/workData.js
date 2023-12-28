@@ -25,7 +25,7 @@ export const workData = [
   },
   {
     id: 4,
-    url: "/assets/Images/e-tic.png",
+    url: "/assets/Images/e-tic2.png",
     alt: "MLM Özellikli E-Ticaret Portalı",
     title1: "MLM ÖZELLİKLİ",
     title2: "E-TİCARET PORTALI",

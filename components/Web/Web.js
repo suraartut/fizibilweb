@@ -9,7 +9,7 @@ const Web = () => {
       <div className="w-full">
         <img
           src="/assets/Images/web-program-banner.png"
-          className="w-full lg:h-[50vh] h-[12vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
           alt="Web Programlama"
         />
       </div>

@@ -6,7 +6,7 @@ const Medical = () => {
       <div className="w-full">
         <img
           src="/assets/Images/medical-banner.png"
-          className="w-full h-[50vh] object-cover"
+          className="w-full lg:h-auto h-[15vh]"
         />
       </div>
       <div className="w-full lg:container lg:mx-auto mx-5 my-10">
