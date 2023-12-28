@@ -202,12 +202,12 @@ const BannerTop = () => {
         {/* ERP SLIDER */}
         <SwiperSlide>
           <Image
-            src="/assets/Images/slider/siparis.png"
+            src="/assets/Images/slider/ERP&CRM-slider.png"
             width={1920}
             height={950}
-            alt="Siparişe özel masaüstü, web ve mobil uygulamalar"
+            alt="ERP&CRM Yazılım ve Danışmanlık"
           />
-          <div className="w-1/3 left-[60%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="w-1/3 left-[10%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 İleri Düzey Çözümler, Geleceğe Yönelik Çalışmalar: Kurumsal
