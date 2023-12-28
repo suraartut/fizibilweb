@@ -55,7 +55,7 @@ const Yigma = () => {
           <div className="mt-6 lg:flex justify-between">
             <div className="lg:my-0 my-4 italic">
               <p className="font-bold mb-2">Öne Çıkan Özellikler</p>
-              <ol className="list-disc mx-5">
+              <ol className="">
                 <li>Kullanıcı dostu modern, kolay ve sade (Ribbon) arayüz</li>
                 <li>Mimari (DWG) projeden aks okuma</li>
                 <li>Yapısal olmayan elemanların analizi</li>
@@ -85,7 +85,7 @@ const Yigma = () => {
             <div className="">
               <Image
                 className="bg-gray-100 p-5"
-                src="/assets/Images/yigma-proje-cesitleri.png"
+                src="/assets/Images/yigma10.png"
                 width={740}
                 height={700}
                 alt="alt"

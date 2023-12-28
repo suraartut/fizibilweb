@@ -40,7 +40,7 @@ const Eticaret = () => {
                 MLM e-ticaret yazılımlarımızın içerisinde bulunan modüllerin
                 bazıları şu şekildedir:
               </p>
-              <ol className="list-disc mx-5">
+              <ol className="">
                 <li>
                   Sponsor linki veya sponsor numarası bilgisi ile arama
                   yapılarak ağaca kayıt olma / kayıt etme

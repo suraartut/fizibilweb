@@ -24,7 +24,7 @@ const Erp = () => {
             birlikte ilerliyor!
           </p>
         </div>
-        <div className="lg:grid grid-cols-2 lg:mt-10 text-lg listimage">
+        <div className="lg:grid grid-cols-2 lg:mt-12 text-lg listimage">
           <div>
             <h4 className="font-bold mb-2">ERP Çözümleri</h4>
             <li>İş süreçlerinizi entegre ederek verimliliği artırın.</li>
@@ -45,7 +45,7 @@ const Erp = () => {
             </li>
           </div>
         </div>
-        <div className="text-center lg:mb-8 mb-4 lg:mt-14 mt-8 lg:text-6xl text-3xl font-bold">
+        <div className="text-center lg:mb-8 mb-4 lg:mt-16 mt-8 lg:text-5xl text-3xl font-bold">
           <div className="lg:my-2 text-[#2e8fce]">
             İSTEDİĞİNİZ ANDA İSTEDİĞİNİZ YERDEN
           </div>

@@ -28,7 +28,7 @@ const goruntuIsleme = () => {
             Bilgisayarlı görü ile görüntü işleme firmamız tarafından iki farklı
             teknoloji ile yapılmaktadır.
           </p>
-          <div className="flex justify-between">
+          <div className="lg:flex justify-between">
             <div>
               <p className="font-bold lg:py-3 py-2">
                 Uygulama Programlama Arayüzü (API)
@@ -74,21 +74,23 @@ const goruntuIsleme = () => {
                 </li>
               </ol>
             </div>
-            <div>
-              <Image
-                src="/assets/Images/goruntu-isleme-1.png"
-                width={190}
-                height={190}
-                alt="Görüntü İşleme API"
-              />
-            </div>
-            <div>
-              <Image
-                src="/assets/Images/goruntu-isleme-2.png"
-                width={350}
-                height={350}
-                alt="Görüntü İşleme API"
-              />
+            <div className="flex">
+              <div>
+                <Image
+                  src="/assets/Images/goruntu-isleme-1.png"
+                  width={190}
+                  height={190}
+                  alt="Görüntü İşleme API"
+                />
+              </div>
+              <div>
+                <Image
+                  src="/assets/Images/goruntu-isleme-2.png"
+                  width={350}
+                  height={350}
+                  alt="Görüntü İşleme API"
+                />
+              </div>
             </div>
           </div>
         </div>

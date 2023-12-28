@@ -43,7 +43,7 @@ const AyakAnaliz = () => {
                   tabanlığı üretim atölyesine gönderilmek üzere belge hazırlayan
                   bir bilgisayar programı geliştirilmiştir.
                 </p>
-                <ol className="list-disc list-inside">
+                <ol className="">
                   Masaüstünde kullanılmak üzere hazırlanan bu uygulama ile;
                   <li className="mt-2">
                     Hasta bilgilerinin yer aldığı hasta kartları
