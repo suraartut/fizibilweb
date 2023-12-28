@@ -9,7 +9,7 @@ export const workData = [
   },
   {
     id: 2,
-    url: "/assets/Images/iskele-multi.png",
+    url: "/assets/Images/iskele-multi-our-work.png",
     alt: "Fizibil İskele Analizi",
     title1: "FİZİBİL",
     title2: "İSKELE ANALİZ",
@@ -33,7 +33,7 @@ export const workData = [
   },
   {
     id: 5,
-    url: "/assets/Images/kentsel-donusum.png",
+    url: "/assets/Images/kentsel-our-work.png",
     alt: "Kentsel Dönüşüm Bilgi Sistemi",
     title1: "KENTSEL DÖNÜŞÜM",
     title2: "BİLGİ SİSTEMİ",
@@ -55,4 +55,12 @@ export const workData = [
     title2: "HESAPLAMA",
     link: "/proje-bedel",
   },
+  // {
+  //   id: 8,
+  //   url: "",
+  //   alt: "",
+  //   title1: " ",
+  //   title2: " ",
+  //   link: "",
+  // },
 ];
