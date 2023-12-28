@@ -3,7 +3,7 @@
 }
 
 .card_gray {
-  @apply bg-[#eaebec] h-auto py-12 lg:px-12 px-8 min-w-[380px] col-span-3;
+  @apply bg-[#eaebec] h-auto py-12 lg:px-12 px-8 lg:min-w-[380px] col-span-3;
 }
 
 .card_black {
