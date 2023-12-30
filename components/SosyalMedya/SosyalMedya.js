@@ -9,8 +9,8 @@ const SosyalMedya = () => {
           className="w-full h-[50vh] object-cover"
         />
       </div> */}
-      <div className="w-full lg:container lg:mx-auto mx-5 py-10">
-        <div className="mx-32">
+      <div className="w-full lg:py-10 py-6">
+        <div className="lg:container lg:mx-auto mx-5">
           <h2 className="text-center lg:mb-9 mb-5 lg:text-3xl text-2xl text-gray-600 pb-3">
             Sosyal Medya
           </h2>
@@ -20,10 +20,21 @@ const SosyalMedya = () => {
               Genel Müdürümüzden Aydınlatıcı Bilgiler
             </h3>
             <div className="lg:grid grid-cols-2">
-              <div>
+              <div className="lg:block hidden">
                 <iframe
                   width="560"
                   height="315"
+                  src="https://www.youtube.com/embed/UiZJpvNRh-Y?si=uAJ3Hu8hTijeSX3Y"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div className="lg:hidden block lg:my-0 my-4">
+                <iframe
+                  width="355"
+                  height="210"
                   src="https://www.youtube.com/embed/UiZJpvNRh-Y?si=uAJ3Hu8hTijeSX3Y"
                   title="YouTube video player"
                   frameborder="0"

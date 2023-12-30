@@ -1,5 +1,5 @@
 .contact {
-  @apply w-full lg:px-0 px-5;
+  @apply w-full px-0;
 }
 
 .title {

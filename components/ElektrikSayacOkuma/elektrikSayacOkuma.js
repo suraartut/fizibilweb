@@ -174,7 +174,7 @@ const elektrikSayacOkuma = () => {
               geliştirmeler bu doğrultuda devam edecektir.
             </p>
 
-            <div className="flex lg:my-8 my-3 gap-16">
+            <div className="lg:flex lg:my-8 my-3 gap-16">
               <Image
                 src="/assets/Images/e-sayaclar.png"
                 alt="Elektrik sayaçları"

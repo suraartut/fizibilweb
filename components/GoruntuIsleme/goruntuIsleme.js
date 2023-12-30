@@ -9,7 +9,7 @@ const goruntuIsleme = () => {
       <div className="w-full">
         <img
           src="/assets/Images/goruntu-isleme-banner.png"
-          className="w-full lg:h-auto h-[15vh]"
+          className="w-full lg:h-auto h-[16vh]"
           alt="Sayaç Okuma"
         />
       </div>

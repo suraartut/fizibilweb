@@ -8,7 +8,7 @@ const ContactComponent = () => {
       <div className="w-full">
         <img
           src="/assets/Images/contact-us.png"
-          className="w-full lg:h-[60vh] h-[21vh] object-cover"
+          className="w-full lg:h-[61vh] h-[21vh] object-cover"
         />
         <div className="text-center text-white absolute lg:top-[30%] top-[18%] justify-center w-full">
           <h1 className={styles.title}>BİZE ULAŞIN</h1>
@@ -73,7 +73,7 @@ const ContactComponent = () => {
           </div>
         </div>
 
-        <div className="lg:my-0 my-8">
+        <div className="my-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12185.529821589047!2d28.8582583!3d40.2227979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca0e2012f6bf51%3A0xa70ede31fea27808!2zRml6aWJpbCBNw7xoZW5kaXNsaWsgJiBZYXrEsWzEsW0!5e0!3m2!1str!2str!4v1692608260109!5m2!1str!2str"
             width="100%"

@@ -6,7 +6,7 @@ const Erp = () => {
       <div className="w-full">
         <img
           src="/assets/Images/erp-banner.png"
-          className="w-full lg:h-auto h-[18vh]"
+          className="w-full lg:h-auto h-[17vh]"
           alt="ERP & CRM Banner"
         />
       </div>
@@ -26,7 +26,7 @@ const Erp = () => {
         </div>
         <div className="lg:grid grid-cols-2 lg:mt-12 text-lg listimage">
           <div>
-            <h4 className="font-bold mb-2">ERP Çözümleri</h4>
+            <h4 className="font-bold mb-2 lg:mt-0 mt-4">ERP Çözümleri</h4>
             <li>İş süreçlerinizi entegre ederek verimliliği artırın.</li>
             <li>
               Finans yönetiminden stok takibine kadar kapsamlı çözümler
@@ -34,7 +34,7 @@ const Erp = () => {
             </li>
           </div>
           <div>
-            <h4 className="font-bold mb-2">CRM Danışmanlığı</h4>
+            <h4 className="font-bold mb-2 lg:mt-0 mt-4">CRM Danışmanlığı</h4>
             <li>
               Müşteri ilişkilerinizi güçlendirerek satış performansınızı
               artırın.

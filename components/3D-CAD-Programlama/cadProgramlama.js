@@ -9,13 +9,13 @@ const cadProgramlama = () => {
       <div className="w-full">
         <img
           src="/assets/Images/3D-banner.png"
-          className="w-full h-[50vh] object-cover"
+          className="w-full lg:h-auto h-[17vh]"
         />
       </div>
-      <div className="w-full lg:container lg:mx-auto mx-5 my-10">
-        <div className="">
-          <div className="lg:mb-12 mb-6">
-            <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
+      <div className="w-full lg:my-10 my-5">
+        <div className="lg:container lg:mx-auto mx-5">
+          <div className="lg:mb-12 mb-4">
+            <h2 className="text-center mb-2 lg:text-3xl text-2xl font-bold">
               İleri Seviye CAD Çözümleriyle İşinizin Geleceğini Şekillendirin!
             </h2>
             <h3 className="text-center font-bold italic">
@@ -93,7 +93,7 @@ const cadProgramlama = () => {
             .
           </p>
         </div>
-        <div className="lg:mt-10">
+        <div className="lg:mt-10 lg:container lg:mx-auto mx-5">
           <h3 className="border-b border-blue-500 my-3 font-bold text-2xl text-center pb-2">
             CAD Çözümleme Uygulamalarımız
           </h3>

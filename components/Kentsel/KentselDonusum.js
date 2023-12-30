@@ -11,9 +11,9 @@ const Kentsel = () => {
           alt="Kentsel Dönüşüm Bilgi Sistemi"
         />
       </div>
-      <div className="w-full my-8">
+      <div className="w-full lg:my-8 my-5">
         <div className="lg:container lg:mx-auto mx-5">
-          <h2 className="text-center lg:mb-9 mb-5 lg:text-3xl text-2xl font-bold pb-3">
+          <h2 className="text-center lg:mb-9 mb-3 lg:text-3xl text-2xl font-bold">
             Kentsel Dönüşüm Bilgi Sistemi
           </h2>
           <div className="lg:flex gap-10 items-center">

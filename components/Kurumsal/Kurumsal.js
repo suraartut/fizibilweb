@@ -135,13 +135,14 @@ const KurumsalComponent = () => {
       </div>
 
       {/* Sertifikalarımız */}
-      <div className="lg:container mx-auto lg:mt-12 mt-4">
+      <div className="lg:container lg:mx-auto mx-5 lg:mt-12 mt-4">
         <h3 className="border-b border-blue-500 my-2 font-bold text-2xl text-center pb-2">
           Sertifikalarımız
         </h3>
-        <div className="my-8 container mx-auto lg:flex justify-around">
+        <div className="my-8 lg:flex justify-around">
           <div className="text-center">
             <Image
+              className="mx-auto"
               src="/assets/Images/Fizibil-ISO-9001.jpg"
               width={280}
               height={160}
@@ -151,8 +152,9 @@ const KurumsalComponent = () => {
               Fizibil ISO 9001 Belgesi
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center lg:my-0 my-6">
             <Image
+              className="mx-auto"
               src="/assets/Images/Fizibil-ISO-14001.jpg"
               width={280}
               height={160}
@@ -164,6 +166,7 @@ const KurumsalComponent = () => {
           </div>
           <div className="text-center">
             <Image
+              className="mx-auto"
               src="/assets/Images/Fizibil-ISO-27001.jpg"
               width={280}
               height={160}

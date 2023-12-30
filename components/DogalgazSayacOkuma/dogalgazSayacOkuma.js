@@ -83,25 +83,27 @@ const dogalgazSayacOkuma = () => {
                 </li>
               </ul>
             </div>
-            <Image
-              src="/assets/Images/dsayac-nasil-1.jpg"
-              alt="Doğalgaz sayacı"
-              width={130}
-              height={130}
-            />
-            <Image
-              src="/assets/Images/dsayac-nasil-2.jpg"
-              alt="Doğalgaz sayacı"
-              width={130}
-              height={130}
-              className="mx-5"
-            />
-            <Image
-              src="/assets/Images/dsayac-nasil-3.jpg"
-              alt="Doğalgaz sayacı"
-              width={130}
-              height={130}
-            />
+            <div className="flex">
+              <Image
+                src="/assets/Images/dsayac-nasil-1.jpg"
+                alt="Doğalgaz sayacı"
+                width={130}
+                height={130}
+              />
+              <Image
+                src="/assets/Images/dsayac-nasil-2.jpg"
+                alt="Doğalgaz sayacı"
+                width={130}
+                height={130}
+                className="mx-5"
+              />
+              <Image
+                src="/assets/Images/dsayac-nasil-3.jpg"
+                alt="Doğalgaz sayacı"
+                width={130}
+                height={130}
+              />
+            </div>
           </div>
 
           {/* Gerekçe ve Temel Özellikler */}
@@ -169,12 +171,14 @@ const dogalgazSayacOkuma = () => {
             </p>
             <div className="lg:flex justify-around lg:my-8 lg:mx-24">
               <Image
+                className="mx-auto lg:my-0 my-4"
                 src="/assets/Images/dogalgaz-sayac-okut.png"
                 alt="Dogalgaz sayacı okutma"
                 width={170}
                 height={120}
               />
               <Image
+                className="mx-auto lg:my-0 my-3"
                 src="/assets/Images/elektrik-sayac2.jpeg"
                 alt="Dogalgaz sayacı okutma"
                 width={360}
