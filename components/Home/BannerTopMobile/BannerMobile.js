@@ -156,17 +156,15 @@ const BannerMobile = () => {
             src="/assets/Images/mobil-slider/siparise-ozel.png"
             width={390}
             height={420}
-            alt="Siparişe özel masaüstü, web ve mobil uygulamalar"
+            alt="ERP & CRM Yazılım ve Danışmanlık"
             className="contrast-50"
           />
           <div className={styles.image_card}>
             <div className="p-6 text-end">
               <h3 className="font-bold text-white text-base pb-[2px]">
-                Siparişe Özel
+                ERP & CRM
               </h3>
-              <p className={styles.second_line}>
-                Masaüstü, Web ve Mobil Uygulamalar
-              </p>
+              <p className={styles.second_line}>Yazılım ve Danışmanlık</p>
               <Link href="/sayac" className={styles.button}>
                 Keşfedİn
               </Link>

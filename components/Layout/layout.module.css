@@ -1,5 +1,5 @@
 .wrapper {
-  @apply w-full h-auto z-[100];
+  @apply w-full h-auto z-[100] fixed;
 }
 
 .hamburger {

@@ -18,7 +18,7 @@ const MobileHeader = ({ showMenu }) => {
 
   return (
     <nav className={styles.mobile_nav}>
-      <div className="hamburger-menu absolute top-[88px] w-full bg-[#f8f9fa] shadow-xl">
+      <div className="hamburger-menu fixed top-[88px] w-full bg-[#f8f9fa] shadow-xl">
         {showMenu && (
           <>
             <ul className="px-6 py-6">
