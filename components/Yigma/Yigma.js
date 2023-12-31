@@ -9,9 +9,9 @@ const Yigma = () => {
       <div className="w-full">
         <img
           src="/assets/Images/yigma-banner.png"
-          className="w-full lg:h-auto h-[15vh]"
+          className="w-full lg:h-auto h-full"
         />
-        <div className=" text-white lg:text-7xl absolute lg:top-[35%] top-[16%] lg:right-[25%] right-[25%]">
+        <div className=" text-white lg:text-7xl absolute lg:top-[35%] top-[16%] right-[25%]">
           <h2 className="lg:pb-4">Fizibil Yığma</h2>
           <h2>Analiz Yazılımı</h2>
         </div>

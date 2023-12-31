@@ -1,5 +1,5 @@
 .card {
-  @apply mx-auto lg:w-3/4 my-5 gap-5 lg:px-0 px-5 lg:grid grid-cols-3;
+  @apply mx-auto lg:w-3/4 my-5 gap-5 px-0 lg:grid grid-cols-3;
 }
 
 .card_gray {

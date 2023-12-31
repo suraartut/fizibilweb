@@ -9,7 +9,7 @@ const cadProgramlama = () => {
       <div className="w-full">
         <img
           src="/assets/Images/3D-banner.png"
-          className="w-full lg:h-auto h-[17vh]"
+          className="w-full lg:h-auto h-full"
         />
       </div>
       <div className="w-full lg:my-10 my-5">

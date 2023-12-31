@@ -6,7 +6,7 @@ const Erp = () => {
       <div className="w-full">
         <img
           src="/assets/Images/erp-banner.png"
-          className="w-full lg:h-auto h-[17vh]"
+          className="w-full lg:h-auto h-full"
           alt="ERP & CRM Banner"
         />
       </div>
@@ -54,7 +54,7 @@ const Erp = () => {
         <div className="">
           <img
             src="/assets/Images/erp-entegrasyonlar.png"
-            className="w-full lg:h-auto h-[21vh]"
+            className="w-full lg:h-auto h-full"
             alt="ERP&CRM entegrasyonlar"
           />
         </div>

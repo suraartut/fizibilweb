@@ -9,7 +9,7 @@ const goruntuIsleme = () => {
       <div className="w-full">
         <img
           src="/assets/Images/goruntu-isleme-banner.png"
-          className="w-full lg:h-auto h-[16vh]"
+          className="w-full lg:h-auto h-full"
           alt="Sayaç Okuma"
         />
       </div>
@@ -75,7 +75,7 @@ const goruntuIsleme = () => {
               </ol>
             </div>
             <div className="flex">
-              <div>
+              <div className="mx-auto">
                 <Image
                   src="/assets/Images/goruntu-isleme-1.png"
                   width={190}
@@ -83,7 +83,7 @@ const goruntuIsleme = () => {
                   alt="Görüntü İşleme API"
                 />
               </div>
-              <div>
+              <div className="mx-auto">
                 <Image
                   src="/assets/Images/goruntu-isleme-2.png"
                   width={350}

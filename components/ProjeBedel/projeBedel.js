@@ -7,7 +7,7 @@ const projeBedel = () => {
       <div className="w-full">
         <img
           src="/assets/Images/pagebanner.jpg"
-          className="w-full lg:h-auto h-[15vh]"
+          className="w-full lg:h-auto h-full"
           alt="Staik Proje Bedel Banner"
         />
       </div>

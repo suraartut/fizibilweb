@@ -1,5 +1,5 @@
 .banner {
-  @apply w-full lg:h-auto h-[18vh];
+  @apply w-full lg:h-auto h-full;
 }
 
 .body {
