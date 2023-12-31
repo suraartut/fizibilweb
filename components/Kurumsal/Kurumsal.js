@@ -12,7 +12,7 @@ const KurumsalComponent = () => {
             width={600}
             height={400}
             alt="Fizibil Hakkımızda"
-            className="lg:my-0 my-5"
+            className="lg:my-0 my-5 w-full h-full"
           />
           <div>
             <h2 className={styles.titles}>Hakkımızda</h2>
