@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 const BannerMobile = () => {
   return (
@@ -23,7 +23,7 @@ const BannerMobile = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
         {/* GÖRÜNTÜ İŞLEME SLIDER */}
