@@ -8,7 +8,7 @@ const Masaustu = () => {
     <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
-          src="/assets/Images/Masaüstü-banner.png"
+          src="/assets/Images/masaustu-programlama-banner.png"
           className="w-full lg:h-auto h-full"
           alt="Masaüstü Programlama"
         />

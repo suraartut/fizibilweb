@@ -153,14 +153,14 @@ const BannerMobile = () => {
         {/* ERP SLIDER */}
         <SwiperSlide>
           <Image
-            src="/assets/Images/mobil-slider/siparise-ozel.png"
+            src="/assets/Images/mobil-slider/erp-slider-mobil.png"
             width={390}
             height={420}
             alt="ERP & CRM Yazılım ve Danışmanlık"
             className="contrast-50"
           />
           <div className={styles.image_card}>
-            <div className="p-6 text-end">
+            <div className="p-6 text-start">
               <h3 className="font-bold text-white text-base pb-[2px]">
                 ERP & CRM
               </h3>

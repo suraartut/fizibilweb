@@ -49,7 +49,7 @@ export const workData = [
   },
   {
     id: 7,
-    url: "/assets/Images/ERP-rapor.png",
+    url: "/assets/Images/proje-bedel-figcaption.png",
     alt: "Statik Proje Bedeli Hesaplama",
     title1: "STATİK PROJE BEDELİ",
     title2: "HESAPLAMA",

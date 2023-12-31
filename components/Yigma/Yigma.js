@@ -11,14 +11,10 @@ const Yigma = () => {
           src="/assets/Images/yigma-banner.png"
           className="w-full lg:h-auto h-full"
         />
-        <div className=" text-white lg:text-7xl absolute lg:top-[35%] top-[16%] right-[25%]">
-          <h2 className="lg:pb-4">Fizibil Yığma</h2>
-          <h2>Analiz Yazılımı</h2>
-        </div>
       </div>
-      <div className="w-full lg:container lg:mx-auto lg:my-10 my-6">
+      <div className="w-full lg:container lg:mx-auto lg:my-10 my-5">
         <div className="lg:mx-10 mx-5">
-          <h2 className="lg:text-3xl text-2xl mb-4 font-bold text-center">
+          <h2 className="lg:text-3xl text-2xl mb-3 font-bold text-center">
             Fizibil Yığma Analizi
           </h2>
           <p className="mb-6 italic text-gray-600 text-lg text-center">

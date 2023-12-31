@@ -8,7 +8,7 @@ const Mobil = () => {
     <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
-          src="/assets/Images/mobil-banner.png"
+          src="/assets/Images/mobil-programlama-banner.png"
           className="w-full lg:h-auto h-full"
           alt="Mobil Programlama"
         />
@@ -25,20 +25,20 @@ const Mobil = () => {
                   alt="Mobil Uygulama ve Programlama"
                 />
               </div>
-              <div className="lg:hidden block mb-3">
-                <Image
-                  className="mx-auto"
-                  src="/assets/Images/phone.jpg"
-                  width={350}
-                  height={350}
-                  alt="Mobil Uygulama ve Programlama"
-                />
-              </div>
               <div>
                 <div className="lg:mb-12 mb-6">
-                  <h2 className="text-center lg:mb-2 mb-1 lg:text-3xl text-2xl font-bold">
+                  <h2 className="text-center mb-2 lg:text-3xl text-2xl font-bold">
                     <code>&quot;Mobil Dünyası&apos;na Hoş Geldiniz!&quot;</code>
                   </h2>
+                  <div className="lg:hidden block mb-3">
+                    <Image
+                      className="mx-auto"
+                      src="/assets/Images/phone.jpg"
+                      width={350}
+                      height={350}
+                      alt="Mobil Uygulama ve Programlama"
+                    />
+                  </div>
                   <h3 className="text-center font-bold text-xl">
                     <code>
                       <span className="text-blue-700">&lt;code&gt;</span>

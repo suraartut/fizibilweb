@@ -6,16 +6,16 @@ const projeBedel = () => {
     <div className="w-full pt-[88px]">
       <div className="w-full">
         <img
-          src="/assets/Images/pagebanner.jpg"
+          src="/assets/Images/proje-bedel-banner.png"
           className="w-full lg:h-auto h-full"
           alt="Staik Proje Bedel Banner"
         />
       </div>
-      <div className="w-full my-10">
+      <div className="w-full lg:my-10 my-5">
         <div className="lg:container lg:mx-auto mx-5">
-          <h2 className="text-center lg:mb-9 mb-3 lg:text-3xl text-2xl text-gray-600 pb-3">
+          {/* <h2 className="text-center lg:mb-9 mb-3 lg:text-3xl text-2xl text-gray-600 pb-3">
             Statik Proje Bedeli Hesaplama
-          </h2>
+          </h2> */}
           <p>
             İNŞAAT MÜHENDİSLİĞİ PROJE VE FENNİ MESULİYET HİZMET BEDEL HESAPLAMA
             UYGULAMASI

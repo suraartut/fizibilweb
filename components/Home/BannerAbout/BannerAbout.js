@@ -178,7 +178,7 @@ const BannerAbout = () => {
           </div>
           <div className={styles.card_black}>
             <img
-              src="/assets/Images/e-tic.png"
+              src="/assets/Images/siparise-ozel.png"
               alt="E-ticaret"
               className={styles.card_images}
             />
