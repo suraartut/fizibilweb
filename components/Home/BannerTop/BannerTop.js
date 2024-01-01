@@ -15,7 +15,7 @@ import "swiper/css/navigation";
 
 const BannerTop = () => {
   return (
-    <div className="lg:h-[100vh] h-[45vh] w-full pt-[88px] lg:block hidden">
+    <div className="lg:h-[100vh] h-[45vh] w-full pt-[88px] xl:block hidden">
       <Swiper
         loop={true}
         pagination={true}
@@ -30,12 +30,13 @@ const BannerTop = () => {
         {/* BİLGİSAYARLI GÖRÜ SLIDER */}
         <SwiperSlide>
           <Image
+            className="slider-photo"
             src="/assets/Images/slider/bilgisayarli-goru.png"
             width={1920}
             height={950}
             alt="Görüntü İşleme"
           />
-          <div className="w-1/3 left-[55%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[55%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Görüntü İşlemenin Gücü: İnovasyon ve Mükemmellikte Lider
@@ -63,7 +64,7 @@ const BannerTop = () => {
             height={950}
             alt="Doğalgaz Sayaç Okuma"
           />
-          <div className="w-1/3 left-[55%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[55%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Enerji Geleceğinize Dokunun: Elektrik Sayacı Okuma, Şimdi Daha
@@ -91,7 +92,7 @@ const BannerTop = () => {
             height={950}
             alt="Elektrik Sayacı Okuma"
           />
-          <div className="w-1/3 left-[4%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[4%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Doğalgaz Kontrolü Parmaklarınızın Ucunda: Akıllı Görü
@@ -120,7 +121,7 @@ const BannerTop = () => {
             height={950}
             alt="Fizibil Yığma Analizi"
           />
-          <div className="w-1/3 left-[62%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[62%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Proje Güvenliğiniz İçin En İleri Teknoloji: Yığma Analiz
@@ -149,7 +150,7 @@ const BannerTop = () => {
             height={950}
             alt="Fizibil İskele Yazılımı"
           />
-          <div className="w-1/3 left-[2%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[2%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Yüksek Performans, Güvenli Çözümler: İskele Analiz Uygulamamızla
@@ -178,7 +179,7 @@ const BannerTop = () => {
             height={950}
             alt="Multilevel marketing özellikli e-ticaret sitesi"
           />
-          <div className="w-1/3 left-[8%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[8%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 Çok Seviyeli Başarı: <br />
@@ -207,7 +208,7 @@ const BannerTop = () => {
             height={950}
             alt="ERP&CRM Yazılım ve Danışmanlık"
           />
-          <div className="w-1/3 left-[10%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
+          <div className="slider w-1/3 left-[10%] absolute bg-[#2e8fce] bg-opacity-60 rounded-sm">
             <div className="py-12 px-16 text-start">
               <h3 className="font-bold text-white text-4xl">
                 İleri Düzey Çözümler, Geleceğe Yönelik Çalışmalar: Kurumsal

@@ -191,7 +191,7 @@ const Web = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/kentsel-donusum.png"
+                    src="/assets/Images/kentsel-our-work.png"
                     alt="Kentsel Dönüşüm Bilgi Sistemi"
                     className={styles.card_images}
                     width={384}

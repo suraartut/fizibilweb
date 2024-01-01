@@ -1,5 +1,5 @@
 .mobile_slider {
-  @apply lg:h-screen h-full w-full pt-[88px] lg:hidden block;
+  @apply lg:h-screen h-full w-full pt-[88px] xl:hidden block;
 }
 
 .image_card {

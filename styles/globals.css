@@ -273,3 +273,9 @@ body {
   background-position: left center;
   background-size: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+  .slider {
+    width: 40%;
+  }
+}

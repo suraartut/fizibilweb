@@ -183,7 +183,7 @@ const Mobil = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/3D-CAD.png"
+                    src="/assets/Images/proje-bedel-figcaption.png"
                     alt="Statik Proje Bedeli Hesaplama"
                     className={styles.card_images}
                     width={350}

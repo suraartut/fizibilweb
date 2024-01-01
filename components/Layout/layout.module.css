@@ -23,11 +23,11 @@
 }
 
 .language {
-  @apply lg:flex hidden text-xs font-extrabold uppercase tracking-widest items-center;
+  @apply xl:flex hidden text-xs font-extrabold uppercase tracking-widest items-center;
 }
 
 .mobile_nav {
-  @apply w-full h-auto z-[100] relative lg:hidden block;
+  @apply w-full h-auto z-[100] relative xl:hidden block;
 }
 
 .child_hamburger {

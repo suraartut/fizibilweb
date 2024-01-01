@@ -94,7 +94,7 @@ const Header = () => {
 
       <div className="bg-[#f8f9fa] bg-opacity-95 shadow-bottom w-full h-[88px] lg:absolute fixed z-[100]">
         <div className={styles.header_main}>
-          <div className="flex lg:hidden relative">
+          <div className="flex xl:hidden relative">
             <div className="flex">
               {!showMenu ? (
                 <div className="space-y-1.5" onClick={handleClick}>
@@ -127,7 +127,7 @@ const Header = () => {
           </div>
 
           {/* Category Menu Start*/}
-          <div className="lg:flex hidden">
+          <div className="xl:flex hidden">
             <ul className="menu w-full flex">
               {headerData?.map((item) => {
                 return (
