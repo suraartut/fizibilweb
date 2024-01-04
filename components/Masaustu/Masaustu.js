@@ -144,7 +144,7 @@ const Masaustu = () => {
               <div className={styles.card}>
                 <div className={styles.card_black}>
                   <Image
-                    src="/assets/Images/yıgma.png"
+                    src="/assets/Images/yigma.png"
                     alt="Elektrik Sayacı Okuma Uygulaması"
                     className={styles.card_images}
                     width={384}

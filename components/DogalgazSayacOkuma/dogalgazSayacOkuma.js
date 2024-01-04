@@ -7,9 +7,9 @@ const dogalgazSayacOkuma = () => {
     <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
-          src="/assets/Images/dogalsayaçokuma2.png"
+          src="/assets/Images/dogalsayacokuma2.png"
           className={styles.banner}
-          alt="Sayaç Okuma"
+          alt="Doğalgaz Sayaç Okuma"
         />
       </div>
       <div className={styles.body}>

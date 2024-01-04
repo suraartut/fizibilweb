@@ -10,6 +10,7 @@ const cadProgramlama = () => {
         <img
           src="/assets/Images/3D-banner.png"
           className="w-full lg:h-auto h-full"
+          alt="CAD Tabanlı 2D/3D Modelleme Yazılımları"
         />
       </div>
       <div className="w-full lg:my-10 my-5">
@@ -152,7 +153,7 @@ const cadProgramlama = () => {
               </div>
               <div className={styles.card_black}>
                 <Image
-                  src="/assets/Images/yıgma.png"
+                  src="/assets/Images/yigma.png"
                   alt="Fizibil Yığma Analiz"
                   className={styles.card_images}
                   width={350}

@@ -7,9 +7,9 @@ const elektrikSayacOkuma = () => {
     <div className="w-full pt-[88px] listimage">
       <div className="w-full">
         <img
-          src="/assets/Images/elksayaçokuma2.png"
+          src="/assets/Images/elksayacokuma2.png"
           className={styles.banner}
-          alt="Sayaç Okuma"
+          alt="Elektrik Sayaç Okuma"
         />
       </div>
       <div className={styles.body}>

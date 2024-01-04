@@ -129,6 +129,7 @@ const Web = () => {
                     className={styles.card_images}
                     width={384}
                     height={329}
+                    priority={true}
                   />
                 </div>
                 <div className={styles.card_gray}>
@@ -196,6 +197,7 @@ const Web = () => {
                     className={styles.card_images}
                     width={384}
                     height={189}
+                    priority={true}
                   />
                 </div>
                 <div className={styles.card_gray}>

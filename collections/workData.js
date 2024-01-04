@@ -1,7 +1,7 @@
 export const workData = [
   {
     id: 1,
-    url: "/assets/Images/yıgma.png",
+    url: "/assets/Images/yigma.png",
     alt: "Fizibil Yığma Analiz",
     title1: "FİZİBİL",
     title2: "YIĞMA ANALİZ",
