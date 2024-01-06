@@ -42,8 +42,8 @@ const Erp = () => {
               yazılım sistemleridir.
             </p>
             <p>
-              Fizibil’in uzman danışman kadrosu ile SAP süreçlerinize güç katın.
-              Fizibil’in uzman kadrosuyla:
+              Fizibil&apos;in uzman danışman kadrosu ile SAP süreçlerinize güç
+              katın. Fizibil&apos;in uzman kadrosuyla:
             </p>
             <ul className="listimage mt-5">
               <li>Otonom iş süreçleriniz geliştirebilir,</li>
@@ -87,15 +87,15 @@ const Erp = () => {
               SAP C4 HANA
             </h3>
             <p className="my-5 italic">
-              SAP Customer Experience (SAP CX), SAP'nin müşteri deneyimi odaklı
-              yazılım ürünlerini içeren bir portföyüdür. SAP C/4HANA, bu müşteri
-              deneyimi çözümlerinin bir parçasıdır. SAP C/4HANA, müşteri
+              SAP Customer Experience (SAP CX), SAP&apos;nin müşteri deneyimi
+              odaklı yazılım ürünlerini içeren bir portföyüdür. SAP C/4HANA, bu
+              müşteri deneyimi çözümlerinin bir parçasıdır. SAP C/4HANA, müşteri
               ilişkileri yönetimi (CRM), ticaret, pazarlama, satış ve müşteri
               hizmetleri gibi alanlarda çeşitli modüller sunar. Bu modüller,
               işletmelerin müşteri odaklı süreçleri daha etkili bir şekilde
               yönetmelerine yardımcı olur.
             </p>
-            <p>Fizibil’in C4 deneyimiyle:</p>
+            <p>Fizibil&apos;in C4 deneyimiyle:</p>
             <ul className="listimage mt-5">
               <li>
                 <span className="font-bold">SAP Marketing Cloud: </span>
@@ -186,8 +186,8 @@ const Erp = () => {
               spesifik gereksinimlere uygun çözümler sunmalarına yardımcı olur.
             </p>
             <p>
-              Fizibil’in alanında uzman ekibiyle SAP IS-U'nun temel özellikleri
-              arasında olan:
+              Fizibil&apos;in alanında uzman ekibiyle SAP IS-U&apos;nun temel
+              özellikleri arasında olan:
             </p>
             <ul className="listimage mt-5">
               <li>
