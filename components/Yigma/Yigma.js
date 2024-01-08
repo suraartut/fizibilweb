@@ -10,6 +10,7 @@ const Yigma = () => {
         <img
           src="/assets/Images/yigma-banner.png"
           className="w-full lg:h-auto h-full"
+          alt="Fizibil Yığma Analizi"
         />
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-5">
@@ -84,7 +85,7 @@ const Yigma = () => {
                 src="/assets/Images/yigma10.png"
                 width={740}
                 height={700}
-                alt="alt"
+                alt="Yığma"
               />
               <div className="text-sm italic w-full text-center font-bold">
                 Projelerinizi yeni yönetmeliklere uygun olarak kolaylıkla

@@ -9,6 +9,7 @@ const ContactComponent = () => {
         <img
           src="/assets/Images/contact-us.png"
           className="w-full lg:h-[61vh] h-[21vh] object-cover"
+          alt="İletişi Banner"
         />
         <div className="text-center text-white absolute lg:top-[30%] top-[18%] justify-center w-full">
           <h1 className={styles.title}>BİZE ULAŞIN</h1>

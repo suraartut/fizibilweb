@@ -10,6 +10,7 @@ const Iskele = () => {
         <img
           src="/assets/Images/iskele-banner.png"
           className="w-full lg:h-auto h-full"
+          alt="Fizibil İskele Analizi"
         />
       </div>
       <div className="w-full lg:container lg:mx-auto lg:my-10 my-3">
